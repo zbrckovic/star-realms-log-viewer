@@ -36,6 +36,7 @@ import { DiscardedCardEffectContext } from "./LogParser";
 import { WonGameEffectContext } from "./LogParser";
 import { DestroyedBaseEffectContext } from "./LogParser";
 import { RevealedEventEffectContext } from "./LogParser";
+import { AcquiredToTheTopOfDeckEffectContext } from "./LogParser";
 import { AddTradeContext } from "./LogParser";
 import { AddCombatContext } from "./LogParser";
 import { AddAuthorityContext } from "./LogParser";
@@ -252,6 +253,12 @@ export default class LogVisitor<Result> extends ParseTreeVisitor<Result> {
 	 * @return the visitor result
 	 */
 	visitRevealedEventEffect?: (ctx: RevealedEventEffectContext) => Result;
+	/**
+	 * Visit a parse tree produced by `LogParser.acquiredToTheTopOfDeckEffect`.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	visitAcquiredToTheTopOfDeckEffect?: (ctx: AcquiredToTheTopOfDeckEffectContext) => Result;
 	/**
 	 * Visit a parse tree produced by `LogParser.addTrade`.
 	 * @param ctx the parse tree

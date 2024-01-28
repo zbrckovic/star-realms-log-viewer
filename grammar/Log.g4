@@ -36,7 +36,7 @@ discardCardAction: player=WORD 'is discarding' card+=WORD+;
 resolveDiscardAction: 'Resolving Discard' cards=NUM 'cards';
 activateCardAction: 'Activating' card+=WORD+;
 choseAction: 'Chose' (addTrade | addCombat | addAuthority);
-genericResolveAction: 'Resolving' WORD*;
+genericResolveAction: 'Resolving' (WORD | NUM)*;
 
 // Effects
 effectLine : INDENT effect NEWLINE;
@@ -54,6 +54,7 @@ effect
     | wonGameEffect
     | destroyedBaseEffect
     | revealedEventEffect
+    | acquiredToTheTopOfDeckEffect
     ;
 
 shuffledEffect: 'Shuffled discard pile to form new deck';
@@ -69,6 +70,7 @@ discardedCardEffect: 'Discarded' card+=WORD+;
 wonGameEffect: '===' player=WORD 'has won the game. ===';
 destroyedBaseEffect: 'Destroyed' base+=WORD+;
 revealedEventEffect: 'Revealed event' event+=WORD+;
+acquiredToTheTopOfDeckEffect: 'Acquired' card+=WORD+ 'to the top of the deck' '.'?;
 
 // Misc
 addTrade: 'Add' amount=NUM 'Trade';

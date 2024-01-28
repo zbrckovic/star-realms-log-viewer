@@ -1,5 +1,5 @@
 import {
-    AcquireCardActionContext,
+    AcquireCardActionContext, AcquiredToTheTopOfDeckEffectContext,
     ActionContext,
     ActionLineContext,
     ActivateCardActionContext,
@@ -59,6 +59,7 @@ import {
     ScrapSubjectCardAction
 } from 'log/actions'
 import {
+    AcquiredToTheTopOfDeckEffect,
     CardToOpponentEffect,
     CardToOwnerEffect,
     DestroyedBaseEffect,
@@ -249,6 +250,8 @@ class Visitor extends LogVisitor<any> {
             return this.visitDestroyedBaseEffect(ctx.destroyedBaseEffect())
         } else if (ctx.revealedEventEffect()) {
             return this.visitRevealedEventEffect(ctx.revealedEventEffect())
+        } else if (ctx.acquiredToTheTopOfDeckEffect()) {
+            return this.visitAcquiredToTheTopOfDeckEffect(ctx.acquiredToTheTopOfDeckEffect())
         } else {
             throw new Error('unknown effect')
         }
@@ -345,6 +348,13 @@ class Visitor extends LogVisitor<any> {
     visitRevealedEventEffect = (ctx: RevealedEventEffectContext): RevealedEventEffect => {
         const event = this.parseCardName(ctx._event)
         return { type: 'effect', subtype: 'revealed event', event }
+    }
+
+    visitAcquiredToTheTopOfDeckEffect = (
+        ctx: AcquiredToTheTopOfDeckEffectContext
+    ): AcquiredToTheTopOfDeckEffect => {
+        const card = this.parseCardName(ctx._card)
+        return { type: 'effect', subtype: 'acquired to the top of deck', card }
     }
     // endregion
 
