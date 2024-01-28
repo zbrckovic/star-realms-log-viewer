@@ -1,15 +1,18 @@
-import { summarizeGame } from 'domain/summary'
 import { astToLog } from 'parser/ast-to-log'
 import { logToDomain } from 'parser/log-to-domain'
 import { parseToAst } from 'parser/parse-to-ast'
-import { sample } from 'test/sample'
+import { loadSampleLogs } from 'test/load-sample-logs'
 
 describe('parser', () => {
-    it('should parse without errors', () => {
+    const rawLogs = loadSampleLogs()
+
+    test.each(
+        rawLogs.map(log => [log.filename, log.content])
+    )('should parse sample %s without errors', (filename, content) => {
         expect(() => {
-            const ast = parseToAst(sample)
+            const ast = parseToAst(content)
             const log = astToLog(ast)
-            const game = logToDomain(log)
+            logToDomain(log)
         }).not.toThrow()
     })
 })
