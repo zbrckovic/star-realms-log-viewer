@@ -62,7 +62,7 @@ refreshedAllyIndicatorsEffect: 'Refresh ally indicators';
 scrappedCardEffect: 'Scrapped' card+=WORD+;
 noMoreCardsToDiscardEffect: 'no more cards to discard';
 discardedCardEffect: 'Discarded' card+=WORD+;
-wonGameEffect: '===' player=WORD 'has won the domain. ===';
+wonGameEffect: '===' player=WORD 'has won the game. ===';
 destroyedBaseEffect: 'Destroyed' base+=WORD+;
 
 // Misc

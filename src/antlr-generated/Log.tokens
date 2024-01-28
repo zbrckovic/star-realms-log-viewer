@@ -80,7 +80,7 @@ UNKNOWN=51
 'no more cards to discard'=29
 'Discarded'=30
 '==='=31
-'has won the domain. ==='=32
+'has won the game. ==='=32
 'Destroyed'=33
 'Add'=34
 'Trade'=35
