@@ -1,10 +1,12 @@
 grammar Log;
 
-start: NEWLINE* actions+=action+ NEWLINE*;
+start: NEWLINE* lines+=line* NEWLINE*;
+
+line: actionLine | effectLine;
 
 // Actions
-action : actionHeader NEWLINE effectLines+=effectLine*;
-actionHeader
+actionLine : action NEWLINE ;
+action
     : playAllCardsAction
     | playOneCardAction
     | acquireCardAction
@@ -36,7 +38,6 @@ choseAction: 'Chose' (addTrade | addCombat | addAuthority);
 
 // Effects
 effectLine : INDENT effect NEWLINE;
-
 effect
     : shuffledEffect
     | turnChangedEffect

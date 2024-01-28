@@ -1,5 +1,6 @@
 import { Action } from 'log/actions'
+import { Effect } from 'log/effects'
 
 export interface Log {
-    actions: Action[];
+    lines: (Action | Effect)[];
 }

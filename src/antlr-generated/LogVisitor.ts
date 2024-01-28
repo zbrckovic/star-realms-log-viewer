@@ -1,11 +1,12 @@
-// Generated from C:/Users/zeljk/Develop/star-realms-log-viewer/grammar/Log.g4 by ANTLR 4.13.1
+// Generated from /Users/zebrckovic/Development-personal/star-realms-log-viewer/grammar/Log.g4 by ANTLR 4.13.1
 
 import {ParseTreeVisitor} from 'antlr4';
 
 
 import { StartContext } from "./LogParser";
+import { LineContext } from "./LogParser";
+import { ActionLineContext } from "./LogParser";
 import { ActionContext } from "./LogParser";
-import { ActionHeaderContext } from "./LogParser";
 import { PlayAllCardsActionContext } from "./LogParser";
 import { PlayOneCardActionContext } from "./LogParser";
 import { AcquireCardActionContext } from "./LogParser";
@@ -58,17 +59,23 @@ export default class LogVisitor<Result> extends ParseTreeVisitor<Result> {
 	 */
 	visitStart?: (ctx: StartContext) => Result;
 	/**
+	 * Visit a parse tree produced by `LogParser.line`.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	visitLine?: (ctx: LineContext) => Result;
+	/**
+	 * Visit a parse tree produced by `LogParser.actionLine`.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	visitActionLine?: (ctx: ActionLineContext) => Result;
+	/**
 	 * Visit a parse tree produced by `LogParser.action`.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
 	visitAction?: (ctx: ActionContext) => Result;
-	/**
-	 * Visit a parse tree produced by `LogParser.actionHeader`.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	visitActionHeader?: (ctx: ActionHeaderContext) => Result;
 	/**
 	 * Visit a parse tree produced by `LogParser.playAllCardsAction`.
 	 * @param ctx the parse tree

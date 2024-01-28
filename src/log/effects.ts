@@ -12,66 +12,70 @@ export type Effect =
     | WonGameEffect
     | DestroyedBaseEffect
 
-export interface ShuffledEffect {
-    type: 'shuffled',
+interface BaseEffect {
+    type: 'effect'
 }
 
-export interface TurnChangedEffect {
-    type: 'turn changed',
+export interface ShuffledEffect extends BaseEffect {
+    subtype: 'shuffled',
+}
+
+export interface TurnChangedEffect extends BaseEffect {
+    subtype: 'turn changed',
     player: string;
     turn: number;
 }
 
-export interface CardToOwnerEffect {
-    type: 'card to owner',
+export interface CardToOwnerEffect extends BaseEffect {
+    subtype: 'card to owner',
     player: string;
     card: string;
     effect: StatChange<'trade' | 'combat' | 'authority'> | 'ability available'
 }
 
-export interface CardToOpponentEffect {
-    type: 'card to opponent',
+export interface CardToOpponentEffect extends BaseEffect {
+    subtype: 'card to opponent',
     player: string;
     card: string;
     effect: StatChange<'discard'>;
 }
 
-export interface SideEffect {
-    type: 'side',
+export interface SideEffect extends BaseEffect {
+    subtype: 'side',
     player: string;
     effect: StatChange<'trade' | 'combat' | 'authority'>;
 }
 
-export interface DrewCardsEffect {
-    type: 'drew cards',
+export interface DrewCardsEffect extends BaseEffect {
+    subtype: 'drew cards',
     cards: number;
 }
 
-export interface RefreshedAllyIndicatorsEffect {
-    type: 'refreshed ally indicators',
+export interface RefreshedAllyIndicatorsEffect extends BaseEffect {
+    subtype: 'refreshed ally indicators',
 }
 
-export interface ScrappedCardEffect {
-    type: 'scrapped card',
+export interface ScrappedCardEffect extends BaseEffect {
+    subtype: 'scrapped card',
     card: string;
 }
 
-export interface NoMoreCardsToDiscardEffect {
-    type: 'no more cards to discard'
+export interface NoMoreCardsToDiscardEffect extends BaseEffect {
+    subtype: 'no more cards to discard'
 }
 
-export interface DiscardedCardEffect {
-    type: 'discarded card',
+export interface DiscardedCardEffect extends BaseEffect {
+    subtype: 'discarded card',
     card: string;
 }
 
-export interface WonGameEffect {
-    type: 'won game',
+export interface WonGameEffect extends BaseEffect {
+    subtype: 'won game',
     player: string;
 }
 
-export interface DestroyedBaseEffect {
-    type: 'destroyed base',
+export interface DestroyedBaseEffect extends BaseEffect {
+    subtype: 'destroyed base',
     base: string;
 }
 

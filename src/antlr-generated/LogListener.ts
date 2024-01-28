@@ -1,11 +1,12 @@
-// Generated from C:/Users/zeljk/Develop/star-realms-log-viewer/grammar/Log.g4 by ANTLR 4.13.1
+// Generated from /Users/zebrckovic/Development-personal/star-realms-log-viewer/grammar/Log.g4 by ANTLR 4.13.1
 
 import {ParseTreeListener} from "antlr4";
 
 
 import { StartContext } from "./LogParser";
+import { LineContext } from "./LogParser";
+import { ActionLineContext } from "./LogParser";
 import { ActionContext } from "./LogParser";
-import { ActionHeaderContext } from "./LogParser";
 import { PlayAllCardsActionContext } from "./LogParser";
 import { PlayOneCardActionContext } from "./LogParser";
 import { AcquireCardActionContext } from "./LogParser";
@@ -59,6 +60,26 @@ export default class LogListener extends ParseTreeListener {
 	 */
 	exitStart?: (ctx: StartContext) => void;
 	/**
+	 * Enter a parse tree produced by `LogParser.line`.
+	 * @param ctx the parse tree
+	 */
+	enterLine?: (ctx: LineContext) => void;
+	/**
+	 * Exit a parse tree produced by `LogParser.line`.
+	 * @param ctx the parse tree
+	 */
+	exitLine?: (ctx: LineContext) => void;
+	/**
+	 * Enter a parse tree produced by `LogParser.actionLine`.
+	 * @param ctx the parse tree
+	 */
+	enterActionLine?: (ctx: ActionLineContext) => void;
+	/**
+	 * Exit a parse tree produced by `LogParser.actionLine`.
+	 * @param ctx the parse tree
+	 */
+	exitActionLine?: (ctx: ActionLineContext) => void;
+	/**
 	 * Enter a parse tree produced by `LogParser.action`.
 	 * @param ctx the parse tree
 	 */
@@ -68,16 +89,6 @@ export default class LogListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitAction?: (ctx: ActionContext) => void;
-	/**
-	 * Enter a parse tree produced by `LogParser.actionHeader`.
-	 * @param ctx the parse tree
-	 */
-	enterActionHeader?: (ctx: ActionHeaderContext) => void;
-	/**
-	 * Exit a parse tree produced by `LogParser.actionHeader`.
-	 * @param ctx the parse tree
-	 */
-	exitActionHeader?: (ctx: ActionHeaderContext) => void;
 	/**
 	 * Enter a parse tree produced by `LogParser.playAllCardsAction`.
 	 * @param ctx the parse tree
