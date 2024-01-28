@@ -1,0 +1,5227 @@
+{
+  "actions": [
+    {
+      "header": {
+        "type": "play all cards"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 1
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 2
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 3
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Orbital Shuttle"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "trade",
+            "change": -2,
+            "final": 1
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Builder Bot"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "trade",
+            "change": -1,
+            "final": 0
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "end turn",
+        "player": "Mortis420",
+        "turn": 1
+      },
+      "effects": [
+        {
+          "type": "drew cards",
+          "cards": 5
+        },
+        {
+          "type": "refreshed ally indicators"
+        },
+        {
+          "type": "turn changed",
+          "player": "Chernabog5",
+          "turn": 2
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 1
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 2
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 3
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 4
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Farm Ship"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "trade",
+            "change": -4,
+            "final": 0
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Viper"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Viper",
+          "effect": {
+            "type": "combat",
+            "change": 1,
+            "final": 1
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack player",
+        "targetPlayer": "Mortis420",
+        "damage": 1,
+        "newAuthority": 49
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "combat",
+            "change": -1,
+            "final": 0
+          }
+        },
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "authority",
+            "change": -1,
+            "final": 49
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "end turn",
+        "player": "Chernabog5",
+        "turn": 2
+      },
+      "effects": [
+        {
+          "type": "drew cards",
+          "cards": 5
+        },
+        {
+          "type": "refreshed ally indicators"
+        },
+        {
+          "type": "turn changed",
+          "player": "Mortis420",
+          "turn": 3
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play all cards"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 1
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 2
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 3
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Viper",
+          "effect": {
+            "type": "combat",
+            "change": 1,
+            "final": 1
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Viper",
+          "effect": {
+            "type": "combat",
+            "change": 1,
+            "final": 2
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Destroyer Bot"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "trade",
+            "change": -3,
+            "final": 0
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack player",
+        "targetPlayer": "Chernabog5",
+        "damage": 2,
+        "newAuthority": 48
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "combat",
+            "change": -2,
+            "final": 0
+          }
+        },
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "authority",
+            "change": -2,
+            "final": 48
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "end turn",
+        "player": "Mortis420",
+        "turn": 3
+      },
+      "effects": [
+        {
+          "type": "drew cards",
+          "cards": 2
+        },
+        {
+          "type": "shuffled"
+        },
+        {
+          "type": "drew cards",
+          "cards": 3
+        },
+        {
+          "type": "refreshed ally indicators"
+        },
+        {
+          "type": "turn changed",
+          "player": "Chernabog5",
+          "turn": 4
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 1
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 2
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 3
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 4
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Mobile Market"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "trade",
+            "change": -4,
+            "final": 0
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Viper"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Viper",
+          "effect": {
+            "type": "combat",
+            "change": 1,
+            "final": 1
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack player",
+        "targetPlayer": "Mortis420",
+        "damage": 1,
+        "newAuthority": 48
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "combat",
+            "change": -1,
+            "final": 0
+          }
+        },
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "authority",
+            "change": -1,
+            "final": 48
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "end turn",
+        "player": "Chernabog5",
+        "turn": 4
+      },
+      "effects": [
+        {
+          "type": "shuffled"
+        },
+        {
+          "type": "drew cards",
+          "cards": 5
+        },
+        {
+          "type": "refreshed ally indicators"
+        },
+        {
+          "type": "turn changed",
+          "player": "Mortis420",
+          "turn": 5
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Destroyer Bot"
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "no scrap object card",
+        "player": "Mortis420"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Destroyer Bot",
+          "effect": "ability available"
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Destroyer Bot",
+          "effect": {
+            "type": "combat",
+            "change": 5,
+            "final": 5
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Builder Bot"
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "no scrap object card",
+        "player": "Mortis420"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Builder Bot",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 1
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Builder Bot",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 2
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play all cards"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 3
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 4
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 5
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Hammerhead"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "trade",
+            "change": -5,
+            "final": 0
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack player",
+        "targetPlayer": "Chernabog5",
+        "damage": 5,
+        "newAuthority": 43
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "combat",
+            "change": -5,
+            "final": 0
+          }
+        },
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "authority",
+            "change": -5,
+            "final": 43
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "end turn",
+        "player": "Mortis420",
+        "turn": 5
+      },
+      "effects": [
+        {
+          "type": "drew cards",
+          "cards": 5
+        },
+        {
+          "type": "refreshed ally indicators"
+        },
+        {
+          "type": "turn changed",
+          "player": "Chernabog5",
+          "turn": 6
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Mobile Market"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Mobile Market",
+          "effect": {
+            "type": "trade",
+            "change": 2,
+            "final": 2
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 3
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 4
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 5
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Viper"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Viper",
+          "effect": {
+            "type": "combat",
+            "change": 1,
+            "final": 1
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Orbital Gun Platform"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "trade",
+            "change": -4,
+            "final": 1
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Frontier Hawk"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "trade",
+            "change": -1,
+            "final": 0
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack player",
+        "targetPlayer": "Mortis420",
+        "damage": 1,
+        "newAuthority": 47
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "combat",
+            "change": -1,
+            "final": 0
+          }
+        },
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "authority",
+            "change": -1,
+            "final": 47
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "end turn",
+        "player": "Chernabog5",
+        "turn": 6
+      },
+      "effects": [
+        {
+          "type": "drew cards",
+          "cards": 5
+        },
+        {
+          "type": "refreshed ally indicators"
+        },
+        {
+          "type": "turn changed",
+          "player": "Mortis420",
+          "turn": 7
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play all cards"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 1
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Viper",
+          "effect": {
+            "type": "combat",
+            "change": 1,
+            "final": 1
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 2
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Viper",
+          "effect": {
+            "type": "combat",
+            "change": 1,
+            "final": 2
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 3
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Light Cruiser"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "trade",
+            "change": -3,
+            "final": 0
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "end turn",
+        "player": "Mortis420",
+        "turn": 7
+      },
+      "effects": [
+        {
+          "type": "drew cards",
+          "cards": 3
+        },
+        {
+          "type": "shuffled"
+        },
+        {
+          "type": "drew cards",
+          "cards": 2
+        },
+        {
+          "type": "refreshed ally indicators"
+        },
+        {
+          "type": "turn changed",
+          "player": "Chernabog5",
+          "turn": 8
+        },
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Mobile Market",
+          "effect": {
+            "type": "trade",
+            "change": 2,
+            "final": 2
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 3
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 4
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 5
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 6
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Viper"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Viper",
+          "effect": {
+            "type": "combat",
+            "change": 1,
+            "final": 1
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack player",
+        "targetPlayer": "Mortis420",
+        "damage": 1,
+        "newAuthority": 46
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "combat",
+            "change": -1,
+            "final": 0
+          }
+        },
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "authority",
+            "change": -1,
+            "final": 46
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Pulverizer"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "trade",
+            "change": -5,
+            "final": 1
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Builder Bot"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "trade",
+            "change": -1,
+            "final": 0
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "end turn",
+        "player": "Chernabog5",
+        "turn": 8
+      },
+      "effects": [
+        {
+          "type": "drew cards",
+          "cards": 2
+        },
+        {
+          "type": "shuffled"
+        },
+        {
+          "type": "drew cards",
+          "cards": 3
+        },
+        {
+          "type": "refreshed ally indicators"
+        },
+        {
+          "type": "turn changed",
+          "player": "Mortis420",
+          "turn": 9
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play all cards"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Orbital Shuttle",
+          "effect": {
+            "type": "trade",
+            "change": 3,
+            "final": 3
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 4
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 5
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Viper",
+          "effect": {
+            "type": "combat",
+            "change": 1,
+            "final": 1
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 6
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Frontier Runner"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "trade",
+            "change": -1,
+            "final": 5
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Farm Ship"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "trade",
+            "change": -4,
+            "final": 1
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "end turn",
+        "player": "Mortis420",
+        "turn": 9
+      },
+      "effects": [
+        {
+          "type": "drew cards",
+          "cards": 5
+        },
+        {
+          "type": "refreshed ally indicators"
+        },
+        {
+          "type": "turn changed",
+          "player": "Chernabog5",
+          "turn": 10
+        },
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Mobile Market",
+          "effect": {
+            "type": "trade",
+            "change": 2,
+            "final": 2
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Farm Ship"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Farm Ship",
+          "effect": {
+            "type": "trade",
+            "change": 3,
+            "final": 5
+          }
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "resolve discard",
+        "cards": 1
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "discard card",
+        "player": "Chernabog5",
+        "card": "Viper"
+      },
+      "effects": [
+        {
+          "type": "no more cards to discard"
+        },
+        {
+          "type": "discarded card",
+          "card": "Viper"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 6
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 7
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 8
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Imperial Flagship"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "trade",
+            "change": -8,
+            "final": 0
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Pulverizer"
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "scrap object card",
+        "player": "Chernabog5",
+        "card": "Blob Alpha"
+      },
+      "effects": [
+        {
+          "type": "scrapped card",
+          "card": "Blob Alpha"
+        },
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Pulverizer",
+          "effect": {
+            "type": "combat",
+            "change": 6,
+            "final": 6
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack player",
+        "targetPlayer": "Mortis420",
+        "damage": 6,
+        "newAuthority": 40
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "combat",
+            "change": -6,
+            "final": 0
+          }
+        },
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "authority",
+            "change": -6,
+            "final": 40
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "end turn",
+        "player": "Chernabog5",
+        "turn": 10
+      },
+      "effects": [
+        {
+          "type": "drew cards",
+          "cards": 5
+        },
+        {
+          "type": "refreshed ally indicators"
+        },
+        {
+          "type": "turn changed",
+          "player": "Mortis420",
+          "turn": 11
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Hammerhead"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Hammerhead",
+          "effect": {
+            "type": "combat",
+            "change": 3,
+            "final": 3
+          }
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        },
+        {
+          "type": "card to opponent",
+          "player": "Chernabog5",
+          "card": "Hammerhead",
+          "effect": {
+            "type": "discard",
+            "change": 1,
+            "final": 1
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Destroyer Bot"
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "scrap object card",
+        "player": "Mortis420",
+        "card": "Viper"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Destroyer Bot",
+          "effect": "ability available"
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Destroyer Bot",
+          "effect": {
+            "type": "combat",
+            "change": 5,
+            "final": 8
+          }
+        },
+        {
+          "type": "scrapped card",
+          "card": "Viper"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play all cards"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 1
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 2
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 3
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Viper",
+          "effect": {
+            "type": "combat",
+            "change": 1,
+            "final": 9
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Blob Miner"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "trade",
+            "change": -2,
+            "final": 1
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Stinger"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "trade",
+            "change": -1,
+            "final": 0
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack base",
+        "base": "Mobile Market"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "combat",
+            "change": -4,
+            "final": 5
+          }
+        },
+        {
+          "type": "destroyed base",
+          "base": "Mobile Market"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack player",
+        "targetPlayer": "Chernabog5",
+        "damage": 5,
+        "newAuthority": 38
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "combat",
+            "change": -5,
+            "final": 0
+          }
+        },
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "authority",
+            "change": -5,
+            "final": 38
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "end turn",
+        "player": "Mortis420",
+        "turn": 11
+      },
+      "effects": [
+        {
+          "type": "drew cards",
+          "cards": 4
+        },
+        {
+          "type": "shuffled"
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        },
+        {
+          "type": "refreshed ally indicators"
+        },
+        {
+          "type": "turn changed",
+          "player": "Chernabog5",
+          "turn": 12
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "resolve discard",
+        "cards": 1
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "discard card",
+        "player": "Chernabog5",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "no more cards to discard"
+        },
+        {
+          "type": "discarded card",
+          "card": "Scout"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Builder Bot"
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "scrap object card",
+        "player": "Chernabog5",
+        "card": "Viper"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Builder Bot",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 1
+          }
+        },
+        {
+          "type": "scrapped card",
+          "card": "Viper"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Orbital Gun Platform"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Orbital Gun Platform",
+          "effect": {
+            "type": "combat",
+            "change": 3,
+            "final": 3
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 2
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 3
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Outland Station"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "trade",
+            "change": -3,
+            "final": 0
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "scrap subject card",
+        "card": "Builder Bot"
+      },
+      "effects": [
+        {
+          "type": "scrapped card",
+          "card": "Builder Bot"
+        },
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Builder Bot",
+          "effect": {
+            "type": "combat",
+            "change": 2,
+            "final": 5
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack player",
+        "targetPlayer": "Mortis420",
+        "damage": 5,
+        "newAuthority": 35
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "combat",
+            "change": -5,
+            "final": 0
+          }
+        },
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "authority",
+            "change": -5,
+            "final": 35
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "end turn",
+        "player": "Chernabog5",
+        "turn": 12
+      },
+      "effects": [
+        {
+          "type": "drew cards",
+          "cards": 4
+        },
+        {
+          "type": "shuffled"
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        },
+        {
+          "type": "refreshed ally indicators"
+        },
+        {
+          "type": "turn changed",
+          "player": "Mortis420",
+          "turn": 13
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Farm Ship"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Farm Ship",
+          "effect": {
+            "type": "trade",
+            "change": 3,
+            "final": 3
+          }
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "resolve discard",
+        "cards": 1
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "discard card",
+        "player": "Mortis420",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "no more cards to discard"
+        },
+        {
+          "type": "discarded card",
+          "card": "Scout"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Builder Bot"
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "scrap object card",
+        "player": "Mortis420",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Builder Bot",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 4
+          }
+        },
+        {
+          "type": "scrapped card",
+          "card": "Scout"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Light Cruiser"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Light Cruiser",
+          "effect": {
+            "type": "combat",
+            "change": 4,
+            "final": 4
+          }
+        },
+        {
+          "type": "card to opponent",
+          "player": "Chernabog5",
+          "card": "Light Cruiser",
+          "effect": {
+            "type": "discard",
+            "change": 1,
+            "final": 1
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Light Cruiser",
+          "effect": {
+            "type": "combat",
+            "change": 2,
+            "final": 6
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play all cards"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 5
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 6
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Repair Mech"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "trade",
+            "change": -4,
+            "final": 2
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Builder Bot"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "trade",
+            "change": -1,
+            "final": 1
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack base",
+        "base": "Orbital Gun Platform"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "combat",
+            "change": -4,
+            "final": 2
+          }
+        },
+        {
+          "type": "destroyed base",
+          "base": "Orbital Gun Platform"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Frontier Hawk"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "trade",
+            "change": -1,
+            "final": 0
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack player",
+        "targetPlayer": "Chernabog5",
+        "damage": 2,
+        "newAuthority": 36
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "combat",
+            "change": -2,
+            "final": 0
+          }
+        },
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "authority",
+            "change": -2,
+            "final": 36
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "end turn",
+        "player": "Mortis420",
+        "turn": 13
+      },
+      "effects": [
+        {
+          "type": "drew cards",
+          "cards": 5
+        },
+        {
+          "type": "refreshed ally indicators"
+        },
+        {
+          "type": "turn changed",
+          "player": "Chernabog5",
+          "turn": 14
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "resolve discard",
+        "cards": 1
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "discard card",
+        "player": "Chernabog5",
+        "card": "Viper"
+      },
+      "effects": [
+        {
+          "type": "no more cards to discard"
+        },
+        {
+          "type": "discarded card",
+          "card": "Viper"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Frontier Hawk"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Frontier Hawk",
+          "effect": "ability available"
+        },
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Frontier Hawk",
+          "effect": {
+            "type": "combat",
+            "change": 3,
+            "final": 3
+          }
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "resolve discard",
+        "cards": 1
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "discard card",
+        "player": "Chernabog5",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "no more cards to discard"
+        },
+        {
+          "type": "discarded card",
+          "card": "Scout"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Pulverizer"
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "scrap object card",
+        "player": "Chernabog5",
+        "card": "Nanobot Swarm"
+      },
+      "effects": [
+        {
+          "type": "scrapped card",
+          "card": "Nanobot Swarm"
+        },
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Pulverizer",
+          "effect": {
+            "type": "combat",
+            "change": 8,
+            "final": 11
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack player",
+        "targetPlayer": "Mortis420",
+        "damage": 11,
+        "newAuthority": 24
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "combat",
+            "change": -11,
+            "final": 0
+          }
+        },
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "authority",
+            "change": -11,
+            "final": 24
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 1
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 2
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Plasma Bot"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "trade",
+            "change": -2,
+            "final": 0
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "end turn",
+        "player": "Chernabog5",
+        "turn": 14
+      },
+      "effects": [
+        {
+          "type": "drew cards",
+          "cards": 5
+        },
+        {
+          "type": "refreshed ally indicators"
+        },
+        {
+          "type": "turn changed",
+          "player": "Mortis420",
+          "turn": 15
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Blob Miner"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Blob Miner",
+          "effect": {
+            "type": "trade",
+            "change": 3,
+            "final": 3
+          }
+        },
+        {
+          "type": "scrapped card",
+          "card": "Plasma Bot"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Hammerhead"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Hammerhead",
+          "effect": {
+            "type": "combat",
+            "change": 3,
+            "final": 3
+          }
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        },
+        {
+          "type": "card to opponent",
+          "player": "Chernabog5",
+          "card": "Hammerhead",
+          "effect": {
+            "type": "discard",
+            "change": 1,
+            "final": 1
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Orbital Shuttle"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Orbital Shuttle",
+          "effect": {
+            "type": "trade",
+            "change": 3,
+            "final": 6
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 7
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Destroyer Bot"
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "scrap object card",
+        "player": "Mortis420",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Destroyer Bot",
+          "effect": "ability available"
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Destroyer Bot",
+          "effect": {
+            "type": "combat",
+            "change": 5,
+            "final": 8
+          }
+        },
+        {
+          "type": "scrapped card",
+          "card": "Scout"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play all cards"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Viper",
+          "effect": {
+            "type": "combat",
+            "change": 1,
+            "final": 9
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Neural Nexus"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "trade",
+            "change": -7,
+            "final": 0
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack player",
+        "targetPlayer": "Chernabog5",
+        "damage": 9,
+        "newAuthority": 27
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "combat",
+            "change": -9,
+            "final": 0
+          }
+        },
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "authority",
+            "change": -9,
+            "final": 27
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "end turn",
+        "player": "Mortis420",
+        "turn": 15
+      },
+      "effects": [
+        {
+          "type": "drew cards",
+          "cards": 5
+        },
+        {
+          "type": "refreshed ally indicators"
+        },
+        {
+          "type": "turn changed",
+          "player": "Chernabog5",
+          "turn": 16
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "resolve discard",
+        "cards": 1
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "discard card",
+        "player": "Chernabog5",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "no more cards to discard"
+        },
+        {
+          "type": "discarded card",
+          "card": "Scout"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Mobile Market"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Mobile Market",
+          "effect": {
+            "type": "trade",
+            "change": 2,
+            "final": 2
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 3
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 4
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 5
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Patrol Boat"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "trade",
+            "change": -3,
+            "final": 2
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Cargo Craft"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "trade",
+            "change": -2,
+            "final": 0
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "end turn",
+        "player": "Chernabog5",
+        "turn": 16
+      },
+      "effects": [
+        {
+          "type": "drew cards",
+          "cards": 4
+        },
+        {
+          "type": "shuffled"
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        },
+        {
+          "type": "refreshed ally indicators"
+        },
+        {
+          "type": "turn changed",
+          "player": "Mortis420",
+          "turn": 17
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play all cards"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 1
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Frontier Runner",
+          "effect": {
+            "type": "trade",
+            "change": 2,
+            "final": 3
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Frontier Runner",
+          "effect": {
+            "type": "authority",
+            "change": 2,
+            "final": 26
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 4
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 5
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Stinger",
+          "effect": {
+            "type": "combat",
+            "change": 3,
+            "final": 3
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Ion Station"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "trade",
+            "change": -5,
+            "final": 0
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "end turn",
+        "player": "Mortis420",
+        "turn": 17
+      },
+      "effects": [
+        {
+          "type": "drew cards",
+          "cards": 1
+        },
+        {
+          "type": "shuffled"
+        },
+        {
+          "type": "drew cards",
+          "cards": 4
+        },
+        {
+          "type": "refreshed ally indicators"
+        },
+        {
+          "type": "turn changed",
+          "player": "Chernabog5",
+          "turn": 18
+        },
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Mobile Market",
+          "effect": {
+            "type": "trade",
+            "change": 2,
+            "final": 2
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Farm Ship"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Farm Ship",
+          "effect": {
+            "type": "trade",
+            "change": 3,
+            "final": 5
+          }
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "resolve discard",
+        "cards": 1
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "discard card",
+        "player": "Chernabog5",
+        "card": "Viper"
+      },
+      "effects": [
+        {
+          "type": "no more cards to discard"
+        },
+        {
+          "type": "discarded card",
+          "card": "Viper"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Outland Station"
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Patrol Boat"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Patrol Boat",
+          "effect": {
+            "type": "combat",
+            "change": 4,
+            "final": 4
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Patrol Boat",
+          "effect": {
+            "type": "authority",
+            "change": 3,
+            "final": 30
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Patrol Boat",
+          "effect": {
+            "type": "authority",
+            "change": 2,
+            "final": 32
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Imperial Flagship"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Imperial Flagship",
+          "effect": {
+            "type": "combat",
+            "change": 7,
+            "final": 11
+          }
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        },
+        {
+          "type": "card to opponent",
+          "player": "Mortis420",
+          "card": "Imperial Flagship",
+          "effect": {
+            "type": "discard",
+            "change": 1,
+            "final": 1
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Orbital Gun Platform"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Orbital Gun Platform",
+          "effect": {
+            "type": "combat",
+            "change": 3,
+            "final": 14
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 6
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 7
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "chose",
+        "amount": 1,
+        "stat": "trade"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Outland Station",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 8
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Transit Nexus"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "trade",
+            "change": -8,
+            "final": 0
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack player",
+        "targetPlayer": "Mortis420",
+        "damage": 14,
+        "newAuthority": 12
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "combat",
+            "change": -14,
+            "final": 0
+          }
+        },
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "authority",
+            "change": -14,
+            "final": 12
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "end turn",
+        "player": "Chernabog5",
+        "turn": 18
+      },
+      "effects": [
+        {
+          "type": "drew cards",
+          "cards": 5
+        },
+        {
+          "type": "refreshed ally indicators"
+        },
+        {
+          "type": "turn changed",
+          "player": "Mortis420",
+          "turn": 19
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "resolve discard",
+        "cards": 1
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "discard card",
+        "player": "Mortis420",
+        "card": "Viper"
+      },
+      "effects": [
+        {
+          "type": "no more cards to discard"
+        },
+        {
+          "type": "discarded card",
+          "card": "Viper"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Frontier Hawk"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Frontier Hawk",
+          "effect": "ability available"
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Frontier Hawk",
+          "effect": {
+            "type": "combat",
+            "change": 3,
+            "final": 3
+          }
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "resolve discard",
+        "cards": 1
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "discard card",
+        "player": "Mortis420",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "no more cards to discard"
+        },
+        {
+          "type": "discarded card",
+          "card": "Scout"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Ion Station"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Ion Station",
+          "effect": {
+            "type": "trade",
+            "change": 2,
+            "final": 2
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Neural Nexus"
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Builder Bot"
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "scrap object card",
+        "player": "Mortis420",
+        "card": "Viper"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Builder Bot",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 3
+          }
+        },
+        {
+          "type": "scrapped card",
+          "card": "Viper"
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Builder Bot",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 4
+          }
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Frontier Runner"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Frontier Runner",
+          "effect": {
+            "type": "trade",
+            "change": 2,
+            "final": 6
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Frontier Runner",
+          "effect": {
+            "type": "authority",
+            "change": 2,
+            "final": 14
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Ion Station",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 7
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "activate card",
+        "card": "Neural Nexus"
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "scrap object card",
+        "player": "Mortis420",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "scrapped card",
+          "card": "Scout"
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Neural Nexus",
+          "effect": {
+            "type": "combat",
+            "change": 0,
+            "final": 3
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Captured Outpost"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "trade",
+            "change": -3,
+            "final": 4
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Long Hauler"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "trade",
+            "change": -4,
+            "final": 0
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "scrap subject card",
+        "card": "Builder Bot"
+      },
+      "effects": [
+        {
+          "type": "scrapped card",
+          "card": "Builder Bot"
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Builder Bot",
+          "effect": {
+            "type": "combat",
+            "change": 2,
+            "final": 5
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack base",
+        "base": "Orbital Gun Platform"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "combat",
+            "change": -4,
+            "final": 1
+          }
+        },
+        {
+          "type": "destroyed base",
+          "base": "Orbital Gun Platform"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "end turn",
+        "player": "Mortis420",
+        "turn": 19
+      },
+      "effects": [
+        {
+          "type": "drew cards",
+          "cards": 5
+        },
+        {
+          "type": "refreshed ally indicators"
+        },
+        {
+          "type": "turn changed",
+          "player": "Chernabog5",
+          "turn": 20
+        },
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Mobile Market",
+          "effect": {
+            "type": "trade",
+            "change": 2,
+            "final": 2
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Frontier Hawk"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Frontier Hawk",
+          "effect": "ability available"
+        },
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Frontier Hawk",
+          "effect": {
+            "type": "combat",
+            "change": 3,
+            "final": 3
+          }
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "resolve discard",
+        "cards": 1
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "discard card",
+        "player": "Chernabog5",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "no more cards to discard"
+        },
+        {
+          "type": "discarded card",
+          "card": "Scout"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 3
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Crusher"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "trade",
+            "change": -3,
+            "final": 0
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Pulverizer"
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "scrap object card",
+        "player": "Chernabog5",
+        "card": "Integration Port"
+      },
+      "effects": [
+        {
+          "type": "scrapped card",
+          "card": "Integration Port"
+        },
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Pulverizer",
+          "effect": {
+            "type": "combat",
+            "change": 3,
+            "final": 6
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Plasma Bot"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Plasma Bot",
+          "effect": {
+            "type": "combat",
+            "change": 3,
+            "final": 9
+          }
+        },
+        {
+          "type": "scrapped card",
+          "card": "Scout"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack base",
+        "base": "Ion Station"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "combat",
+            "change": -5,
+            "final": 4
+          }
+        },
+        {
+          "type": "destroyed base",
+          "base": "Ion Station"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "chose",
+        "amount": 3,
+        "stat": "authority"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Outland Station",
+          "effect": {
+            "type": "authority",
+            "change": 3,
+            "final": 35
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "end turn",
+        "player": "Chernabog5",
+        "turn": 20
+      },
+      "effects": [
+        {
+          "type": "drew cards",
+          "cards": 4
+        },
+        {
+          "type": "shuffled"
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        },
+        {
+          "type": "refreshed ally indicators"
+        },
+        {
+          "type": "turn changed",
+          "player": "Mortis420",
+          "turn": 21
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Destroyer Bot"
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "scrap object card",
+        "player": "Mortis420",
+        "card": "Frontier Hawk"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Destroyer Bot",
+          "effect": "ability available"
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Destroyer Bot",
+          "effect": {
+            "type": "combat",
+            "change": 5,
+            "final": 5
+          }
+        },
+        {
+          "type": "scrapped card",
+          "card": "Frontier Hawk"
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "activate card",
+        "card": "Neural Nexus"
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "scrap object card",
+        "player": "Mortis420",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "scrapped card",
+          "card": "Scout"
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Neural Nexus",
+          "effect": {
+            "type": "combat",
+            "change": 0,
+            "final": 5
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Hammerhead"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Hammerhead",
+          "effect": {
+            "type": "combat",
+            "change": 3,
+            "final": 8
+          }
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        },
+        {
+          "type": "card to opponent",
+          "player": "Chernabog5",
+          "card": "Hammerhead",
+          "effect": {
+            "type": "discard",
+            "change": 1,
+            "final": 1
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Farm Ship"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Farm Ship",
+          "effect": {
+            "type": "trade",
+            "change": 3,
+            "final": 3
+          }
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "resolve discard",
+        "cards": 1
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "discard card",
+        "player": "Mortis420",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "no more cards to discard"
+        },
+        {
+          "type": "discarded card",
+          "card": "Scout"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Light Cruiser"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Light Cruiser",
+          "effect": {
+            "type": "combat",
+            "change": 4,
+            "final": 12
+          }
+        },
+        {
+          "type": "card to opponent",
+          "player": "Chernabog5",
+          "card": "Light Cruiser",
+          "effect": {
+            "type": "discard",
+            "change": 1,
+            "final": 2
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Light Cruiser",
+          "effect": {
+            "type": "combat",
+            "change": 2,
+            "final": 14
+          }
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 4
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Stinger"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Stinger",
+          "effect": {
+            "type": "combat",
+            "change": 3,
+            "final": 17
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Orbital Shuttle"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Orbital Shuttle",
+          "effect": {
+            "type": "trade",
+            "change": 3,
+            "final": 7
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Conversion Yard"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "trade",
+            "change": -5,
+            "final": 2
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Cargo Craft"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "trade",
+            "change": -2,
+            "final": 0
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack base",
+        "base": "Mobile Market"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "combat",
+            "change": -4,
+            "final": 13
+          }
+        },
+        {
+          "type": "destroyed base",
+          "base": "Mobile Market"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack base",
+        "base": "Outland Station"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "combat",
+            "change": -4,
+            "final": 9
+          }
+        },
+        {
+          "type": "destroyed base",
+          "base": "Outland Station"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "activate card",
+        "card": "Hammerhead"
+      },
+      "effects": [
+        {
+          "type": "drew cards",
+          "cards": 1
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "resolve discard",
+        "cards": 1
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "discard card",
+        "player": "Mortis420",
+        "card": "Builder Bot"
+      },
+      "effects": [
+        {
+          "type": "no more cards to discard"
+        },
+        {
+          "type": "discarded card",
+          "card": "Builder Bot"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack player",
+        "targetPlayer": "Chernabog5",
+        "damage": 9,
+        "newAuthority": 26
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "combat",
+            "change": -9,
+            "final": 0
+          }
+        },
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "authority",
+            "change": -9,
+            "final": 26
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "end turn",
+        "player": "Mortis420",
+        "turn": 21
+      },
+      "effects": [
+        {
+          "type": "drew cards",
+          "cards": 4
+        },
+        {
+          "type": "shuffled"
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        },
+        {
+          "type": "refreshed ally indicators"
+        },
+        {
+          "type": "turn changed",
+          "player": "Chernabog5",
+          "turn": 22
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "resolve discard",
+        "cards": 2
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "discard card",
+        "player": "Chernabog5",
+        "card": "Scout"
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "discard card",
+        "player": "Chernabog5",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "no more cards to discard"
+        },
+        {
+          "type": "discarded card",
+          "card": "Scout"
+        },
+        {
+          "type": "discarded card",
+          "card": "Scout"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Cargo Craft"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Cargo Craft",
+          "effect": {
+            "type": "trade",
+            "change": 2,
+            "final": 2
+          }
+        },
+        {
+          "type": "card to opponent",
+          "player": "Mortis420",
+          "card": "Cargo Craft",
+          "effect": {
+            "type": "discard",
+            "change": 1,
+            "final": 1
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 3
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Patrol Boat"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Patrol Boat",
+          "effect": {
+            "type": "combat",
+            "change": 4,
+            "final": 4
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Patrol Boat",
+          "effect": {
+            "type": "authority",
+            "change": 3,
+            "final": 29
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Destroyer Bot"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "trade",
+            "change": -3,
+            "final": 0
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "end turn",
+        "player": "Chernabog5",
+        "turn": 22
+      },
+      "effects": [
+        {
+          "type": "drew cards",
+          "cards": 5
+        },
+        {
+          "type": "refreshed ally indicators"
+        },
+        {
+          "type": "turn changed",
+          "player": "Mortis420",
+          "turn": 23
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "resolve discard",
+        "cards": 1
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "discard card",
+        "player": "Mortis420",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "no more cards to discard"
+        },
+        {
+          "type": "discarded card",
+          "card": "Scout"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Conversion Yard"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Conversion Yard",
+          "effect": "ability available"
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "activate card",
+        "card": "Conversion Yard"
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "scrap object card",
+        "player": "Mortis420",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "scrapped card",
+          "card": "Scout"
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Conversion Yard",
+          "effect": {
+            "type": "combat",
+            "change": 4,
+            "final": 4
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Farm Ship"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Farm Ship",
+          "effect": {
+            "type": "trade",
+            "change": 3,
+            "final": 3
+          }
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "resolve discard",
+        "cards": 1
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "discard card",
+        "player": "Mortis420",
+        "card": "Repair Mech"
+      },
+      "effects": [
+        {
+          "type": "no more cards to discard"
+        },
+        {
+          "type": "discarded card",
+          "card": "Repair Mech"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Cargo Craft"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Cargo Craft",
+          "effect": {
+            "type": "trade",
+            "change": 2,
+            "final": 5
+          }
+        },
+        {
+          "type": "card to opponent",
+          "player": "Chernabog5",
+          "card": "Cargo Craft",
+          "effect": {
+            "type": "discard",
+            "change": 1,
+            "final": 1
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Cargo Craft",
+          "effect": {
+            "type": "combat",
+            "change": 4,
+            "final": 8
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Blob Miner"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Blob Miner",
+          "effect": {
+            "type": "trade",
+            "change": 3,
+            "final": 8
+          }
+        },
+        {
+          "type": "scrapped card",
+          "card": "Enforcer Mech"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Light Cruiser"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "trade",
+            "change": -3,
+            "final": 5
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Orbital Shuttle"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "trade",
+            "change": -2,
+            "final": 3
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Burrower"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "trade",
+            "change": -3,
+            "final": 0
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "activate card",
+        "card": "Neural Nexus"
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "scrap object card",
+        "player": "Mortis420",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "scrapped card",
+          "card": "Scout"
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Neural Nexus",
+          "effect": {
+            "type": "combat",
+            "change": 0,
+            "final": 8
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack player",
+        "targetPlayer": "Chernabog5",
+        "damage": 8,
+        "newAuthority": 21
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "combat",
+            "change": -8,
+            "final": 0
+          }
+        },
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "authority",
+            "change": -8,
+            "final": 21
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "end turn",
+        "player": "Mortis420",
+        "turn": 23
+      },
+      "effects": [
+        {
+          "type": "drew cards",
+          "cards": 5
+        },
+        {
+          "type": "refreshed ally indicators"
+        },
+        {
+          "type": "turn changed",
+          "player": "Chernabog5",
+          "turn": 24
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "resolve discard",
+        "cards": 1
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "discard card",
+        "player": "Chernabog5",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "no more cards to discard"
+        },
+        {
+          "type": "discarded card",
+          "card": "Scout"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Orbital Gun Platform"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Orbital Gun Platform",
+          "effect": {
+            "type": "combat",
+            "change": 3,
+            "final": 3
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 1
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "scrap subject card",
+        "card": "Orbital Gun Platform"
+      },
+      "effects": [
+        {
+          "type": "scrapped card",
+          "card": "Orbital Gun Platform"
+        },
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Orbital Gun Platform",
+          "effect": {
+            "type": "trade",
+            "change": 3,
+            "final": 4
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Moonwurm Hatchling"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "trade",
+            "change": -4,
+            "final": 0
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Pulverizer"
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "scrap object card",
+        "player": "Chernabog5",
+        "card": "Gateship"
+      },
+      "effects": [
+        {
+          "type": "scrapped card",
+          "card": "Gateship"
+        },
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Pulverizer",
+          "effect": {
+            "type": "combat",
+            "change": 6,
+            "final": 9
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Viper"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Viper",
+          "effect": {
+            "type": "combat",
+            "change": 1,
+            "final": 10
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack base",
+        "base": "Neural Nexus"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "combat",
+            "change": -6,
+            "final": 4
+          }
+        },
+        {
+          "type": "destroyed base",
+          "base": "Neural Nexus"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack base",
+        "base": "Conversion Yard"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "combat",
+            "change": -4,
+            "final": 0
+          }
+        },
+        {
+          "type": "destroyed base",
+          "base": "Conversion Yard"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "end turn",
+        "player": "Chernabog5",
+        "turn": 24
+      },
+      "effects": [
+        {
+          "type": "drew cards",
+          "cards": 5
+        },
+        {
+          "type": "refreshed ally indicators"
+        },
+        {
+          "type": "turn changed",
+          "player": "Mortis420",
+          "turn": 25
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Orbital Shuttle"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Orbital Shuttle",
+          "effect": {
+            "type": "trade",
+            "change": 3,
+            "final": 3
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Long Hauler"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Long Hauler",
+          "effect": {
+            "type": "trade",
+            "change": 3,
+            "final": 6
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Long Hauler",
+          "effect": {
+            "type": "trade",
+            "change": 2,
+            "final": 8
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Light Cruiser"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Light Cruiser",
+          "effect": {
+            "type": "combat",
+            "change": 4,
+            "final": 4
+          }
+        },
+        {
+          "type": "card to opponent",
+          "player": "Chernabog5",
+          "card": "Light Cruiser",
+          "effect": {
+            "type": "discard",
+            "change": 1,
+            "final": 1
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Destroyer Bot"
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "scrap object card",
+        "player": "Mortis420",
+        "card": "Blob Miner"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Destroyer Bot",
+          "effect": "ability available"
+        },
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Destroyer Bot",
+          "effect": {
+            "type": "combat",
+            "change": 5,
+            "final": 9
+          }
+        },
+        {
+          "type": "scrapped card",
+          "card": "Blob Miner"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "acquire card",
+        "card": "Siege Fortress"
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "trade",
+            "change": -7,
+            "final": 1
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Mortis420",
+          "card": "Scout",
+          "effect": {
+            "type": "trade",
+            "change": 1,
+            "final": 2
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack player",
+        "targetPlayer": "Chernabog5",
+        "damage": 9,
+        "newAuthority": 12
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "combat",
+            "change": -9,
+            "final": 0
+          }
+        },
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "authority",
+            "change": -9,
+            "final": 12
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "end turn",
+        "player": "Mortis420",
+        "turn": 25
+      },
+      "effects": [
+        {
+          "type": "drew cards",
+          "cards": 5
+        },
+        {
+          "type": "refreshed ally indicators"
+        },
+        {
+          "type": "turn changed",
+          "player": "Chernabog5",
+          "turn": 26
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "resolve discard",
+        "cards": 1
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "discard card",
+        "player": "Chernabog5",
+        "card": "Scout"
+      },
+      "effects": [
+        {
+          "type": "no more cards to discard"
+        },
+        {
+          "type": "discarded card",
+          "card": "Scout"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Frontier Hawk"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Frontier Hawk",
+          "effect": "ability available"
+        },
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Frontier Hawk",
+          "effect": {
+            "type": "combat",
+            "change": 3,
+            "final": 3
+          }
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "resolve discard",
+        "cards": 1
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "discard card",
+        "player": "Chernabog5",
+        "card": "Plasma Bot"
+      },
+      "effects": [
+        {
+          "type": "no more cards to discard"
+        },
+        {
+          "type": "discarded card",
+          "card": "Plasma Bot"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Transit Nexus"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Transit Nexus",
+          "effect": {
+            "type": "combat",
+            "change": 3,
+            "final": 6
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Transit Nexus",
+          "effect": {
+            "type": "trade",
+            "change": 4,
+            "final": 4
+          }
+        },
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Transit Nexus",
+          "effect": {
+            "type": "authority",
+            "change": 5,
+            "final": 17
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Farm Ship"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Farm Ship",
+          "effect": {
+            "type": "trade",
+            "change": 3,
+            "final": 7
+          }
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "resolve discard",
+        "cards": 1
+      },
+      "effects": []
+    },
+    {
+      "header": {
+        "type": "discard card",
+        "player": "Chernabog5",
+        "card": "Crusher"
+      },
+      "effects": [
+        {
+          "type": "no more cards to discard"
+        },
+        {
+          "type": "discarded card",
+          "card": "Crusher"
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Imperial Flagship"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Imperial Flagship",
+          "effect": {
+            "type": "combat",
+            "change": 7,
+            "final": 13
+          }
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        },
+        {
+          "type": "shuffled"
+        },
+        {
+          "type": "drew cards",
+          "cards": 1
+        },
+        {
+          "type": "card to opponent",
+          "player": "Mortis420",
+          "card": "Imperial Flagship",
+          "effect": {
+            "type": "discard",
+            "change": 1,
+            "final": 1
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "play card",
+        "card": "Moonwurm Hatchling"
+      },
+      "effects": [
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Moonwurm Hatchling",
+          "effect": {
+            "type": "trade",
+            "change": 3,
+            "final": 10
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack player",
+        "targetPlayer": "Mortis420",
+        "damage": 13,
+        "newAuthority": 1
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "combat",
+            "change": -13,
+            "final": 0
+          }
+        },
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "authority",
+            "change": -13,
+            "final": 1
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "scrap subject card",
+        "card": "Farm Ship"
+      },
+      "effects": [
+        {
+          "type": "scrapped card",
+          "card": "Farm Ship"
+        },
+        {
+          "type": "card to owner",
+          "player": "Chernabog5",
+          "card": "Farm Ship",
+          "effect": {
+            "type": "combat",
+            "change": 4,
+            "final": 4
+          }
+        }
+      ]
+    },
+    {
+      "header": {
+        "type": "attack player",
+        "targetPlayer": "Mortis420",
+        "damage": 4,
+        "newAuthority": -3
+      },
+      "effects": [
+        {
+          "type": "side",
+          "player": "Chernabog5",
+          "effect": {
+            "type": "combat",
+            "change": -4,
+            "final": 0
+          }
+        },
+        {
+          "type": "side",
+          "player": "Mortis420",
+          "effect": {
+            "type": "authority",
+            "change": -4,
+            "final": -3
+          }
+        },
+        {
+          "type": "won game",
+          "player": "Chernabog5"
+        }
+      ]
+    }
+  ]
+}
