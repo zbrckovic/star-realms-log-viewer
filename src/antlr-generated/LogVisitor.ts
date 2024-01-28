@@ -20,6 +20,7 @@ import { DiscardCardActionContext } from "./LogParser";
 import { ResolveDiscardActionContext } from "./LogParser";
 import { ActivateCardActionContext } from "./LogParser";
 import { ChoseActionContext } from "./LogParser";
+import { GenericResolveActionContext } from "./LogParser";
 import { EffectLineContext } from "./LogParser";
 import { EffectContext } from "./LogParser";
 import { ShuffledEffectContext } from "./LogParser";
@@ -34,6 +35,7 @@ import { NoMoreCardsToDiscardEffectContext } from "./LogParser";
 import { DiscardedCardEffectContext } from "./LogParser";
 import { WonGameEffectContext } from "./LogParser";
 import { DestroyedBaseEffectContext } from "./LogParser";
+import { RevealedEventEffectContext } from "./LogParser";
 import { AddTradeContext } from "./LogParser";
 import { AddCombatContext } from "./LogParser";
 import { AddAuthorityContext } from "./LogParser";
@@ -155,6 +157,12 @@ export default class LogVisitor<Result> extends ParseTreeVisitor<Result> {
 	 */
 	visitChoseAction?: (ctx: ChoseActionContext) => Result;
 	/**
+	 * Visit a parse tree produced by `LogParser.genericResolveAction`.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	visitGenericResolveAction?: (ctx: GenericResolveActionContext) => Result;
+	/**
 	 * Visit a parse tree produced by `LogParser.effectLine`.
 	 * @param ctx the parse tree
 	 * @return the visitor result
@@ -238,6 +246,12 @@ export default class LogVisitor<Result> extends ParseTreeVisitor<Result> {
 	 * @return the visitor result
 	 */
 	visitDestroyedBaseEffect?: (ctx: DestroyedBaseEffectContext) => Result;
+	/**
+	 * Visit a parse tree produced by `LogParser.revealedEventEffect`.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	visitRevealedEventEffect?: (ctx: RevealedEventEffectContext) => Result;
 	/**
 	 * Visit a parse tree produced by `LogParser.addTrade`.
 	 * @param ctx the parse tree

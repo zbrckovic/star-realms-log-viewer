@@ -12,6 +12,7 @@ export type Action =
     | ResolveDiscardAction
     | ActivateCardAction
     | ChoseAction
+    | GenericResolveAction
 
 interface BaseAction {
     type: 'action'
@@ -85,4 +86,8 @@ export interface ChoseAction extends BaseAction {
     subtype: 'chose',
     amount: number
     stat: 'trade' | 'combat' | 'authority'
+}
+
+export interface GenericResolveAction extends BaseAction {
+    subtype: 'generic resolve'
 }

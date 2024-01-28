@@ -11,6 +11,7 @@ export type Effect =
     | DiscardedCardEffect
     | WonGameEffect
     | DestroyedBaseEffect
+    | RevealedEventEffect
 
 interface BaseEffect {
     type: 'effect'
@@ -77,6 +78,11 @@ export interface WonGameEffect extends BaseEffect {
 export interface DestroyedBaseEffect extends BaseEffect {
     subtype: 'destroyed base',
     base: string;
+}
+
+export interface RevealedEventEffect extends BaseEffect {
+    subtype: 'revealed event',
+    event: string;
 }
 
 export interface StatChange<T extends 'trade' | 'combat' | 'authority' | 'discard'> {

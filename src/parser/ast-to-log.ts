@@ -20,14 +20,14 @@ import {
     DrewCardsEffectContext,
     EffectContext,
     EffectLineContext,
-    EndTurnActionContext,
+    EndTurnActionContext, GenericResolveActionContext,
     LineContext,
     NoMoreCardsToDiscardEffectContext,
     NoScrapObjectCardActionContext,
     PlayAllCardsActionContext,
     PlayOneCardActionContext,
     RefreshedAllyIndicatorsEffectContext,
-    ResolveDiscardActionContext,
+    ResolveDiscardActionContext, RevealedEventEffectContext,
     ScrapObjectCardActionContext,
     ScrappedCardEffectContext,
     ScrapSubjectCardActionContext,
@@ -50,7 +50,7 @@ import {
     AttackPlayerAction,
     ChoseAction,
     DiscardCardAction,
-    EndTurnAction,
+    EndTurnAction, GenericResolveAction,
     NoScrapObjectCardAction,
     PlayAllCardsAction,
     PlayOneCardAction,
@@ -66,7 +66,7 @@ import {
     DrewCardsEffect,
     Effect,
     NoMoreCardsToDiscardEffect,
-    RefreshedAllyIndicatorsEffect,
+    RefreshedAllyIndicatorsEffect, RevealedEventEffect,
     ScrappedCardEffect,
     ShuffledEffect,
     SideEffect,
@@ -129,6 +129,8 @@ class Visitor extends LogVisitor<any> {
             return this.visitActivateCardAction(ctx.activateCardAction())
         } else if (ctx.choseAction()) {
             return this.visitChoseAction(ctx.choseAction())
+        } else if (ctx.genericResolveAction()) {
+            return this.visitGenericResolveAction(ctx.genericResolveAction())
         } else {
             throw new Error('unknown action')
         }
@@ -209,6 +211,10 @@ class Visitor extends LogVisitor<any> {
             throw new Error('Unknown choice')
         }
     }
+
+    visitGenericResolveAction = (ctx: GenericResolveActionContext): GenericResolveAction => {
+        return { type: 'action', subtype: 'generic resolve' }
+    }
     // endregion
 
     // region Effects
@@ -241,6 +247,8 @@ class Visitor extends LogVisitor<any> {
             return this.visitWonGameEffect(ctx.wonGameEffect())
         } else if (ctx.destroyedBaseEffect()) {
             return this.visitDestroyedBaseEffect(ctx.destroyedBaseEffect())
+        } else if (ctx.revealedEventEffect()) {
+            return this.visitRevealedEventEffect(ctx.revealedEventEffect())
         } else {
             throw new Error('unknown effect')
         }
@@ -332,6 +340,11 @@ class Visitor extends LogVisitor<any> {
     visitDestroyedBaseEffect = (ctx: DestroyedBaseEffectContext): DestroyedBaseEffect => {
         const base = this.parseCardName(ctx._base)
         return { type: 'effect', subtype: 'destroyed base', base }
+    }
+
+    visitRevealedEventEffect = (ctx: RevealedEventEffectContext): RevealedEventEffect => {
+        const event = this.parseCardName(ctx._event)
+        return { type: 'effect', subtype: 'revealed event', event }
     }
     // endregion
 

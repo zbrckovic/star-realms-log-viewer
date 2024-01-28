@@ -20,6 +20,7 @@ import { DiscardCardActionContext } from "./LogParser";
 import { ResolveDiscardActionContext } from "./LogParser";
 import { ActivateCardActionContext } from "./LogParser";
 import { ChoseActionContext } from "./LogParser";
+import { GenericResolveActionContext } from "./LogParser";
 import { EffectLineContext } from "./LogParser";
 import { EffectContext } from "./LogParser";
 import { ShuffledEffectContext } from "./LogParser";
@@ -34,6 +35,7 @@ import { NoMoreCardsToDiscardEffectContext } from "./LogParser";
 import { DiscardedCardEffectContext } from "./LogParser";
 import { WonGameEffectContext } from "./LogParser";
 import { DestroyedBaseEffectContext } from "./LogParser";
+import { RevealedEventEffectContext } from "./LogParser";
 import { AddTradeContext } from "./LogParser";
 import { AddCombatContext } from "./LogParser";
 import { AddAuthorityContext } from "./LogParser";
@@ -220,6 +222,16 @@ export default class LogListener extends ParseTreeListener {
 	 */
 	exitChoseAction?: (ctx: ChoseActionContext) => void;
 	/**
+	 * Enter a parse tree produced by `LogParser.genericResolveAction`.
+	 * @param ctx the parse tree
+	 */
+	enterGenericResolveAction?: (ctx: GenericResolveActionContext) => void;
+	/**
+	 * Exit a parse tree produced by `LogParser.genericResolveAction`.
+	 * @param ctx the parse tree
+	 */
+	exitGenericResolveAction?: (ctx: GenericResolveActionContext) => void;
+	/**
 	 * Enter a parse tree produced by `LogParser.effectLine`.
 	 * @param ctx the parse tree
 	 */
@@ -359,6 +371,16 @@ export default class LogListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitDestroyedBaseEffect?: (ctx: DestroyedBaseEffectContext) => void;
+	/**
+	 * Enter a parse tree produced by `LogParser.revealedEventEffect`.
+	 * @param ctx the parse tree
+	 */
+	enterRevealedEventEffect?: (ctx: RevealedEventEffectContext) => void;
+	/**
+	 * Exit a parse tree produced by `LogParser.revealedEventEffect`.
+	 * @param ctx the parse tree
+	 */
+	exitRevealedEventEffect?: (ctx: RevealedEventEffectContext) => void;
 	/**
 	 * Enter a parse tree produced by `LogParser.addTrade`.
 	 * @param ctx the parse tree
