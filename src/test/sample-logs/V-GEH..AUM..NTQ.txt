@@ -1,0 +1,551 @@
+        Revealed event <color=#800080>Supply Run</color>
+Resolving Acquire 1 Explorer to deck or Put target card from your discard pile on top of your deck
+        Acquired <color=#800080>Explorer</color> to the top of the deck.
+Played <color=#800080>Scout</color>
+        Poodawg  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+Played <color=#800080>Scout</color>
+        Poodawg  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+Acquired <color=#FF0000>Missile Bot</color>
+        Poodawg - -2 Trade (Trade:0)
+Played <color=#800080>Viper</color>
+        Poodawg  >  <color=#800080>Viper</color> +1 Combat (Combat:1)
+Attacked Chernabog5 for 1 (New Authority:49)
+        Poodawg - -1 Combat (Combat:0)
+        Chernabog5 - -1 Authority (Authority:49)
+Poodawg ends turn 1
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Chernabog5's turn 2
+Resolving Acquire 1 Explorer to deck or Put target card from your discard pile on top of your deck
+        Acquired <color=#800080>Explorer</color> to the top of the deck.
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+Acquired <color=#FF0000>Supply Bot</color>
+        Chernabog5 - -3 Trade (Trade:0)
+Played <color=#800080>Viper</color>
+        Chernabog5  >  <color=#800080>Viper</color> +1 Combat (Combat:1)
+Played <color=#800080>Viper</color>
+        Chernabog5  >  <color=#800080>Viper</color> +1 Combat (Combat:2)
+Attacked Poodawg for 2 (New Authority:48)
+        Chernabog5 - -2 Combat (Combat:0)
+        Poodawg - -2 Authority (Authority:48)
+Chernabog5 ends turn 2
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Poodawg's turn 3
+Played <color=#800080>Explorer</color>
+        Poodawg  >  <color=#800080>Explorer</color> +2 Trade (Trade:2)
+Played <color=#800080>Scout</color>
+        Poodawg  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+Played <color=#800080>Scout</color>
+        Poodawg  >  <color=#800080>Scout</color> +1 Trade (Trade:4)
+Played <color=#800080>Scout</color>
+        Poodawg  >  <color=#800080>Scout</color> +1 Trade (Trade:5)
+Acquired <color=#4CC417>Blob Wheel</color>
+        Poodawg - -3 Trade (Trade:2)
+        Revealed event <color=#800080>Quasar</color>
+        Drew 1 cards.
+        Drew 1 cards.
+Played <color=#800080>Scout</color>
+        Poodawg  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+Acquired <color=#FF0000>Trade Bot</color>
+        Poodawg - -1 Trade (Trade:2)
+Played <color=#800080>Scout</color>
+        Poodawg  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+Acquired <color=#FFFF00>Survey Ship</color>
+        Poodawg - -3 Trade (Trade:0)
+        Revealed event <color=#800080>Supernova</color>
+        Poodawg - -5 Authority (Authority:43)
+        Chernabog5 - -5 Authority (Authority:44)
+        Scrapped <color=#800080>Chairman Haygan</color>
+        Scrapped <color=#1589FF>Corsair</color>
+        Scrapped <color=#FF0000>Battle Mech</color>
+        Scrapped <color=#4CC417>Mothership</color>
+Played <color=#800080>Viper</color>
+        Poodawg  >  <color=#800080>Viper</color> +1 Combat (Combat:1)
+Scrapping Explorer
+        Scrapped <color=#800080>Explorer</color>
+        Poodawg  >  <color=#800080>Explorer</color> +2 Combat (Combat:3)
+Attacked Chernabog5 for 3 (New Authority:41)
+        Poodawg - -3 Combat (Combat:0)
+        Chernabog5 - -3 Authority (Authority:41)
+Poodawg ends turn 3
+        Drew 1 cards.
+        Shuffled discard pile to form new deck
+        Drew 4 cards.
+        Refresh ally indicators
+        It is now Chernabog5's turn 4
+        Drew 1 cards.
+        Shuffled discard pile to form new deck
+        Drew 1 cards.
+Played <color=#800080>Explorer</color>
+        Chernabog5  >  <color=#800080>Explorer</color> +2 Trade (Trade:2)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:4)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:5)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:6)
+Acquired <color=#FF0000>Junkyard</color>
+        Chernabog5 - -6 Trade (Trade:0)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+Acquired <color=#4CC417>Battle Pod</color>
+        Chernabog5 - -2 Trade (Trade:0)
+Chernabog5 ends turn 4
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Poodawg's turn 5
+Played <color=#800080>Scout</color>
+        Poodawg  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+Played <color=#800080>Scout</color>
+        Poodawg  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+Played <color=#800080>Scout</color>
+        Poodawg  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+Acquired <color=#4CC417>Blob Wheel</color>
+        Poodawg - -3 Trade (Trade:0)
+Played <color=#FFFF00>Survey Ship</color>
+        Drew 1 cards.
+        Poodawg  >  <color=#FFFF00>Survey Ship</color> +1 Trade (Trade:1)
+Played <color=#FF0000>Missile Bot</color>
+        Poodawg  >  <color=#FF0000>Missile Bot</color> +2 Combat (Combat:2)
+Played <color=#FF0000>Trade Bot</color>
+        Poodawg  >  <color=#FF0000>Trade Bot</color> +1 Trade (Trade:2)
+        Poodawg  >  <color=#FF0000>Missile Bot</color> +2 Combat (Combat:4)
+        Poodawg  >  <color=#FF0000>Trade Bot</color> +2 Combat (Combat:6)
+Acquired <color=#800080>Explorer</color>
+        Poodawg - -2 Trade (Trade:0)
+Attacked Chernabog5 for 6 (New Authority:35)
+        Poodawg - -6 Combat (Combat:0)
+        Chernabog5 - -6 Authority (Authority:35)
+Poodawg ends turn 5
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Chernabog5's turn 6
+Played <color=#FF0000>Supply Bot</color>
+Chernabog5 is scrapping: Viper
+        Chernabog5  >  <color=#FF0000>Supply Bot</color> +2 Trade (Trade:2)
+        Scrapped <color=#800080>Viper</color>
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:4)
+Played <color=#800080>Viper</color>
+        Chernabog5  >  <color=#800080>Viper</color> +1 Combat (Combat:1)
+Attacked Poodawg for 1 (New Authority:42)
+        Chernabog5 - -1 Combat (Combat:0)
+        Poodawg - -1 Authority (Authority:42)
+Acquired <color=#FFFF00>Hellfire</color>
+        Chernabog5 - -4 Trade (Trade:0)
+Chernabog5 ends turn 6
+        Shuffled discard pile to form new deck
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Poodawg's turn 7
+Played <color=#800080>Scout</color>
+        Poodawg  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+Played <color=#800080>Scout</color>
+        Poodawg  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+Played <color=#800080>Scout</color>
+        Poodawg  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+Played <color=#4CC417>Blob Wheel</color>
+        Poodawg  >  <color=#4CC417>Blob Wheel</color> +1 Combat (Combat:1)
+Acquired <color=#800080>Explorer</color>
+        Poodawg - -2 Trade (Trade:1)
+Played <color=#800080>Viper</color>
+        Poodawg  >  <color=#800080>Viper</color> +1 Combat (Combat:2)
+Attacked Chernabog5 for 2 (New Authority:33)
+        Poodawg - -2 Combat (Combat:0)
+        Chernabog5 - -2 Authority (Authority:33)
+Poodawg ends turn 7
+        Drew 3 cards.
+        Shuffled discard pile to form new deck
+        Drew 2 cards.
+        Refresh ally indicators
+        It is now Chernabog5's turn 8
+Scrapping Surprise Assault
+        Scrapped <color=#800080>Surprise Assault</color>
+        Chernabog5  >  <color=#800080>Surprise Assault</color> +8 Combat (Combat:8)
+Attacked Blob Wheel
+        Chernabog5 - -5 Combat (Combat:3)
+        Destroyed <color=#4CC417>Blob Wheel</color>
+Played <color=#800080>Viper</color>
+        Chernabog5  >  <color=#800080>Viper</color> +1 Combat (Combat:4)
+Attacked Poodawg for 4 (New Authority:38)
+        Chernabog5 - -4 Combat (Combat:0)
+        Poodawg - -4 Authority (Authority:38)
+Played <color=#800080>Explorer</color>
+        Chernabog5  >  <color=#800080>Explorer</color> +2 Trade (Trade:2)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:4)
+Acquired <color=#FF0000>Stealth Needle</color>
+        Chernabog5 - -4 Trade (Trade:0)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+Acquired <color=#1589FF>Federation Shuttle</color>
+        Chernabog5 - -1 Trade (Trade:0)
+Scrapping Explorer
+        Scrapped <color=#800080>Explorer</color>
+        Chernabog5  >  <color=#800080>Explorer</color> +2 Combat (Combat:2)
+Attacked Poodawg for 2 (New Authority:36)
+        Chernabog5 - -2 Combat (Combat:0)
+        Poodawg - -2 Authority (Authority:36)
+Chernabog5 ends turn 8
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Poodawg's turn 9
+Played <color=#800080>Explorer</color>
+        Poodawg  >  <color=#800080>Explorer</color> +2 Trade (Trade:2)
+Played <color=#800080>Scout</color>
+        Poodawg  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+Acquired <color=#FFFF00>Imperial Frigate</color>
+        Poodawg - -3 Trade (Trade:0)
+        Revealed event <color=#800080>Powerful Backing</color>
+        Poodawg  >  <color=#800080>Powerful Backing</color> +1 Trade (Trade:1)
+        Refresh ally indicators
+        Chernabog5  <  <color=#800080>Powerful Backing</color> +5 Authority (Authority:38)
+Played <color=#800080>Scout</color>
+        Poodawg  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+Played <color=#800080>Scout</color>
+        Poodawg  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+Acquired <color=#800080>Cunning Captain</color>
+        Poodawg - -1 Trade (Trade:2)
+Acquired <color=#800080>Explorer</color>
+        Poodawg - -2 Trade (Trade:0)
+Played <color=#800080>Viper</color>
+        Poodawg  >  <color=#800080>Viper</color> +1 Combat (Combat:1)
+Attacked Chernabog5 for 1 (New Authority:37)
+        Poodawg - -1 Combat (Combat:0)
+        Chernabog5 - -1 Authority (Authority:37)
+Poodawg ends turn 9
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Chernabog5's turn 10
+Played <color=#FF0000>Supply Bot</color>
+Chernabog5 is scrapping: Viper
+        Chernabog5  >  <color=#FF0000>Supply Bot</color> +2 Trade (Trade:2)
+        Scrapped <color=#800080>Viper</color>
+Scrapping Unlikely Alliance
+        Scrapped <color=#800080>Unlikely Alliance</color>
+        Drew 1 cards.
+        Drew 1 cards.
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:4)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:5)
+Acquired <color=#800080>Commodore Zhang</color>
+        Chernabog5 - -5 Trade (Trade:0)
+        Changed Commodore Zhang to on-table image
+        Refresh ally indicators
+        Chernabog5 - +4 Combat (Combat:4)
+        Poodawg - +1 Discard (Discarding: 1)
+Played <color=#FFFF00>Hellfire</color>
+        Chernabog5  >  <color=#FFFF00>Hellfire</color> +5 Combat (Combat:9)
+        Poodawg  <  <color=#FFFF00>Hellfire</color> +1 Discard (Discarding: 2)
+Activating Hellfire
+        Drew 1 cards.
+Resolving Discard 1 cards
+Chernabog5 is discarding Scout
+        no more cards to discard
+        Discarded <color=#800080>Scout</color>
+Attacked Poodawg for 9 (New Authority:27)
+        Chernabog5 - -9 Combat (Combat:0)
+        Poodawg - -9 Authority (Authority:27)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+Acquired <color=#800080>War Elder</color>
+        Chernabog5 - -1 Trade (Trade:0)
+        Revealed event <color=#800080>Powerful Backing</color>
+        Chernabog5  >  <color=#800080>Powerful Backing</color> +1 Trade (Trade:1)
+        Refresh ally indicators
+        Poodawg  <  <color=#800080>Powerful Backing</color> +5 Authority (Authority:32)
+        Chernabog5  >  <color=#FF0000>Supply Bot</color> +2 Combat (Combat:2)
+        Revealed Ally
+Resolving Acquire any ship or base of cost 4 or less to deck
+Acquired <color=#4CC417>B</color><color=#66A814>l</color><color=#7F8C10>o</color><color=#99700D>b</color><color=#B2540A> </color><color=#CC3807>B</color><color=#E51C03>o</color><color=#FF0000>t</color>
+        Acquired <color=#4CC417>B</color><color=#66A814>l</color><color=#7F8C10>o</color><color=#99700D>b</color><color=#B2540A> </color><color=#CC3807>B</color><color=#E51C03>o</color><color=#FF0000>t</color> to the top of the deck.
+Acquired <color=#800080>Special Ops Director</color>
+        Chernabog5 - -1 Trade (Trade:0)
+Attacked Poodawg for 2 (New Authority:30)
+        Chernabog5 - -2 Combat (Combat:0)
+        Poodawg - -2 Authority (Authority:30)
+Played <color=#4CC417>Battle Pod</color>
+        Chernabog5  >  <color=#4CC417>Battle Pod</color> +4 Combat (Combat:4)
+        Scrapped <color=#FFFF00>Imperial Frigate</color>
+        Chernabog5  >  <color=#4CC417>Battle Pod</color> +2 Combat (Combat:6)
+Attacked Poodawg for 6 (New Authority:24)
+        Chernabog5 - -6 Combat (Combat:0)
+        Poodawg - -6 Authority (Authority:24)
+Chernabog5 ends turn 10
+        Drew 2 cards.
+        Shuffled discard pile to form new deck
+        Drew 3 cards.
+        Refresh ally indicators
+        It is now Poodawg's turn 11
+Resolving Discard 2 cards
+Poodawg is discarding Viper
+Poodawg is discarding Scout
+        no more cards to discard
+        Discarded <color=#800080>Viper</color>
+        Discarded <color=#800080>Scout</color>
+Played <color=#FF0000>Trade Bot</color>
+Poodawg is scrapping: Scout
+        Poodawg  >  <color=#FF0000>Trade Bot</color> +1 Trade (Trade:1)
+        Scrapped <color=#800080>Scout</color>
+Played <color=#4CC417>Blob Wheel</color>
+        Poodawg  >  <color=#4CC417>Blob Wheel</color> +1 Combat (Combat:1)
+Played <color=#800080>Scout</color>
+        Poodawg  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+Scrapping Salvage Operation
+Poodawg is selecting Blob Wheel
+        Scrapped <color=#800080>Salvage Operation</color>
+Scrapping Bold Raid
+        Scrapped <color=#800080>Bold Raid</color>
+        Drew 1 cards.
+Played <color=#4CC417>Blob Wheel</color>
+        Poodawg  >  <color=#4CC417>Blob Wheel</color> +1 Combat (Combat:2)
+        Revealed Colonize
+        Drew 1 cards.
+        Drew 1 cards.
+Played <color=#800080>Scout</color>
+        Poodawg  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+Played <color=#800080>Scout</color>
+        Poodawg  >  <color=#800080>Scout</color> +1 Trade (Trade:4)
+Scrapping Blob Wheel
+        Scrapped <color=#4CC417>Blob Wheel</color>
+        Poodawg  >  <color=#4CC417>Blob Wheel</color> +3 Trade (Trade:7)
+Acquired <color=#1589FF>Port of Call</color>
+        Poodawg - -6 Trade (Trade:1)
+Scrapping Cunning Captain
+        Scrapped <color=#800080>Cunning Captain</color>
+        Refresh ally indicators
+        Chernabog5  <  <color=#800080>Cunning Captain</color> +1 Discard (Discarding: 1)
+Acquired <color=#FFFF00>Imperial Fighter</color>
+        Poodawg - -1 Trade (Trade:0)
+        Revealed event <color=#800080>Trade Mission</color>
+        Poodawg - +4 Trade (Trade:4)
+Acquired <color=#4CC417>T</color><color=#60CB14>r</color><color=#74D112>a</color><color=#88D80F>d</color><color=#9CDE0D>e</color><color=#AFE50A> </color><color=#C3EB08>S</color><color=#D7F205>t</color><color=#EBF803>a</color><color=#FFFF00>r</color>
+        Poodawg - -1 Trade (Trade:3)
+        Acquired <color=#4CC417>T</color><color=#60CB14>r</color><color=#74D112>a</color><color=#88D80F>d</color><color=#9CDE0D>e</color><color=#AFE50A> </color><color=#C3EB08>S</color><color=#D7F205>t</color><color=#EBF803>a</color><color=#FFFF00>r</color> to the top of the deck.
+Acquired <color=#800080>Guidance</color>
+        Poodawg - -1 Trade (Trade:2)
+Activating Guidance
+        Poodawg  >  <color=#800080>Guidance</color> -1 Trade (Trade:1)
+        Scrapped <color=#FFFF00>Dreadnaught</color>
+Acquired <color=#FFFF00>Imperial Fighter</color>
+        Poodawg - -1 Trade (Trade:0)
+Attacked Chernabog5 for 2 (New Authority:35)
+        Poodawg - -2 Combat (Combat:0)
+        Chernabog5 - -2 Authority (Authority:35)
+Poodawg ends turn 11
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Chernabog5's turn 12
+Resolving Discard 1 cards
+Chernabog5 is discarding Scout
+        no more cards to discard
+        Discarded <color=#800080>Scout</color>
+        Drew 1 cards.
+        Drew 1 cards.
+Played <color=#FF0000>Junkyard</color>
+        Chernabog5  >  <color=#FF0000>Junkyard</color> ability available
+Activating Junkyard
+Chernabog5 is scrapping: Scout
+        Scrapped <color=#800080>Scout</color>
+Scrapping Commodore Zhang
+        Scrapped <color=#800080>Commodore Zhang</color>
+        Refresh ally indicators
+        Drew 1 cards.
+Played <color=#1589FF>Federation Shuttle</color>
+        Chernabog5  >  <color=#1589FF>Federation Shuttle</color> +2 Trade (Trade:2)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:4)
+Acquired <color=#800080>Commander Klik</color>
+        Chernabog5 - -4 Trade (Trade:0)
+        Changed Commander Klik to on-table image
+        Refresh ally indicators
+        Revealed event <color=#800080>Tactical Maneuver</color>
+        Revealed event <color=#800080>Patience Rewarded</color>
+Resolving Discard and Redraw up to 1 card(s)
+Chernabog5 is selecting Scout
+        Discarded <color=#800080>Scout</color>
+        Drew 1 cards.
+Resolving Add 2 Trade or Add 4 Combat
+        Chernabog5  >  <color=#800080>Tactical Maneuver</color> +2 Trade (Trade:2)
+Resolving Choose a card to set aside
+        Scrapped <color=#800080>Chancellor Hartman</color>
+Played <color=#FF0000>Supply Bot</color>
+Chernabog5 is scrapping: Scout
+        Chernabog5  >  <color=#FF0000>Supply Bot</color> +2 Trade (Trade:4)
+        Scrapped <color=#800080>Scout</color>
+        Chernabog5  >  <color=#FF0000>Supply Bot</color> +2 Combat (Combat:2)
+        Revealed Convert
+        Drew 1 cards.
+        Drew 1 cards.
+        Drew 1 cards.
+Resolving Return 1 card to the top of your deck
+Chernabog5 is returning Scout
+Resolving Discard 1 cards
+Chernabog5 is discarding Scout
+        no more cards to discard
+        Discarded <color=#800080>Scout</color>
+Scrapping Special Ops Director
+        Scrapped <color=#800080>Special Ops Director</color>
+        Refresh ally indicators
+        Chernabog5  >  <color=#800080>Special Ops Director</color> +4 Authority (Authority:39)
+        Chernabog5  >  <color=#1589FF>Federation Shuttle</color> +4 Authority (Authority:43)
+Played <color=#4CC417>Battle Pod</color>
+        Chernabog5  >  <color=#4CC417>Battle Pod</color> +4 Combat (Combat:6)
+        Scrapped <color=#800080>Chancellor Hartman</color>
+Played <color=#4CC417>B</color><color=#66A814>l</color><color=#7F8C10>o</color><color=#99700D>b</color><color=#B2540A> </color><color=#CC3807>B</color><color=#E51C03>o</color><color=#FF0000>t</color>
+        Chernabog5  >  <color=#4CC417>B</color><color=#66A814>l</color><color=#7F8C10>o</color><color=#99700D>b</color><color=#B2540A> </color><color=#CC3807>B</color><color=#E51C03>o</color><color=#FF0000>t</color> +5 Combat (Combat:11)
+        Chernabog5  >  <color=#4CC417>Battle Pod</color> +2 Combat (Combat:13)
+        Chernabog5  >  <color=#4CC417>B</color><color=#66A814>l</color><color=#7F8C10>o</color><color=#99700D>b</color><color=#B2540A> </color><color=#CC3807>B</color><color=#E51C03>o</color><color=#FF0000>t</color> +2 Trade (Trade:6)
+Activating Blob Bot
+Chernabog5 is scrapping: Scout
+        Scrapped <color=#800080>Scout</color>
+Played <color=#FF0000>Stealth Needle</color>
+Chernabog5 selecting ship Battle Pod
+        Changed Stealth Needle to Battle Pod
+        Chernabog5  >  <color=#FF0000>Stealth Needle</color> +4 Combat (Combat:17)
+        Scrapped <color=#800080>Stellar Link</color>
+        Chernabog5  >  <color=#FF0000>Stealth Needle</color> +2 Combat (Combat:19)
+Acquired <color=#800080>Cunning Captain</color>
+        Chernabog5 - -1 Trade (Trade:5)
+Acquired <color=#800080>Blob Overlord</color>
+        Chernabog5 - -2 Trade (Trade:3)
+Acquired <color=#800080>Chairman Haygan</color>
+        Chernabog5 - -3 Trade (Trade:0)
+        Changed Chairman Haygan to on-table image
+        Refresh ally indicators
+        Chernabog5 - +4 Authority (Authority:47)
+Attacked Blob Wheel
+        Chernabog5 - -5 Combat (Combat:14)
+        Destroyed <color=#4CC417>Blob Wheel</color>
+Attacked Poodawg for 14 (New Authority:10)
+        Chernabog5 - -14 Combat (Combat:0)
+        Poodawg - -14 Authority (Authority:10)
+Chernabog5 ends turn 12
+        Changed Stealth Needle to Unaligned
+        Drew 4 cards.
+        Shuffled discard pile to form new deck
+        Drew 1 cards.
+        Refresh ally indicators
+        It is now Poodawg's turn 13
+Resolving Add 6 Authority or Draw 1 Cards
+        Shuffled discard pile to form new deck
+        Drew 1 cards.
+Resolving Choose a card to set aside
+Poodawg is not discarding any cards.
+        Scrapped <color=#FFFF00>Fleet HQ</color>
+        Revealed event <color=#800080>Bombardment</color>
+        Poodawg - -6 Authority (Authority:4)
+Played <color=#4CC417>T</color><color=#60CB14>r</color><color=#74D112>a</color><color=#88D80F>d</color><color=#9CDE0D>e</color><color=#AFE50A> </color><color=#C3EB08>S</color><color=#D7F205>t</color><color=#EBF803>a</color><color=#FFFF00>r</color>
+        Poodawg  >  <color=#4CC417>T</color><color=#60CB14>r</color><color=#74D112>a</color><color=#88D80F>d</color><color=#9CDE0D>e</color><color=#AFE50A> </color><color=#C3EB08>S</color><color=#D7F205>t</color><color=#EBF803>a</color><color=#FFFF00>r</color> +2 Trade (Trade:2)
+Played <color=#FFFF00>Survey Ship</color>
+        Drew 1 cards.
+        Poodawg  >  <color=#FFFF00>Survey Ship</color> +1 Trade (Trade:3)
+Played <color=#FFFF00>Imperial Fighter</color>
+        Poodawg  >  <color=#FFFF00>Imperial Fighter</color> +2 Combat (Combat:2)
+        Chernabog5  <  <color=#FFFF00>Imperial Fighter</color> +1 Discard (Discarding: 1)
+        Poodawg  >  <color=#FFFF00>Imperial Fighter</color> +2 Combat (Combat:4)
+        Revealed Influence
+        Acquired <color=#800080>Explorer</color> to hand.
+        Acquired <color=#800080>Explorer</color> to hand.
+Played <color=#800080>Explorer</color>
+        Poodawg  >  <color=#800080>Explorer</color> +2 Trade (Trade:5)
+Played <color=#800080>Explorer</color>
+        Poodawg  >  <color=#800080>Explorer</color> +2 Trade (Trade:7)
+Scrapping Explorer
+        Scrapped <color=#800080>Explorer</color>
+        Poodawg  >  <color=#800080>Explorer</color> +2 Combat (Combat:6)
+Scrapping Explorer
+        Scrapped <color=#800080>Explorer</color>
+        Poodawg  >  <color=#800080>Explorer</color> +2 Combat (Combat:8)
+Scrapping Trade Star
+        Scrapped <color=#4CC417>T</color><color=#60CB14>r</color><color=#74D112>a</color><color=#88D80F>d</color><color=#9CDE0D>e</color><color=#AFE50A> </color><color=#C3EB08>S</color><color=#D7F205>t</color><color=#EBF803>a</color><color=#FFFF00>r</color>
+        Poodawg  >  <color=#4CC417>T</color><color=#60CB14>r</color><color=#74D112>a</color><color=#88D80F>d</color><color=#9CDE0D>e</color><color=#AFE50A> </color><color=#C3EB08>S</color><color=#D7F205>t</color><color=#EBF803>a</color><color=#FFFF00>r</color> +2 Combat (Combat:10)
+Acquired <color=#800080>CEO Shaner</color>
+        Poodawg - -5 Trade (Trade:2)
+        Changed CEO Shaner to on-table image
+        Refresh ally indicators
+Resolving Acquire any ship or base of cost 3 or less to deck
+Acquired <color=#FFFF00>Hellfire</color>
+        Acquired <color=#FFFF00>Hellfire</color> to the top of the deck.
+Played <color=#800080>Explorer</color>
+        Poodawg  >  <color=#800080>Explorer</color> +2 Trade (Trade:4)
+Acquired <color=#800080>Warp</color>
+        Poodawg - -4 Trade (Trade:0)
+Played <color=#800080>Scout</color>
+        Poodawg  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+Played <color=#800080>Scout</color>
+        Poodawg  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+Activating Warp
+        Poodawg  >  <color=#800080>Warp</color> -2 Trade (Trade:0)
+        Drew 1 cards.
+Resolving Discard 1 cards
+Poodawg is discarding Missile Bot
+        no more cards to discard
+        Discarded <color=#FF0000>Missile Bot</color>
+Played <color=#FFFF00>Hellfire</color>
+        Poodawg  >  <color=#FFFF00>Hellfire</color> +5 Combat (Combat:15)
+        Chernabog5  <  <color=#FFFF00>Hellfire</color> +1 Discard (Discarding: 2)
+Scrapping Explorer
+        Scrapped <color=#800080>Explorer</color>
+        Poodawg  >  <color=#800080>Explorer</color> +2 Combat (Combat:17)
+Scrapping CEO Shaner
+        Scrapped <color=#800080>CEO Shaner</color>
+        Refresh ally indicators
+        Drew 1 cards.
+Activating Hellfire
+        Drew 1 cards.
+Resolving Discard 1 cards
+Poodawg is discarding Scout
+        no more cards to discard
+        Discarded <color=#800080>Scout</color>
+Scrapping Survey Ship
+        Scrapped <color=#FFFF00>Survey Ship</color>
+        Chernabog5  <  <color=#FFFF00>Survey Ship</color> +1 Discard (Discarding: 3)
+Attacked Junkyard
+        Poodawg - -5 Combat (Combat:12)
+        Destroyed <color=#FF0000>Junkyard</color>
+Played <color=#800080>Viper</color>
+        Poodawg  >  <color=#800080>Viper</color> +1 Combat (Combat:13)
+Attacked Chernabog5 for 13 (New Authority:34)
+        Poodawg - -13 Combat (Combat:0)
+        Chernabog5 - -13 Authority (Authority:34)
+Poodawg ends turn 13
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Chernabog5's turn 14
+Resolving Discard 3 cards
+Chernabog5 is discarding Scout
+Chernabog5 is discarding Scout
+Chernabog5 is discarding Scout
+Chernabog5 is not discarding any cards.
+        no more cards to discard
+        Discarded <color=#800080>Scout</color>
+        Discarded <color=#800080>Scout</color>
+        Discarded <color=#800080>Scout</color>
+        Chernabog5 - -6 Authority (Authority:28)
+Played <color=#FFFF00>Hellfire</color>
+        Chernabog5  >  <color=#FFFF00>Hellfire</color> +5 Combat (Combat:5)
+        Poodawg  <  <color=#FFFF00>Hellfire</color> +1 Discard (Discarding: 1)
+Attacked Poodawg for 5 (New Authority:-1)
+        Chernabog5 - -5 Combat (Combat:0)
+        Poodawg - -5 Authority (Authority:-1)
+        === Chernabog5 has won the game. ===

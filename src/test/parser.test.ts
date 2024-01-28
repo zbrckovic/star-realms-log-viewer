@@ -10,8 +10,6 @@ describe('parser', () => {
             const ast = parseToAst(sample)
             const log = astToLog(ast)
             const game = logToDomain(log)
-            const summary = summarizeGame(game)
-            console.log(JSON.stringify(summary, undefined, 4))
         }).not.toThrow()
     })
 })
