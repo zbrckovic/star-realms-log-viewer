@@ -17,10 +17,14 @@ import { ScrapSubjectCardActionContext } from "./LogParser";
 import { ScrapObjectCardActionContext } from "./LogParser";
 import { NoScrapObjectCardActionContext } from "./LogParser";
 import { DiscardCardActionContext } from "./LogParser";
+import { NoDiscardCardActionContext } from "./LogParser";
 import { ResolveDiscardActionContext } from "./LogParser";
+import { ResolveDiscardAndRedrawActionContext } from "./LogParser";
 import { ActivateCardActionContext } from "./LogParser";
 import { ChoseActionContext } from "./LogParser";
 import { GenericResolveActionContext } from "./LogParser";
+import { SelectCardActionContext } from "./LogParser";
+import { ReturnCardActionContext } from "./LogParser";
 import { EffectLineContext } from "./LogParser";
 import { EffectContext } from "./LogParser";
 import { ShuffledEffectContext } from "./LogParser";
@@ -36,7 +40,12 @@ import { DiscardedCardEffectContext } from "./LogParser";
 import { WonGameEffectContext } from "./LogParser";
 import { DestroyedBaseEffectContext } from "./LogParser";
 import { RevealedEventEffectContext } from "./LogParser";
+import { RevealedEffectContext } from "./LogParser";
 import { AcquiredToTheTopOfDeckEffectContext } from "./LogParser";
+import { AcquiredToHandEffectContext } from "./LogParser";
+import { ChangedToOnTableImageContext } from "./LogParser";
+import { ChangedCardToCardContext } from "./LogParser";
+import { CardContext } from "./LogParser";
 import { AddTradeContext } from "./LogParser";
 import { AddCombatContext } from "./LogParser";
 import { AddAuthorityContext } from "./LogParser";
@@ -45,6 +54,7 @@ import { CombatChangeContext } from "./LogParser";
 import { AuthorityChangeContext } from "./LogParser";
 import { DiscardChangeContext } from "./LogParser";
 import { SignedNumContext } from "./LogParser";
+import { WordContext } from "./LogParser";
 
 
 /**
@@ -193,6 +203,16 @@ export default class LogListener extends ParseTreeListener {
 	 */
 	exitDiscardCardAction?: (ctx: DiscardCardActionContext) => void;
 	/**
+	 * Enter a parse tree produced by `LogParser.noDiscardCardAction`.
+	 * @param ctx the parse tree
+	 */
+	enterNoDiscardCardAction?: (ctx: NoDiscardCardActionContext) => void;
+	/**
+	 * Exit a parse tree produced by `LogParser.noDiscardCardAction`.
+	 * @param ctx the parse tree
+	 */
+	exitNoDiscardCardAction?: (ctx: NoDiscardCardActionContext) => void;
+	/**
 	 * Enter a parse tree produced by `LogParser.resolveDiscardAction`.
 	 * @param ctx the parse tree
 	 */
@@ -202,6 +222,16 @@ export default class LogListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitResolveDiscardAction?: (ctx: ResolveDiscardActionContext) => void;
+	/**
+	 * Enter a parse tree produced by `LogParser.resolveDiscardAndRedrawAction`.
+	 * @param ctx the parse tree
+	 */
+	enterResolveDiscardAndRedrawAction?: (ctx: ResolveDiscardAndRedrawActionContext) => void;
+	/**
+	 * Exit a parse tree produced by `LogParser.resolveDiscardAndRedrawAction`.
+	 * @param ctx the parse tree
+	 */
+	exitResolveDiscardAndRedrawAction?: (ctx: ResolveDiscardAndRedrawActionContext) => void;
 	/**
 	 * Enter a parse tree produced by `LogParser.activateCardAction`.
 	 * @param ctx the parse tree
@@ -232,6 +262,26 @@ export default class LogListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitGenericResolveAction?: (ctx: GenericResolveActionContext) => void;
+	/**
+	 * Enter a parse tree produced by `LogParser.selectCardAction`.
+	 * @param ctx the parse tree
+	 */
+	enterSelectCardAction?: (ctx: SelectCardActionContext) => void;
+	/**
+	 * Exit a parse tree produced by `LogParser.selectCardAction`.
+	 * @param ctx the parse tree
+	 */
+	exitSelectCardAction?: (ctx: SelectCardActionContext) => void;
+	/**
+	 * Enter a parse tree produced by `LogParser.returnCardAction`.
+	 * @param ctx the parse tree
+	 */
+	enterReturnCardAction?: (ctx: ReturnCardActionContext) => void;
+	/**
+	 * Exit a parse tree produced by `LogParser.returnCardAction`.
+	 * @param ctx the parse tree
+	 */
+	exitReturnCardAction?: (ctx: ReturnCardActionContext) => void;
 	/**
 	 * Enter a parse tree produced by `LogParser.effectLine`.
 	 * @param ctx the parse tree
@@ -383,6 +433,16 @@ export default class LogListener extends ParseTreeListener {
 	 */
 	exitRevealedEventEffect?: (ctx: RevealedEventEffectContext) => void;
 	/**
+	 * Enter a parse tree produced by `LogParser.revealedEffect`.
+	 * @param ctx the parse tree
+	 */
+	enterRevealedEffect?: (ctx: RevealedEffectContext) => void;
+	/**
+	 * Exit a parse tree produced by `LogParser.revealedEffect`.
+	 * @param ctx the parse tree
+	 */
+	exitRevealedEffect?: (ctx: RevealedEffectContext) => void;
+	/**
 	 * Enter a parse tree produced by `LogParser.acquiredToTheTopOfDeckEffect`.
 	 * @param ctx the parse tree
 	 */
@@ -392,6 +452,46 @@ export default class LogListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitAcquiredToTheTopOfDeckEffect?: (ctx: AcquiredToTheTopOfDeckEffectContext) => void;
+	/**
+	 * Enter a parse tree produced by `LogParser.acquiredToHandEffect`.
+	 * @param ctx the parse tree
+	 */
+	enterAcquiredToHandEffect?: (ctx: AcquiredToHandEffectContext) => void;
+	/**
+	 * Exit a parse tree produced by `LogParser.acquiredToHandEffect`.
+	 * @param ctx the parse tree
+	 */
+	exitAcquiredToHandEffect?: (ctx: AcquiredToHandEffectContext) => void;
+	/**
+	 * Enter a parse tree produced by `LogParser.changedToOnTableImage`.
+	 * @param ctx the parse tree
+	 */
+	enterChangedToOnTableImage?: (ctx: ChangedToOnTableImageContext) => void;
+	/**
+	 * Exit a parse tree produced by `LogParser.changedToOnTableImage`.
+	 * @param ctx the parse tree
+	 */
+	exitChangedToOnTableImage?: (ctx: ChangedToOnTableImageContext) => void;
+	/**
+	 * Enter a parse tree produced by `LogParser.changedCardToCard`.
+	 * @param ctx the parse tree
+	 */
+	enterChangedCardToCard?: (ctx: ChangedCardToCardContext) => void;
+	/**
+	 * Exit a parse tree produced by `LogParser.changedCardToCard`.
+	 * @param ctx the parse tree
+	 */
+	exitChangedCardToCard?: (ctx: ChangedCardToCardContext) => void;
+	/**
+	 * Enter a parse tree produced by `LogParser.card`.
+	 * @param ctx the parse tree
+	 */
+	enterCard?: (ctx: CardContext) => void;
+	/**
+	 * Exit a parse tree produced by `LogParser.card`.
+	 * @param ctx the parse tree
+	 */
+	exitCard?: (ctx: CardContext) => void;
 	/**
 	 * Enter a parse tree produced by `LogParser.addTrade`.
 	 * @param ctx the parse tree
@@ -472,5 +572,15 @@ export default class LogListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitSignedNum?: (ctx: SignedNumContext) => void;
+	/**
+	 * Enter a parse tree produced by `LogParser.word`.
+	 * @param ctx the parse tree
+	 */
+	enterWord?: (ctx: WordContext) => void;
+	/**
+	 * Exit a parse tree produced by `LogParser.word`.
+	 * @param ctx the parse tree
+	 */
+	exitWord?: (ctx: WordContext) => void;
 }
 

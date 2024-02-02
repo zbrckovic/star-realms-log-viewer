@@ -9,10 +9,14 @@ export type Action =
     | ScrapObjectCardAction
     | NoScrapObjectCardAction
     | DiscardCardAction
+    | NoDiscardCardAction
     | ResolveDiscardAction
+    | ResolveDiscardAndRedrawAction
     | ActivateCardAction
     | ChoseAction
     | GenericResolveAction
+    | SelectCardAction
+    | ReturnCardAction
 
 interface BaseAction {
     type: 'action'
@@ -72,8 +76,18 @@ export interface DiscardCardAction extends BaseAction {
     card: string
 }
 
+export interface NoDiscardCardAction extends BaseAction {
+    subtype: 'no discard card',
+    player: string
+}
+
 export interface ResolveDiscardAction extends BaseAction {
     subtype: 'resolve discard',
+    cards: number
+}
+
+export interface ResolveDiscardAndRedrawAction extends BaseAction {
+    subtype: 'resolve discard and redraw',
     cards: number
 }
 
@@ -90,4 +104,16 @@ export interface ChoseAction extends BaseAction {
 
 export interface GenericResolveAction extends BaseAction {
     subtype: 'generic resolve'
+}
+
+export interface SelectCardAction extends BaseAction {
+    subtype: 'select card',
+    player: string;
+    card: string
+}
+
+export interface ReturnCardAction extends BaseAction {
+    subtype: 'return card',
+    player: string;
+    card: string
 }

@@ -17,10 +17,14 @@ import { ScrapSubjectCardActionContext } from "./LogParser";
 import { ScrapObjectCardActionContext } from "./LogParser";
 import { NoScrapObjectCardActionContext } from "./LogParser";
 import { DiscardCardActionContext } from "./LogParser";
+import { NoDiscardCardActionContext } from "./LogParser";
 import { ResolveDiscardActionContext } from "./LogParser";
+import { ResolveDiscardAndRedrawActionContext } from "./LogParser";
 import { ActivateCardActionContext } from "./LogParser";
 import { ChoseActionContext } from "./LogParser";
 import { GenericResolveActionContext } from "./LogParser";
+import { SelectCardActionContext } from "./LogParser";
+import { ReturnCardActionContext } from "./LogParser";
 import { EffectLineContext } from "./LogParser";
 import { EffectContext } from "./LogParser";
 import { ShuffledEffectContext } from "./LogParser";
@@ -36,7 +40,12 @@ import { DiscardedCardEffectContext } from "./LogParser";
 import { WonGameEffectContext } from "./LogParser";
 import { DestroyedBaseEffectContext } from "./LogParser";
 import { RevealedEventEffectContext } from "./LogParser";
+import { RevealedEffectContext } from "./LogParser";
 import { AcquiredToTheTopOfDeckEffectContext } from "./LogParser";
+import { AcquiredToHandEffectContext } from "./LogParser";
+import { ChangedToOnTableImageContext } from "./LogParser";
+import { ChangedCardToCardContext } from "./LogParser";
+import { CardContext } from "./LogParser";
 import { AddTradeContext } from "./LogParser";
 import { AddCombatContext } from "./LogParser";
 import { AddAuthorityContext } from "./LogParser";
@@ -45,6 +54,7 @@ import { CombatChangeContext } from "./LogParser";
 import { AuthorityChangeContext } from "./LogParser";
 import { DiscardChangeContext } from "./LogParser";
 import { SignedNumContext } from "./LogParser";
+import { WordContext } from "./LogParser";
 
 
 /**
@@ -140,11 +150,23 @@ export default class LogVisitor<Result> extends ParseTreeVisitor<Result> {
 	 */
 	visitDiscardCardAction?: (ctx: DiscardCardActionContext) => Result;
 	/**
+	 * Visit a parse tree produced by `LogParser.noDiscardCardAction`.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	visitNoDiscardCardAction?: (ctx: NoDiscardCardActionContext) => Result;
+	/**
 	 * Visit a parse tree produced by `LogParser.resolveDiscardAction`.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
 	visitResolveDiscardAction?: (ctx: ResolveDiscardActionContext) => Result;
+	/**
+	 * Visit a parse tree produced by `LogParser.resolveDiscardAndRedrawAction`.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	visitResolveDiscardAndRedrawAction?: (ctx: ResolveDiscardAndRedrawActionContext) => Result;
 	/**
 	 * Visit a parse tree produced by `LogParser.activateCardAction`.
 	 * @param ctx the parse tree
@@ -163,6 +185,18 @@ export default class LogVisitor<Result> extends ParseTreeVisitor<Result> {
 	 * @return the visitor result
 	 */
 	visitGenericResolveAction?: (ctx: GenericResolveActionContext) => Result;
+	/**
+	 * Visit a parse tree produced by `LogParser.selectCardAction`.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	visitSelectCardAction?: (ctx: SelectCardActionContext) => Result;
+	/**
+	 * Visit a parse tree produced by `LogParser.returnCardAction`.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	visitReturnCardAction?: (ctx: ReturnCardActionContext) => Result;
 	/**
 	 * Visit a parse tree produced by `LogParser.effectLine`.
 	 * @param ctx the parse tree
@@ -254,11 +288,41 @@ export default class LogVisitor<Result> extends ParseTreeVisitor<Result> {
 	 */
 	visitRevealedEventEffect?: (ctx: RevealedEventEffectContext) => Result;
 	/**
+	 * Visit a parse tree produced by `LogParser.revealedEffect`.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	visitRevealedEffect?: (ctx: RevealedEffectContext) => Result;
+	/**
 	 * Visit a parse tree produced by `LogParser.acquiredToTheTopOfDeckEffect`.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
 	visitAcquiredToTheTopOfDeckEffect?: (ctx: AcquiredToTheTopOfDeckEffectContext) => Result;
+	/**
+	 * Visit a parse tree produced by `LogParser.acquiredToHandEffect`.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	visitAcquiredToHandEffect?: (ctx: AcquiredToHandEffectContext) => Result;
+	/**
+	 * Visit a parse tree produced by `LogParser.changedToOnTableImage`.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	visitChangedToOnTableImage?: (ctx: ChangedToOnTableImageContext) => Result;
+	/**
+	 * Visit a parse tree produced by `LogParser.changedCardToCard`.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	visitChangedCardToCard?: (ctx: ChangedCardToCardContext) => Result;
+	/**
+	 * Visit a parse tree produced by `LogParser.card`.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	visitCard?: (ctx: CardContext) => Result;
 	/**
 	 * Visit a parse tree produced by `LogParser.addTrade`.
 	 * @param ctx the parse tree
@@ -307,5 +371,11 @@ export default class LogVisitor<Result> extends ParseTreeVisitor<Result> {
 	 * @return the visitor result
 	 */
 	visitSignedNum?: (ctx: SignedNumContext) => Result;
+	/**
+	 * Visit a parse tree produced by `LogParser.word`.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	visitWord?: (ctx: WordContext) => Result;
 }
 

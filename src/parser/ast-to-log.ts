@@ -1,5 +1,7 @@
 import {
-    AcquireCardActionContext, AcquiredToTheTopOfDeckEffectContext,
+    AcquireCardActionContext,
+    AcquiredToHandEffectContext,
+    AcquiredToTheTopOfDeckEffectContext,
     ActionContext,
     ActionLineContext,
     ActivateCardActionContext,
@@ -9,8 +11,11 @@ import {
     AttackBaseActionContext,
     AttackPlayerActionContext,
     AuthorityChangeContext,
+    CardContext,
     CardToOpponentEffectContext,
     CardToOwnerEffectContext,
+    ChangedCardToCardContext,
+    ChangedToOnTableImageContext,
     ChoseActionContext,
     CombatChangeContext,
     DestroyedBaseEffectContext,
@@ -20,28 +25,35 @@ import {
     DrewCardsEffectContext,
     EffectContext,
     EffectLineContext,
-    EndTurnActionContext, GenericResolveActionContext,
+    EndTurnActionContext,
+    GenericResolveActionContext,
     LineContext,
+    NoDiscardCardActionContext,
     NoMoreCardsToDiscardEffectContext,
     NoScrapObjectCardActionContext,
     PlayAllCardsActionContext,
     PlayOneCardActionContext,
     RefreshedAllyIndicatorsEffectContext,
-    ResolveDiscardActionContext, RevealedEventEffectContext,
+    ResolveDiscardActionContext,
+    ResolveDiscardAndRedrawActionContext,
+    ReturnCardActionContext,
+    RevealedEffectContext,
+    RevealedEventEffectContext,
     ScrapObjectCardActionContext,
     ScrappedCardEffectContext,
     ScrapSubjectCardActionContext,
+    SelectCardActionContext,
     ShuffledEffectContext,
     SideEffectContext,
     SignedNumContext,
     StartContext,
     TradeChangeContext,
     TurnChangedEffectContext,
-    WonGameEffectContext
+    WonGameEffectContext,
+    WordContext
 } from 'antlr-generated/LogParser'
 import LogVisitor from 'antlr-generated/LogVisitor'
-import { Token } from 'antlr4'
-import { Log } from 'log'
+import {Log} from 'log'
 import {
     AcquireCardAction,
     Action,
@@ -50,24 +62,34 @@ import {
     AttackPlayerAction,
     ChoseAction,
     DiscardCardAction,
-    EndTurnAction, GenericResolveAction,
+    EndTurnAction,
+    GenericResolveAction,
+    NoDiscardCardAction,
     NoScrapObjectCardAction,
     PlayAllCardsAction,
     PlayOneCardAction,
     ResolveDiscardAction,
+    ResolveDiscardAndRedrawAction,
+    ReturnCardAction,
     ScrapObjectCardAction,
-    ScrapSubjectCardAction
+    ScrapSubjectCardAction,
+    SelectCardAction
 } from 'log/actions'
 import {
+    AcquiredToHandEffect,
     AcquiredToTheTopOfDeckEffect,
     CardToOpponentEffect,
     CardToOwnerEffect,
+    ChangedCardToCardEffect,
+    ChangedToOnTableImageEffect,
     DestroyedBaseEffect,
     DiscardedCardEffect,
     DrewCardsEffect,
     Effect,
     NoMoreCardsToDiscardEffect,
-    RefreshedAllyIndicatorsEffect, RevealedEventEffect,
+    RefreshedAllyIndicatorsEffect,
+    RevealedEffect,
+    RevealedEventEffect,
     ScrappedCardEffect,
     ShuffledEffect,
     SideEffect,
@@ -85,7 +107,7 @@ export const astToLog = (ast: StartContext): Log => {
 class Visitor extends LogVisitor<any> {
     visitStart = (ctx: StartContext): Log => {
         const lines = ctx._lines.map(line => this.visitLine(line))
-        return { lines }
+        return {lines}
     }
 
     visitLine = (ctx: LineContext): Action | Effect => {
@@ -124,81 +146,99 @@ class Visitor extends LogVisitor<any> {
             return this.visitNoScrapObjectCardAction(ctx.noScrapObjectCardAction())
         } else if (ctx.discardCardAction()) {
             return this.visitDiscardCardAction(ctx.discardCardAction())
+        } else if (ctx.noDiscardCardAction()) {
+            return this.visitNoDiscardCardAction(ctx.noDiscardCardAction())
         } else if (ctx.resolveDiscardAction()) {
             return this.visitResolveDiscardAction(ctx.resolveDiscardAction())
+        } else if (ctx.resolveDiscardAndRedrawAction()) {
+            return this.visitResolveDiscardAndRedrawAction(ctx.resolveDiscardAndRedrawAction())
         } else if (ctx.activateCardAction()) {
             return this.visitActivateCardAction(ctx.activateCardAction())
         } else if (ctx.choseAction()) {
             return this.visitChoseAction(ctx.choseAction())
         } else if (ctx.genericResolveAction()) {
             return this.visitGenericResolveAction(ctx.genericResolveAction())
+        } else if (ctx.selectCardAction()) {
+            return this.visitSelectCardAction(ctx.selectCardAction())
+        } else if (ctx.returnCardAction()) {
+            return this.visitReturnCardAction(ctx.returnCardAction())
         } else {
             throw new Error('unknown action')
         }
     }
 
     visitPlayAllCardsAction = (_ctx: PlayAllCardsActionContext): PlayAllCardsAction => {
-        return { type: 'action', subtype: 'play all cards' }
+        return {type: 'action', subtype: 'play all cards'}
     }
 
     visitPlayOneCardAction = (ctx: PlayOneCardActionContext): PlayOneCardAction => {
-        const card = this.parseCardName(ctx._card)
-        return { type: 'action', subtype: 'play card', card }
+        const card = this.visitCard(ctx.card())
+        return {type: 'action', subtype: 'play card', card}
     }
 
     visitAcquireCardAction = (ctx: AcquireCardActionContext): AcquireCardAction => {
-        const card = this.parseCardName(ctx._card)
-        return { type: 'action', subtype: 'acquire card', card }
+        const card = this.visitCard(ctx.card())
+        return {type: 'action', subtype: 'acquire card', card}
     }
 
     visitEndTurnAction = (ctx: EndTurnActionContext): EndTurnAction => {
-        const player = ctx._player.text
+        const player = this.visitWord(ctx._player)
         const turn = Number(ctx._turn.text)
-        return { type: 'action', subtype: 'end turn', player, turn }
+        return {type: 'action', subtype: 'end turn', player, turn}
     }
 
     visitAttackPlayerAction = (ctx: AttackPlayerActionContext): AttackPlayerAction => {
-        const targetPlayer = ctx._targetPlayer.text
+        const targetPlayer = this.visitWord(ctx._targetPlayer)
         const damage = Number(ctx._damage.text)
         const newAuthority = this.visitSignedNum(ctx.signedNum())
-        return { type: 'action', subtype: 'attack player', targetPlayer, damage, newAuthority }
+        return {type: 'action', subtype: 'attack player', targetPlayer, damage, newAuthority}
     }
 
     visitAttackBaseAction = (ctx: AttackBaseActionContext): AttackBaseAction => {
-        const base = this.parseCardName(ctx._base)
-        return { type: 'action', subtype: 'attack base', base }
+        const base = this.visitCard(ctx.card())
+        return {type: 'action', subtype: 'attack base', base}
     }
 
     visitScrapSubjectCardAction = (ctx: ScrapSubjectCardActionContext): ScrapSubjectCardAction => {
-        const card = this.parseCardName(ctx._card)
-        return { type: 'action', subtype: 'scrap subject card', card }
+        const card = this.visitCard(ctx.card())
+        return {type: 'action', subtype: 'scrap subject card', card}
     }
 
     visitScrapObjectCardAction = (ctx: ScrapObjectCardActionContext): ScrapObjectCardAction => {
-        const player = ctx._player.text
-        const card = this.parseCardName(ctx._card)
-        return { type: 'action', subtype: 'scrap object card', player, card }
+        const player = this.visitWord(ctx._player)
+        const card = this.visitCard(ctx.card())
+        return {type: 'action', subtype: 'scrap object card', player, card}
     }
 
     visitNoScrapObjectCardAction = (ctx: NoScrapObjectCardActionContext): NoScrapObjectCardAction => {
-        const player = ctx._player.text
-        return { type: 'action', subtype: 'no scrap object card', player }
+        const player = this.visitWord(ctx._player)
+        return {type: 'action', subtype: 'no scrap object card', player}
     }
 
     visitDiscardCardAction = (ctx: DiscardCardActionContext): DiscardCardAction => {
-        const player = ctx._player.text
-        const card = this.parseCardName(ctx._card)
-        return { type: 'action', subtype: 'discard card', player, card }
+        const player = this.visitWord(ctx._player)
+        const card = this.visitCard(ctx.card())
+        return {type: 'action', subtype: 'discard card', player, card}
     }
 
-    visitResolveDiscardAction = (crx: ResolveDiscardActionContext): ResolveDiscardAction => {
-        const cards = Number(crx._cards.text)
-        return { type: 'action', subtype: 'resolve discard', cards }
+    visitNoDiscardCardAction = (ctx: NoDiscardCardActionContext): NoDiscardCardAction => {
+        const player = this.visitWord(ctx._player)
+        return {type: 'action', subtype: 'no discard card', player}
+    }
+
+    visitResolveDiscardAction = (ctx: ResolveDiscardActionContext): ResolveDiscardAction => {
+        const cards = Number(ctx._cards.text)
+        return {type: 'action', subtype: 'resolve discard', cards}
+    }
+
+    visitResolveDiscardAndRedrawAction = (ctx: ResolveDiscardAndRedrawActionContext): ResolveDiscardAndRedrawAction => {
+        const cards = Number(ctx._cards.text)
+        return {type: 'action', subtype: 'resolve discard and redraw', cards}
     }
 
     visitActivateCardAction = (ctx: ActivateCardActionContext): ActivateCardAction => {
-        const card = this.parseCardName(ctx._card)
-        return { type: 'action', subtype: 'activate card', card }
+        const card = this.visitCard(ctx.card())
+        return {type: 'action', subtype: 'activate card', card}
     }
 
     visitChoseAction = (ctx: ChoseActionContext): ChoseAction => {
@@ -213,8 +253,20 @@ class Visitor extends LogVisitor<any> {
         }
     }
 
-    visitGenericResolveAction = (ctx: GenericResolveActionContext): GenericResolveAction => {
-        return { type: 'action', subtype: 'generic resolve' }
+    visitGenericResolveAction = (_ctx: GenericResolveActionContext): GenericResolveAction => {
+        return {type: 'action', subtype: 'generic resolve'}
+    }
+
+    visitSelectCardAction = (ctx: SelectCardActionContext): SelectCardAction => {
+        const player = this.visitWord(ctx._player)
+        const card = this.visitCard(ctx.card())
+        return {type: 'action', subtype: 'select card', player, card}
+    }
+
+    visitReturnCardAction = (ctx: ReturnCardActionContext): ReturnCardAction => {
+        const player = this.visitWord(ctx._player)
+        const card = this.visitCard(ctx.card())
+        return {type: 'action', subtype: 'return card', player, card}
     }
     // endregion
 
@@ -250,26 +302,34 @@ class Visitor extends LogVisitor<any> {
             return this.visitDestroyedBaseEffect(ctx.destroyedBaseEffect())
         } else if (ctx.revealedEventEffect()) {
             return this.visitRevealedEventEffect(ctx.revealedEventEffect())
+        } else if (ctx.revealedEffect()) {
+            return this.visitRevealedEffect(ctx.revealedEffect())
         } else if (ctx.acquiredToTheTopOfDeckEffect()) {
             return this.visitAcquiredToTheTopOfDeckEffect(ctx.acquiredToTheTopOfDeckEffect())
+        } else if (ctx.acquiredToHandEffect()) {
+            return this.visitAcquiredToHandEffect(ctx.acquiredToHandEffect())
+        } else if (ctx.changedToOnTableImage()) {
+            return this.visitChangedToOnTableImageEffect(ctx.changedToOnTableImage())
+        } else if (ctx.changedCardToCard()) {
+            return this.visitChangedCardToCardEffect(ctx.changedCardToCard())
         } else {
             throw new Error('unknown effect')
         }
     }
 
     visitShuffledEffect = (_ctx: ShuffledEffectContext): ShuffledEffect => {
-        return { type: 'effect', subtype: 'shuffled' }
+        return {type: 'effect', subtype: 'shuffled'}
     }
 
     visitTurnChangedEffect = (ctx: TurnChangedEffectContext): TurnChangedEffect => {
-        const player = ctx._player.text
+        const player = this.visitWord(ctx._player)
         const turn = Number(ctx._turn.text)
-        return { type: 'effect', subtype: 'turn changed', player, turn }
+        return {type: 'effect', subtype: 'turn changed', player, turn}
     }
 
     visitCardToOwnerEffect = (ctx: CardToOwnerEffectContext): CardToOwnerEffect => {
-        const player = ctx._player.text
-        const card = ctx._card.map(c => c.text).join(' ')
+        const player = this.visitWord(ctx._player)
+        const card = this.visitCard(ctx.card())
         const effect = (() => {
             if (ctx._ability) {
                 return 'ability available'
@@ -284,18 +344,28 @@ class Visitor extends LogVisitor<any> {
             }
         })()
 
-        return { type: 'effect', subtype: 'card to owner', player, card, effect }
+        return {type: 'effect', subtype: 'card to owner', player, card, effect}
     }
 
     visitCardToOpponentEffect = (ctx: CardToOpponentEffectContext): CardToOpponentEffect => {
-        const player = ctx._player.text
-        const card = this.parseCardName(ctx._card)
-        const effect = this.visitDiscardChange(ctx.discardChange())
-        return { type: 'effect', subtype: 'card to opponent', player, card, effect }
+        const player = this.visitWord(ctx._player)
+        const card = this.visitCard(ctx.card())
+
+        const effect: StatChange<'discard' | 'authority'> = (() => {
+            if (ctx.discardChange()) {
+                return this.visitDiscardChange(ctx.discardChange())
+            } else if (ctx.authorityChange()) {
+                return this.visitAuthorityChange(ctx.authorityChange())
+            } else {
+                throw new Error('unknown change effect')
+            }
+        })()
+
+        return {type: 'effect', subtype: 'card to opponent', player, card, effect}
     }
 
     visitSideEffect = (ctx: SideEffectContext): SideEffect => {
-        const player = ctx._player.text
+        const player = this.visitWord(ctx._player)
         const effect = (() => {
             if (ctx.tradeChange()) {
                 return this.visitTradeChange(ctx.tradeChange())
@@ -303,106 +373,138 @@ class Visitor extends LogVisitor<any> {
                 return this.visitCombatChange(ctx.combatChange())
             } else if (ctx.authorityChange()) {
                 return this.visitAuthorityChange(ctx.authorityChange())
+            } else if (ctx.discardChange()) {
+                return this.visitDiscardChange(ctx.discardChange())
             } else {
                 throw new Error('unknown change effect')
             }
         })()
-        return { type: 'effect', subtype: 'side', player, effect }
+        return {type: 'effect', subtype: 'side', player, effect}
     }
 
     visitDrewCardsEffect = (ctx: DrewCardsEffectContext): DrewCardsEffect => {
         const cards = Number(ctx._cards.text)
-        return { type: 'effect', subtype: 'drew cards', cards }
+        return {type: 'effect', subtype: 'drew cards', cards}
     }
 
     visitRefreshedAllyIndicatorsEffect = (
         _ctx: RefreshedAllyIndicatorsEffectContext
     ): RefreshedAllyIndicatorsEffect => {
-        return { type: 'effect', subtype: 'refreshed ally indicators' }
+        return {type: 'effect', subtype: 'refreshed ally indicators'}
     }
 
     visitScrappedCardEffect = (ctx: ScrappedCardEffectContext): ScrappedCardEffect => {
-        const card = this.parseCardName(ctx._card)
-        return { type: 'effect', subtype: 'scrapped card', card }
+        const card = this.visitCard(ctx.card())
+        return {type: 'effect', subtype: 'scrapped card', card}
     }
 
     visitNoMoreCardsToDiscardEffect = (_ctx: NoMoreCardsToDiscardEffectContext): NoMoreCardsToDiscardEffect => {
-        return { type: 'effect', subtype: 'no more cards to discard' }
+        return {type: 'effect', subtype: 'no more cards to discard'}
     }
 
     visitDiscardedCardEffect = (ctx: DiscardedCardEffectContext): DiscardedCardEffect => {
-        const card = this.parseCardName(ctx._card)
-        return { type: 'effect', subtype: 'discarded card', card }
+        const card = this.visitCard(ctx.card())
+        return {type: 'effect', subtype: 'discarded card', card}
     }
 
     visitWonGameEffect = (ctx: WonGameEffectContext): WonGameEffect => {
-        const player = ctx._player.text
-        return { type: 'effect', subtype: 'won game', player }
+        const player = this.visitWord(ctx._player)
+        return {type: 'effect', subtype: 'won game', player}
     }
 
     visitDestroyedBaseEffect = (ctx: DestroyedBaseEffectContext): DestroyedBaseEffect => {
-        const base = this.parseCardName(ctx._base)
-        return { type: 'effect', subtype: 'destroyed base', base }
+        const base = this.visitCard(ctx.card())
+        return {type: 'effect', subtype: 'destroyed base', base}
     }
 
     visitRevealedEventEffect = (ctx: RevealedEventEffectContext): RevealedEventEffect => {
-        const event = this.parseCardName(ctx._event)
-        return { type: 'effect', subtype: 'revealed event', event }
+        const event = this.visitCard(ctx.card())
+        return {type: 'effect', subtype: 'revealed event', event}
+    }
+
+    visitRevealedEffect = (ctx: RevealedEffectContext): RevealedEffect => {
+        const card = this.visitCard(ctx.card())
+        return {type: 'effect', subtype: 'revealed', card}
     }
 
     visitAcquiredToTheTopOfDeckEffect = (
         ctx: AcquiredToTheTopOfDeckEffectContext
     ): AcquiredToTheTopOfDeckEffect => {
-        const card = this.parseCardName(ctx._card)
-        return { type: 'effect', subtype: 'acquired to the top of deck', card }
+        const card = this.visitCard(ctx.card())
+        return {type: 'effect', subtype: 'acquired to the top of deck', card}
+    }
+
+    visitAcquiredToHandEffect = (ctx: AcquiredToHandEffectContext): AcquiredToHandEffect => {
+        const card = this.visitCard(ctx.card())
+        return {type: 'effect', subtype: 'acquired to hand', card}
+    }
+
+    visitChangedToOnTableImageEffect = (ctx: ChangedToOnTableImageContext): ChangedToOnTableImageEffect => {
+        const card = this.visitCard(ctx.card())
+        return {type: 'effect', subtype: 'changed to on table image', card}
+    }
+
+    visitChangedCardToCardEffect = (ctx: ChangedCardToCardContext): ChangedCardToCardEffect => {
+        const card = this.visitCard(ctx._fromCard)
+        const toCard = this.visitCard(ctx._toCard)
+        return {type: 'effect', subtype: 'changed card to card', card, toCard}
     }
     // endregion
 
-    // region Misc
+    // region Add
     visitAddTrade = (ctx: AddTradeContext): ChoseAction => {
         const amount = Number(ctx._amount.text)
-        return { type: 'action', subtype: 'chose', amount, stat: 'trade' }
+        return {type: 'action', subtype: 'chose', amount, stat: 'trade'}
     }
     visitAddCombat = (ctx: AddCombatContext): ChoseAction => {
         const amount = Number(ctx._amount.text)
-        return { type: 'action', subtype: 'chose', amount, stat: 'combat' }
+        return {type: 'action', subtype: 'chose', amount, stat: 'combat'}
     }
     visitAddAuthority = (ctx: AddAuthorityContext): ChoseAction => {
         const amount = Number(ctx._amount.text)
-        return { type: 'action', subtype: 'chose', amount, stat: 'authority' }
+        return {type: 'action', subtype: 'chose', amount, stat: 'authority'}
     }
+    // endregion
 
+    // region Change
     visitTradeChange = (ctx: TradeChangeContext): StatChange<'trade'> => {
         const change = this.visitSignedNum(ctx._change)
         const final = this.visitSignedNum(ctx._final)
-        return { type: 'trade', change, final }
+        return {type: 'trade', change, final}
     }
 
     visitCombatChange = (ctx: CombatChangeContext): StatChange<'combat'> => {
         const change = this.visitSignedNum(ctx._change)
         const final = this.visitSignedNum(ctx._final)
-        return { type: 'combat', change, final }
+        return {type: 'combat', change, final}
     }
 
     visitAuthorityChange = (ctx: AuthorityChangeContext): StatChange<'authority'> => {
         const change = this.visitSignedNum(ctx._change)
         const final = this.visitSignedNum(ctx._final)
-        return { type: 'authority', change, final }
+        return {type: 'authority', change, final}
     }
 
     visitDiscardChange = (ctx: DiscardChangeContext): StatChange<'discard'> => {
         const change = this.visitSignedNum(ctx._change)
         const final = this.visitSignedNum(ctx._final)
-        return { type: 'discard', change, final }
+        return {type: 'discard', change, final}
     }
+    // endregion
 
+    // region Misc
     visitSignedNum = (ctx: SignedNumContext): number => {
         const sign = ctx._sign?.text
         const num = Number(ctx.NUM())
         return sign === '-' ? -num : num
     }
 
-    private parseCardName(tokens: Token[]): string {
-        return tokens.map(c => c.text).join(' ')
+    visitWord = (ctx: WordContext): string => {
+        return ctx.getText()
     }
+
+    visitCard = (ctx: CardContext): string => {
+        return ctx._name.map(word => this.visitWord(word)).join(' ')
+    }
+    // endregion
 }

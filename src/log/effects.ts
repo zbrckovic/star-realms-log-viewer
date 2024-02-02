@@ -12,7 +12,11 @@ export type Effect =
     | WonGameEffect
     | DestroyedBaseEffect
     | RevealedEventEffect
+    | RevealedEffect
     | AcquiredToTheTopOfDeckEffect
+    | AcquiredToHandEffect
+    | ChangedToOnTableImageEffect
+    | ChangedCardToCardEffect
 
 interface BaseEffect {
     type: 'effect'
@@ -39,13 +43,13 @@ export interface CardToOpponentEffect extends BaseEffect {
     subtype: 'card to opponent',
     player: string;
     card: string;
-    effect: StatChange<'discard'>;
+    effect: StatChange<'discard' | 'authority'>;
 }
 
 export interface SideEffect extends BaseEffect {
     subtype: 'side',
     player: string;
-    effect: StatChange<'trade' | 'combat' | 'authority'>;
+    effect: StatChange<'trade' | 'combat' | 'authority' | 'discard'>;
 }
 
 export interface DrewCardsEffect extends BaseEffect {
@@ -86,9 +90,30 @@ export interface RevealedEventEffect extends BaseEffect {
     event: string;
 }
 
+export interface RevealedEffect extends BaseEffect {
+    subtype: 'revealed',
+    card: string;
+}
+
 export interface AcquiredToTheTopOfDeckEffect extends BaseEffect {
     subtype: 'acquired to the top of deck',
     card: string;
+}
+
+export interface AcquiredToHandEffect extends BaseEffect {
+    subtype: 'acquired to hand',
+    card: string;
+}
+
+export interface ChangedToOnTableImageEffect extends BaseEffect {
+    subtype: 'changed to on table image',
+    card: string;
+}
+
+export interface ChangedCardToCardEffect extends BaseEffect {
+    subtype: 'changed card to card',
+    card: string;
+    toCard: string;
 }
 
 export interface StatChange<T extends 'trade' | 'combat' | 'authority' | 'discard'> {
