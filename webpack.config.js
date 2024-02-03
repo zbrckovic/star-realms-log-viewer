@@ -7,6 +7,7 @@ const package = require('./package.json')
 module.exports = (env, argv) => {
   const mode = argv.mode || 'production'
   const isDevelopment = mode === 'development'
+  const [gitHash, gitDate] = extractGitHashAndDate()
 
   return ({
     mode,
@@ -81,7 +82,16 @@ module.exports = (env, argv) => {
       new webpack.DefinePlugin({
         'process.env.VERSION': JSON.stringify(package.version),
         'process.env.MODE': JSON.stringify(mode),
+        'process.env.GIT_COMMIT_HASH': JSON.stringify(gitHash),
+        'process.env.GIT_COMMIT_DATE': JSON.stringify(gitDate)
       })
     ]
   })
 }
+
+const extractGitHashAndDate = () => 
+    require('child_process')
+        .execSync('git log -1 --format="%h|%aI"')
+        .toString()
+        .trim()
+        .split('|')
