@@ -1,6 +1,6 @@
-import { astToLog } from 'parser/ast-to-log'
-import { logToDomain } from 'parser/log-to-domain'
-import { parseToAst } from 'parser/parse-to-ast'
+import { astToLog } from 'log-language/parser/ast-to-log'
+import { logToDomain } from 'log-language/parser/log-to-domain'
+import { parseToAst } from 'log-language/parser/parse-to-ast'
 import { loadSampleLogs } from 'test/load-sample-logs'
 
 describe('parser', () => {
@@ -12,7 +12,8 @@ describe('parser', () => {
         expect(() => {
             const ast = parseToAst(content)
             const log = astToLog(ast)
-            logToDomain(log)
+            const game = logToDomain(log)
+            expect(game).toBeDefined()
         }).not.toThrow()
     })
 })

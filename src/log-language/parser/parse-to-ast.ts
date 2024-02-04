@@ -1,8 +1,8 @@
 import { CharStream, CommonTokenStream, ErrorListener } from 'antlr4'
 import { RecognitionException } from 'antlr4/src/antlr4/error/RecognitionException'
 import { Recognizer } from 'antlr4/src/antlr4/Recognizer'
-import LogLexer from '../antlr-generated/LogLexer'
-import LogParser, { StartContext } from '../antlr-generated/LogParser'
+import LogLexer from 'log-language/antlr-generated/LogLexer'
+import LogParser, { StartContext } from 'log-language/antlr-generated/LogParser'
 
 class MyErrorListener<TSymbol> extends ErrorListener<TSymbol> {
     syntaxError(

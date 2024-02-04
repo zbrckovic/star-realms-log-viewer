@@ -1,4 +1,4 @@
-import { Game } from 'domain/game'
+import { Game } from 'log-language/domain/game'
 
 export interface GameSummary {
     turnSummaries: TurnSummary[]

@@ -1,4 +1,4 @@
-// Generated from /Users/zebrckovic/Development-personal/star-realms-log-viewer/grammar/Log.g4 by ANTLR 4.13.1
+// Generated from C:/Users/zeljk/Develop/star-realms-log-viewer/src/log-language/Log.g4 by ANTLR 4.13.1
 // noinspection ES6UnusedImports,JSUnusedGlobalSymbols,JSUnusedLocalSymbols
 
 import {
