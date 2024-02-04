@@ -6,6 +6,9 @@ export const logToDomain = (log: Log): Domain.Game => {
     let actions: Domain.Action[] = []
 
     log.lines.forEach((line) => {
+        let player: string // The player whose turn it is
+        let turnNumber: number
+
         switch (line.type) {
             case 'action':
                 break
