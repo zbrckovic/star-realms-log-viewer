@@ -1,3 +1,5 @@
+import { CardName } from 'log-language/domain/card-name'
+
 export type Action =
     | PlayAllCardsAction
     | PlayOneCardAction
@@ -28,12 +30,12 @@ export interface PlayAllCardsAction extends BaseAction {
 
 export interface PlayOneCardAction extends BaseAction {
     subtype: 'play card',
-    card: string;
+    card: CardName;
 }
 
 export interface AcquireCardAction extends BaseAction {
     subtype: 'acquire card',
-    card: string;
+    card: CardName;
 }
 
 export interface EndTurnAction extends BaseAction {
@@ -51,18 +53,18 @@ export interface AttackPlayerAction extends BaseAction {
 
 export interface AttackBaseAction extends BaseAction {
     subtype: 'attack base'
-    base: string
+    base: CardName
 }
 
 export interface ScrapSubjectCardAction extends BaseAction {
     subtype: 'scrap subject card',
-    card: string
+    card: CardName
 }
 
 export interface ScrapObjectCardAction extends BaseAction {
     subtype: 'scrap object card',
     player: string,
-    card: string
+    card: CardName
 }
 
 export interface NoScrapObjectCardAction extends BaseAction {
@@ -73,7 +75,7 @@ export interface NoScrapObjectCardAction extends BaseAction {
 export interface DiscardCardAction extends BaseAction {
     subtype: 'discard card',
     player: string
-    card: string
+    card: CardName
 }
 
 export interface NoDiscardCardAction extends BaseAction {
@@ -93,7 +95,7 @@ export interface ResolveDiscardAndRedrawAction extends BaseAction {
 
 export interface ActivateCardAction extends BaseAction {
     subtype: 'activate card',
-    card: string
+    card: CardName
 }
 
 export interface ChoseAction extends BaseAction {
@@ -109,11 +111,11 @@ export interface GenericResolveAction extends BaseAction {
 export interface SelectCardAction extends BaseAction {
     subtype: 'select card',
     player: string;
-    card: string
+    card: CardName
 }
 
 export interface ReturnCardAction extends BaseAction {
     subtype: 'return card',
     player: string;
-    card: string
+    card: CardName
 }

@@ -53,6 +53,7 @@ import {
     WordContext
 } from 'log-language/antlr-generated/LogParser'
 import LogVisitor from 'log-language/antlr-generated/LogVisitor'
+import { CardName } from 'log-language/domain/card-name'
 import { Log } from 'log-language/log'
 import {
     AcquireCardAction,
@@ -432,8 +433,13 @@ class Visitor extends LogVisitor<any> {
         return ctx.getText()
     }
 
-    visitCard = (ctx: CardContext): string => {
-        return ctx._name.map(word => this.visitWord(word)).join(' ')
+    visitCard = (ctx: CardContext): CardName => {
+        const rawCardName = ctx._name.map(word => this.visitWord(word)).join(' ')
+        return (normalizedCardNames[rawCardName] ?? rawCardName) as CardName
     }
     // endregion
+}
+
+const normalizedCardNames: Record<string, CardName> = {
+    'T r a d e S t a r': 'Trade Star'
 }

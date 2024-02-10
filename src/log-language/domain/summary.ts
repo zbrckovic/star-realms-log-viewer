@@ -1,3 +1,4 @@
+import { addCardToDeck, Deck, defaultDeck, removeCardFromDeck } from 'log-language/domain/deck'
 import { Game } from 'log-language/domain/game'
 
 export interface GameSummary {
@@ -7,74 +8,58 @@ export interface GameSummary {
 export interface TurnSummary {
     player: string
     number: number
-    startingCards: string[]
-    acquiredCards: string[]
-    scrappedCards: string[]
-    endingCards: string[]
+    startingDeck: Deck
+    acquiredCards: Deck
+    scrappedCards: Deck
+    endingDeck: Deck
 }
-
-const defaultStartingCards = [
-    'Scout',
-    'Scout',
-    'Scout',
-    'Scout',
-    'Scout',
-    'Scout',
-    'Scout',
-    'Scout',
-    'Viper',
-    'Viper',
-]
 
 export const summarizeGame = (
     game: Game,
-    player1StartingCards = defaultStartingCards,
-    player2StartingCards = defaultStartingCards
+    deck1 = defaultDeck,
+    deck2 = defaultDeck
 ): GameSummary => {
     if (game.turns.length < 2) {
         throw new Error('Game must have at least two turns')
     }
 
-    const cards = {
-        [game.turns[0].player]: player1StartingCards,
-        [game.turns[1].player]: player2StartingCards,
+    const decks = {
+        [game.turns[0].player]: deck1,
+        [game.turns[1].player]: deck2
     }
 
     const turnSummaries = game.turns.map(({ player, number, actions }): TurnSummary => {
-        const startingCards: string[] = [...cards[player]]
-        const acquiredCards: string[] = []
-        const scrappedCards: string[] = []
-        const endingCards: string[] = [...startingCards]
+        const startingDeck: Deck = { ...decks[player] }
+        const acquiredCards: Deck = {}
+        const scrappedCards: Deck = {}
+        const endingDeck: Deck = { ...startingDeck }
 
-        actions.forEach(action => {
-            switch (action.type) {
-                case 'acquire card':
-                    acquiredCards.push(action.card)
-                    endingCards.push(action.card)
-                    break
-                case 'scrap object card':
-                    scrappedCards.push(action.card)
-                    removeCard(endingCards, action.card)
-                    break
-                case 'scrap subject card':
-                    scrappedCards.push(action.card)
-                    removeCard(endingCards, action.card)
-                    break
-            }
-        })
+        try {
+            actions.forEach(action => {
+                switch (action.type) {
+                    case 'acquire card':
+                        addCardToDeck(acquiredCards, action.card)
+                        addCardToDeck(endingDeck, action.card)
+                        break
+                    case 'scrap object card':
+                        addCardToDeck(scrappedCards, action.card)
+                        removeCardFromDeck(endingDeck, action.card)
+                        break
+                    case 'scrap subject card':
+                        addCardToDeck(scrappedCards, action.card)
+                        removeCardFromDeck(endingDeck, action.card)
+                        break
+                }
+            })
 
-        cards[player] = [...endingCards]
+        } catch (err) {
+            throw new Error(`error at turn ${number}: ${err}`)
+        }
 
-        return { player, number, startingCards, acquiredCards, scrappedCards, endingCards }
+        decks[player] = { ...endingDeck }
+
+        return { player, number, startingDeck, acquiredCards, scrappedCards, endingDeck }
     })
 
     return { turnSummaries }
-}
-
-const removeCard = (cards: string[], card: string): void => {
-    const index = cards.indexOf(card)
-    if (index === -1) {
-        throw new Error(`card "${card}" not found`)
-    }
-    cards.splice(index, 1)
 }

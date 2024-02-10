@@ -1,3 +1,5 @@
+import { CardName } from 'log-language/domain/card-name'
+
 export interface Game {
     turns: Turn[];
 }
@@ -12,15 +14,15 @@ export type Action = AcquireCard | ScrapSubjectCard | ScrapObjectCard;
 
 export interface AcquireCard {
     type: 'acquire card';
-    card: string;
+    card: CardName;
 }
 
 export interface ScrapSubjectCard {
     type: 'scrap subject card'
-    card: string
+    card: CardName
 }
 
 export interface ScrapObjectCard {
     type: 'scrap object card'
-    card: string
+    card: CardName
 }

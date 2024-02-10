@@ -1,3 +1,5 @@
+import { CardName } from 'log-language/domain/card-name'
+
 export type Effect =
     | ShuffledEffect
     | TurnChangedEffect
@@ -35,14 +37,14 @@ export interface TurnChangedEffect extends BaseEffect {
 export interface CardToOwnerEffect extends BaseEffect {
     subtype: 'card to owner',
     player: string;
-    card: string;
+    card: CardName;
     effect: StatChange<'trade' | 'combat' | 'authority'> | 'ability available'
 }
 
 export interface CardToOpponentEffect extends BaseEffect {
     subtype: 'card to opponent',
     player: string;
-    card: string;
+    card: CardName;
     effect: StatChange<'discard' | 'authority'>;
 }
 
@@ -63,7 +65,7 @@ export interface RefreshedAllyIndicatorsEffect extends BaseEffect {
 
 export interface ScrappedCardEffect extends BaseEffect {
     subtype: 'scrapped card',
-    card: string;
+    card: CardName;
 }
 
 export interface NoMoreCardsToDiscardEffect extends BaseEffect {
@@ -72,7 +74,7 @@ export interface NoMoreCardsToDiscardEffect extends BaseEffect {
 
 export interface DiscardedCardEffect extends BaseEffect {
     subtype: 'discarded card',
-    card: string;
+    card: CardName;
 }
 
 export interface WonGameEffect extends BaseEffect {
@@ -82,7 +84,7 @@ export interface WonGameEffect extends BaseEffect {
 
 export interface DestroyedBaseEffect extends BaseEffect {
     subtype: 'destroyed base',
-    base: string;
+    base: CardName;
 }
 
 export interface RevealedEventEffect extends BaseEffect {
@@ -92,28 +94,28 @@ export interface RevealedEventEffect extends BaseEffect {
 
 export interface RevealedEffect extends BaseEffect {
     subtype: 'revealed',
-    card: string;
+    card: CardName;
 }
 
 export interface AcquiredToTheTopOfDeckEffect extends BaseEffect {
     subtype: 'acquired to the top of deck',
-    card: string;
+    card: CardName;
 }
 
 export interface AcquiredToHandEffect extends BaseEffect {
     subtype: 'acquired to hand',
-    card: string;
+    card: CardName;
 }
 
 export interface ChangedToOnTableImageEffect extends BaseEffect {
     subtype: 'changed to on table image',
-    card: string;
+    card: CardName;
 }
 
 export interface ChangedCardToCardEffect extends BaseEffect {
     subtype: 'changed card to card',
-    card: string;
-    toCard: string;
+    card: CardName;
+    toCard: CardName;
 }
 
 export interface StatChange<T extends 'trade' | 'combat' | 'authority' | 'discard'> {

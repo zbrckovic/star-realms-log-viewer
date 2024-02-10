@@ -1,5 +1,8 @@
+import { cards } from 'log-language/domain/cards'
 import * as Domain from 'log-language/domain/game'
 import { Log } from 'log-language/log'
+
+const deckCardType = new Set(['Ship', 'Base'])
 
 export const logToDomain = (log: Log): Domain.Game => {
     const turns: Domain.Turn[] = []
@@ -19,11 +22,15 @@ export const logToDomain = (log: Log): Domain.Game => {
                         break
                     }
                     case 'scrap subject card': {
-                        actions.push({ type: 'scrap subject card', card: line.card })
+                        const card = cards[line.card]
+                        if (deckCardType.has(card.type)) {
+                            actions.push({ type: 'scrap subject card', card: line.card })
+                        } else {
+                            console.log(`skipping scrapped card "${card.name}"`)
+                        }
                         break
                     }
                     case 'scrap object card': {
-
                         break
                     }
                 }
@@ -31,7 +38,14 @@ export const logToDomain = (log: Log): Domain.Game => {
             }
             case 'effect': {
                 switch (line.subtype) {
+                    case 'acquired to hand': {
+                        actions.push({ type: 'acquire card', card: line.card })
+                    }
+                    case 'acquired to the top of deck': {
+                        actions.push({ type: 'acquire card', card: line.card })
+                    }
                     case 'scrapped card': {
+                        // TODO: think about what to do here
                         break
                     }
                 }
