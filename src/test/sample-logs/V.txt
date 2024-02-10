@@ -1,0 +1,431 @@
+Play all
+        ExaltedAngel  >  <color=#800080>Viper</color> +1 Combat (Combat:1)
+        ExaltedAngel  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+        ExaltedAngel  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+Acquired <color=#1589FF>Federation Shuttle</color>
+        ExaltedAngel - -1 Trade (Trade:1)
+Acquired <color=#FF0000>Trade Bot</color>
+        ExaltedAngel - -1 Trade (Trade:0)
+Attacked Chernabog5 for 1 (New Authority:49)
+        ExaltedAngel - -1 Combat (Combat:0)
+        Chernabog5 - -1 Authority (Authority:49)
+ExaltedAngel ends turn 1
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Chernabog5's turn 2
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+Played <color=#800080>Viper</color>
+        Chernabog5  >  <color=#800080>Viper</color> +1 Combat (Combat:1)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:4)
+Acquired <color=#800080>Explorer</color>
+        Chernabog5 - -2 Trade (Trade:2)
+Acquired <color=#800080>Explorer</color>
+        Chernabog5 - -2 Trade (Trade:0)
+Attacked ExaltedAngel for 1 (New Authority:49)
+        Chernabog5 - -1 Combat (Combat:0)
+        ExaltedAngel - -1 Authority (Authority:49)
+Chernabog5 ends turn 2
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now ExaltedAngel's turn 3
+Play all
+        ExaltedAngel  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+        ExaltedAngel  >  <color=#800080>Viper</color> +1 Combat (Combat:1)
+        ExaltedAngel  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+        ExaltedAngel  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+        ExaltedAngel  >  <color=#800080>Scout</color> +1 Trade (Trade:4)
+Acquired <color=#4CC417>Blob Wheel</color>
+        ExaltedAngel - -3 Trade (Trade:1)
+Attacked Chernabog5 for 1 (New Authority:48)
+        ExaltedAngel - -1 Combat (Combat:0)
+        Chernabog5 - -1 Authority (Authority:48)
+ExaltedAngel ends turn 3
+        Drew 2 cards.
+        Shuffled discard pile to form new deck
+        Drew 3 cards.
+        Refresh ally indicators
+        It is now Chernabog5's turn 4
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+Acquired <color=#4CC417>Trade Pod</color>
+        Chernabog5 - -2 Trade (Trade:0)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+Acquired <color=#FFFF00>Corvette</color>
+        Chernabog5 - -2 Trade (Trade:0)
+Played <color=#800080>Viper</color>
+        Chernabog5  >  <color=#800080>Viper</color> +1 Combat (Combat:1)
+Attacked ExaltedAngel for 1 (New Authority:48)
+        Chernabog5 - -1 Combat (Combat:0)
+        ExaltedAngel - -1 Authority (Authority:48)
+Chernabog5 ends turn 4
+        Shuffled discard pile to form new deck
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now ExaltedAngel's turn 5
+Play all
+        ExaltedAngel  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+        ExaltedAngel  >  <color=#4CC417>Blob Wheel</color> +1 Combat (Combat:1)
+        ExaltedAngel  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+        ExaltedAngel  >  <color=#1589FF>Federation Shuttle</color> +2 Trade (Trade:4)
+        ExaltedAngel  >  <color=#800080>Scout</color> +1 Trade (Trade:5)
+Scrapping Blob Wheel
+        Scrapped <color=#4CC417>Blob Wheel</color>
+        ExaltedAngel  >  <color=#4CC417>Blob Wheel</color> +3 Trade (Trade:8)
+Acquired <color=#1589FF>Command Ship</color>
+        ExaltedAngel - -8 Trade (Trade:0)
+Attacked Chernabog5 for 1 (New Authority:47)
+        ExaltedAngel - -1 Combat (Combat:0)
+        Chernabog5 - -1 Authority (Authority:47)
+ExaltedAngel ends turn 5
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Chernabog5's turn 6
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:4)
+Played <color=#800080>Viper</color>
+        Chernabog5  >  <color=#800080>Viper</color> +1 Combat (Combat:1)
+Attacked ExaltedAngel for 1 (New Authority:47)
+        Chernabog5 - -1 Combat (Combat:0)
+        ExaltedAngel - -1 Authority (Authority:47)
+Acquired <color=#FFFF00>Imperial Fighter</color>
+        Chernabog5 - -1 Trade (Trade:3)
+Acquired <color=#1589FF>Embassy Yacht</color>
+        Chernabog5 - -3 Trade (Trade:0)
+Chernabog5 ends turn 6
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now ExaltedAngel's turn 7
+Played <color=#FF0000>Trade Bot</color>
+ExaltedAngel is scrapping: Scout
+        ExaltedAngel  >  <color=#FF0000>Trade Bot</color> +1 Trade (Trade:1)
+        Scrapped <color=#800080>Scout</color>
+Play all
+        ExaltedAngel  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+        ExaltedAngel  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+        ExaltedAngel  >  <color=#800080>Viper</color> +1 Combat (Combat:1)
+        ExaltedAngel  >  <color=#800080>Viper</color> +1 Combat (Combat:2)
+Acquired <color=#FF0000>Battle Station</color>
+        ExaltedAngel - -3 Trade (Trade:0)
+Attacked Chernabog5 for 2 (New Authority:45)
+        ExaltedAngel - -2 Combat (Combat:0)
+        Chernabog5 - -2 Authority (Authority:45)
+ExaltedAngel ends turn 7
+        Drew 3 cards.
+        Shuffled discard pile to form new deck
+        Drew 2 cards.
+        Refresh ally indicators
+        It is now Chernabog5's turn 8
+Played <color=#FFFF00>Corvette</color>
+        Chernabog5  >  <color=#FFFF00>Corvette</color> +1 Combat (Combat:1)
+        Drew 1 cards.
+Played <color=#4CC417>Trade Pod</color>
+        Chernabog5  >  <color=#4CC417>Trade Pod</color> +3 Trade (Trade:3)
+Played <color=#800080>Explorer</color>
+        Chernabog5  >  <color=#800080>Explorer</color> +2 Trade (Trade:5)
+Played <color=#800080>Explorer</color>
+        Chernabog5  >  <color=#800080>Explorer</color> +2 Trade (Trade:7)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:8)
+Played <color=#800080>Viper</color>
+        Chernabog5  >  <color=#800080>Viper</color> +1 Combat (Combat:2)
+Acquired <color=#1589FF>Central Office</color>
+        Chernabog5 - -7 Trade (Trade:1)
+Scrapping Explorer
+        Scrapped <color=#800080>Explorer</color>
+        Chernabog5  >  <color=#800080>Explorer</color> +2 Combat (Combat:4)
+Scrapping Explorer
+        Scrapped <color=#800080>Explorer</color>
+        Chernabog5  >  <color=#800080>Explorer</color> +2 Combat (Combat:6)
+Attacked ExaltedAngel for 6 (New Authority:41)
+        Chernabog5 - -6 Combat (Combat:0)
+        ExaltedAngel - -6 Authority (Authority:41)
+Chernabog5 ends turn 8
+        Drew 3 cards.
+        Shuffled discard pile to form new deck
+        Drew 2 cards.
+        Refresh ally indicators
+        It is now ExaltedAngel's turn 9
+Play all
+        ExaltedAngel  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+        ExaltedAngel  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+        ExaltedAngel  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+        ExaltedAngel  >  <color=#800080>Scout</color> +1 Trade (Trade:4)
+        ExaltedAngel  >  <color=#800080>Scout</color> +1 Trade (Trade:5)
+Acquired <color=#1589FF>Trade Escort</color>
+        ExaltedAngel - -5 Trade (Trade:0)
+ExaltedAngel ends turn 9
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Chernabog5's turn 10
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:4)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:5)
+Acquired <color=#FFFF00>War World</color>
+        Chernabog5 - -5 Trade (Trade:0)
+Chernabog5 ends turn 10
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now ExaltedAngel's turn 11
+Played <color=#1589FF>Federation Shuttle</color>
+        ExaltedAngel  >  <color=#1589FF>Federation Shuttle</color> +2 Trade (Trade:2)
+Played <color=#FF0000>Trade Bot</color>
+ExaltedAngel is scrapping: Scout
+        ExaltedAngel  >  <color=#FF0000>Trade Bot</color> +1 Trade (Trade:3)
+        Scrapped <color=#800080>Scout</color>
+Play all
+        ExaltedAngel  >  <color=#800080>Scout</color> +1 Trade (Trade:4)
+        ExaltedAngel  >  <color=#FF0000>Trade Bot</color> +2 Combat (Combat:2)
+        ExaltedAngel  >  <color=#800080>Viper</color> +1 Combat (Combat:3)
+Acquired <color=#FF0000>Stealth Needle</color>
+        ExaltedAngel - -4 Trade (Trade:0)
+Attacked Chernabog5 for 3 (New Authority:42)
+        ExaltedAngel - -3 Combat (Combat:0)
+        Chernabog5 - -3 Authority (Authority:42)
+ExaltedAngel ends turn 11
+        Drew 3 cards.
+        Shuffled discard pile to form new deck
+        Drew 2 cards.
+        Refresh ally indicators
+        It is now Chernabog5's turn 12
+Played <color=#1589FF>Embassy Yacht</color>
+        Chernabog5  >  <color=#1589FF>Embassy Yacht</color> +3 Authority (Authority:45)
+        Chernabog5  >  <color=#1589FF>Embassy Yacht</color> +2 Trade (Trade:2)
+Played <color=#4CC417>Trade Pod</color>
+        Chernabog5  >  <color=#4CC417>Trade Pod</color> +3 Trade (Trade:5)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:6)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:7)
+Played <color=#800080>Viper</color>
+        Chernabog5  >  <color=#800080>Viper</color> +1 Combat (Combat:1)
+Acquired <color=#FFFF00>Battlecruiser</color>
+        Chernabog5 - -6 Trade (Trade:1)
+Chernabog5 ends turn 12
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now ExaltedAngel's turn 13
+Played <color=#1589FF>Command Ship</color>
+        ExaltedAngel  >  <color=#1589FF>Command Ship</color> +4 Authority (Authority:45)
+        ExaltedAngel  >  <color=#1589FF>Command Ship</color> +5 Combat (Combat:5)
+        Drew 1 cards.
+        Drew 1 cards.
+Played <color=#FF0000>Stealth Needle</color>
+ExaltedAngel selecting ship Command Ship
+        Changed Stealth Needle to Command Ship
+        ExaltedAngel  >  <color=#FF0000>Stealth Needle</color> +4 Authority (Authority:49)
+        ExaltedAngel  >  <color=#FF0000>Stealth Needle</color> +5 Combat (Combat:10)
+        Drew 1 cards.
+        Drew 1 cards.
+Played <color=#1589FF>Federation Shuttle</color>
+        ExaltedAngel  >  <color=#1589FF>Federation Shuttle</color> +2 Trade (Trade:2)
+        ExaltedAngel  >  <color=#1589FF>Federation Shuttle</color> +4 Authority (Authority:53)
+Played <color=#800080>Scout</color>
+        ExaltedAngel  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+Played <color=#800080>Scout</color>
+        ExaltedAngel  >  <color=#800080>Scout</color> +1 Trade (Trade:4)
+Played <color=#FF0000>Trade Bot</color>
+ExaltedAngel is scrapping: Scout
+        ExaltedAngel  >  <color=#FF0000>Trade Bot</color> +1 Trade (Trade:5)
+        Scrapped <color=#800080>Scout</color>
+        ExaltedAngel  >  <color=#FF0000>Trade Bot</color> +2 Combat (Combat:12)
+Played <color=#800080>Scout</color>
+        ExaltedAngel  >  <color=#800080>Scout</color> +1 Trade (Trade:6)
+Acquired <color=#FF0000>Missile Mech</color>
+        ExaltedAngel - -6 Trade (Trade:0)
+Played <color=#800080>Viper</color>
+        ExaltedAngel  >  <color=#800080>Viper</color> +1 Combat (Combat:13)
+Attacked Chernabog5 for 13 (New Authority:32)
+        ExaltedAngel - -13 Combat (Combat:0)
+        Chernabog5 - -13 Authority (Authority:32)
+ExaltedAngel ends turn 13
+        Changed Stealth Needle to Unaligned
+        Drew 4 cards.
+        Shuffled discard pile to form new deck
+        Drew 1 cards.
+        Refresh ally indicators
+        It is now Chernabog5's turn 14
+Played <color=#1589FF>Central Office</color>
+        Chernabog5  >  <color=#1589FF>Central Office</color> +2 Trade (Trade:2)
+Acquired <color=#1589FF>Federation Shuttle</color>
+        Chernabog5 - -1 Trade (Trade:1)
+        Acquired <color=#1589FF>Federation Shuttle</color> to the top of the deck.
+Played <color=#FFFF00>Corvette</color>
+        Chernabog5  >  <color=#FFFF00>Corvette</color> +1 Combat (Combat:1)
+        Drew 1 cards.
+Played <color=#1589FF>Federation Shuttle</color>
+        Chernabog5  >  <color=#1589FF>Federation Shuttle</color> +2 Trade (Trade:3)
+        Chernabog5  >  <color=#1589FF>Federation Shuttle</color> +4 Authority (Authority:36)
+        Shuffled discard pile to form new deck
+        Drew 1 cards.
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:4)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:5)
+Played <color=#FFFF00>Imperial Fighter</color>
+        Chernabog5  >  <color=#FFFF00>Imperial Fighter</color> +2 Combat (Combat:3)
+        ExaltedAngel  <  <color=#FFFF00>Imperial Fighter</color> +1 Discard (Discarding: 1)
+        Chernabog5  >  <color=#FFFF00>Corvette</color> +2 Combat (Combat:5)
+        Chernabog5  >  <color=#FFFF00>Imperial Fighter</color> +2 Combat (Combat:7)
+Played <color=#800080>Viper</color>
+        Chernabog5  >  <color=#800080>Viper</color> +1 Combat (Combat:8)
+Attacked Battle Station
+        Chernabog5 - -5 Combat (Combat:3)
+        Destroyed <color=#FF0000>Battle Station</color>
+Attacked ExaltedAngel for 3 (New Authority:50)
+        Chernabog5 - -3 Combat (Combat:0)
+        ExaltedAngel - -3 Authority (Authority:50)
+Acquired <color=#1589FF>Freighter</color>
+        Chernabog5 - -4 Trade (Trade:1)
+Chernabog5 ends turn 14
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now ExaltedAngel's turn 15
+Resolving Discard 1 cards
+ExaltedAngel is discarding Scout
+        no more cards to discard
+        Discarded <color=#800080>Scout</color>
+Played <color=#1589FF>Trade Escort</color>
+        ExaltedAngel  >  <color=#1589FF>Trade Escort</color> +4 Combat (Combat:4)
+        ExaltedAngel  >  <color=#1589FF>Trade Escort</color> +4 Authority (Authority:54)
+Played <color=#FF0000>Missile Mech</color>
+        ExaltedAngel  >  <color=#FF0000>Missile Mech</color> +6 Combat (Combat:10)
+        Destroyed <color=#1589FF>Central Office</color>
+Play all
+        ExaltedAngel  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+        ExaltedAngel  >  <color=#800080>Viper</color> +1 Combat (Combat:11)
+Attacked Chernabog5 for 11 (New Authority:25)
+        ExaltedAngel - -11 Combat (Combat:0)
+        Chernabog5 - -11 Authority (Authority:25)
+ExaltedAngel ends turn 15
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Chernabog5's turn 16
+Played <color=#FFFF00>War World</color>
+        Chernabog5  >  <color=#FFFF00>War World</color> +3 Combat (Combat:3)
+Played <color=#1589FF>Embassy Yacht</color>
+        Chernabog5  >  <color=#1589FF>Embassy Yacht</color> +3 Authority (Authority:28)
+        Chernabog5  >  <color=#1589FF>Embassy Yacht</color> +2 Trade (Trade:2)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:4)
+Played <color=#800080>Viper</color>
+        Chernabog5  >  <color=#800080>Viper</color> +1 Combat (Combat:4)
+Acquired <color=#1589FF>Barter World</color>
+        Chernabog5 - -4 Trade (Trade:0)
+Attacked ExaltedAngel for 4 (New Authority:50)
+        Chernabog5 - -4 Combat (Combat:0)
+        ExaltedAngel - -4 Authority (Authority:50)
+Chernabog5 ends turn 16
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now ExaltedAngel's turn 17
+Played <color=#1589FF>Command Ship</color>
+        ExaltedAngel  >  <color=#1589FF>Command Ship</color> +4 Authority (Authority:54)
+        ExaltedAngel  >  <color=#1589FF>Command Ship</color> +5 Combat (Combat:5)
+        Drew 1 cards.
+        Drew 1 cards.
+Played <color=#FF0000>Trade Bot</color>
+ExaltedAngel is scrapping: Scout
+        ExaltedAngel  >  <color=#FF0000>Trade Bot</color> +1 Trade (Trade:1)
+        Scrapped <color=#800080>Scout</color>
+Played <color=#1589FF>Federation Shuttle</color>
+        ExaltedAngel  >  <color=#1589FF>Federation Shuttle</color> +2 Trade (Trade:3)
+        ExaltedAngel  >  <color=#1589FF>Federation Shuttle</color> +4 Authority (Authority:58)
+Played <color=#800080>Scout</color>
+        ExaltedAngel  >  <color=#800080>Scout</color> +1 Trade (Trade:4)
+Played <color=#800080>Scout</color>
+        ExaltedAngel  >  <color=#800080>Scout</color> +1 Trade (Trade:5)
+Acquired <color=#FF0000>Battle Mech</color>
+        ExaltedAngel - -5 Trade (Trade:0)
+Played <color=#FF0000>Stealth Needle</color>
+ExaltedAngel selecting ship Command Ship
+        Changed Stealth Needle to Command Ship
+        ExaltedAngel  >  <color=#FF0000>Stealth Needle</color> +4 Authority (Authority:62)
+        ExaltedAngel  >  <color=#FF0000>Stealth Needle</color> +5 Combat (Combat:10)
+        Drew 1 cards.
+        Shuffled discard pile to form new deck
+        Drew 1 cards.
+        ExaltedAngel  >  <color=#FF0000>Trade Bot</color> +2 Combat (Combat:12)
+Played <color=#FF0000>Missile Mech</color>
+        ExaltedAngel  >  <color=#FF0000>Missile Mech</color> +6 Combat (Combat:18)
+        Destroyed <color=#FFFF00>War World</color>
+        Drew 1 cards.
+Played <color=#FF0000>Battle Station</color>
+Play all
+        ExaltedAngel  >  <color=#800080>Viper</color> +1 Combat (Combat:19)
+        ExaltedAngel  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+Attacked Chernabog5 for 19 (New Authority:9)
+        ExaltedAngel - -19 Combat (Combat:0)
+        Chernabog5 - -19 Authority (Authority:9)
+        Changed Stealth Needle to Machine Cult
+ExaltedAngel ends turn 17
+        Changed Stealth Needle to Unaligned
+        Drew 4 cards.
+        Shuffled discard pile to form new deck
+        Drew 1 cards.
+        Refresh ally indicators
+        It is now Chernabog5's turn 18
+Played <color=#FFFF00>Battlecruiser</color>
+        Chernabog5  >  <color=#FFFF00>Battlecruiser</color> +5 Combat (Combat:5)
+        Drew 1 cards.
+Played <color=#4CC417>Trade Pod</color>
+        Chernabog5  >  <color=#4CC417>Trade Pod</color> +3 Trade (Trade:3)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:4)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:5)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:6)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:7)
+Acquired <color=#FFFF00>Space Station</color>
+        Chernabog5 - -4 Trade (Trade:3)
+Acquired <color=#FFFF00>Imperial Frigate</color>
+        Chernabog5 - -3 Trade (Trade:0)
+Attacked Battle Station
+        Chernabog5 - -5 Combat (Combat:0)
+        Destroyed <color=#FF0000>Battle Station</color>
+Chernabog5 ends turn 18
+        Shuffled discard pile to form new deck
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now ExaltedAngel's turn 19
+Played <color=#1589FF>Trade Escort</color>
+        ExaltedAngel  >  <color=#1589FF>Trade Escort</color> +4 Combat (Combat:4)
+        ExaltedAngel  >  <color=#1589FF>Trade Escort</color> +4 Authority (Authority:66)
+Played <color=#FF0000>Battle Mech</color>
+ExaltedAngel is scrapping: Scout
+        ExaltedAngel  >  <color=#FF0000>Battle Mech</color> +4 Combat (Combat:8)
+        Scrapped <color=#800080>Scout</color>
+Play all
+        ExaltedAngel  >  <color=#800080>Viper</color> +1 Combat (Combat:9)
+        ExaltedAngel  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+Attacked Chernabog5 for 9 (New Authority:0)
+        ExaltedAngel - -9 Combat (Combat:0)
+        Chernabog5 - -9 Authority (Authority:0)
+        === ExaltedAngel has won the game. ===
