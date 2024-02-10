@@ -1,7 +1,8 @@
-import { defaultDeck } from 'log-language/domain/deck'
 import { Game } from 'log-language/domain/game'
-import { summarizeGame } from 'log-language/domain/summary'
-import React, { FC, useEffect, useMemo } from 'react'
+import { GameSummary, summarizeGame } from 'log-language/domain/summary'
+import { TurnOverview } from 'pages/DecksPage/TurnOverview'
+import React, { FC, useMemo } from 'react'
+import styles from './DecksPage.module.sass'
 
 interface Props {
     game: Game
@@ -9,11 +10,11 @@ interface Props {
 
 
 export const DecksPage: FC<Props> = ({ game }) => {
-    const summary = useMemo(() => summarizeGame(game), [game])
+    const summary: GameSummary = useMemo(() => summarizeGame(game), [game])
 
     console.log(summary)
 
-    return <div>
-        {JSON.stringify(summary, undefined, 4)}
+    return <div className={styles.root}>
+        {summary.turnSummaries.map((turnSummary) => <TurnOverview turnSummary={turnSummary}/>)}
     </div>
 }
