@@ -1,0 +1,468 @@
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+Played <color=#800080>Viper</color>
+        Chernabog5  >  <color=#800080>Viper</color> +1 Combat (Combat:1)
+Acquired <color=#FF0000>Missile Bot</color>
+        Chernabog5 - -2 Trade (Trade:0)
+Attacked Travincal for 1 (New Authority:49)
+        Chernabog5 - -1 Combat (Combat:0)
+        Travincal - -1 Authority (Authority:49)
+Chernabog5 ends turn 1
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Travincal's turn 2
+Play all
+        Travincal  >  <color=#800080>Viper</color> +1 Combat (Combat:1)
+        Travincal  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+        Travincal  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+        Travincal  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+        Travincal  >  <color=#800080>Viper</color> +1 Combat (Combat:2)
+Acquired <color=#FFFF00>Imperial Fighter</color>
+        Travincal - -1 Trade (Trade:2)
+Acquired <color=#800080>Explorer</color>
+        Travincal - -2 Trade (Trade:0)
+Attacked Chernabog5 for 2 (New Authority:48)
+        Travincal - -2 Combat (Combat:0)
+        Chernabog5 - -2 Authority (Authority:48)
+Travincal ends turn 2
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Chernabog5's turn 3
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:4)
+Played <color=#800080>Viper</color>
+        Chernabog5  >  <color=#800080>Viper</color> +1 Combat (Combat:1)
+Acquired <color=#FF0000>Repair Mech</color>
+        Chernabog5 - -4 Trade (Trade:0)
+Attacked Travincal for 1 (New Authority:48)
+        Chernabog5 - -1 Combat (Combat:0)
+        Travincal - -1 Authority (Authority:48)
+Chernabog5 ends turn 3
+        Drew 2 cards.
+        Shuffled discard pile to form new deck
+        Drew 3 cards.
+        Refresh ally indicators
+        It is now Travincal's turn 4
+Play all
+        Travincal  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+        Travincal  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+        Travincal  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+        Travincal  >  <color=#800080>Scout</color> +1 Trade (Trade:4)
+        Travincal  >  <color=#800080>Scout</color> +1 Trade (Trade:5)
+Acquired <color=#4CC417>Cargo Pod</color>
+        Travincal - -3 Trade (Trade:2)
+Acquired <color=#4CC417>Blob Miner</color>
+        Travincal - -2 Trade (Trade:0)
+Travincal ends turn 4
+        Shuffled discard pile to form new deck
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Chernabog5's turn 5
+Played <color=#FF0000>Repair Mech</color>
+        Chernabog5  >  <color=#FF0000>Repair Mech</color> ability available
+        Chernabog5  >  <color=#FF0000>Repair Mech</color> +3 Trade (Trade:3)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:4)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:5)
+Acquired <color=#FF0000>Mech Cruiser</color>
+        Chernabog5 - -5 Trade (Trade:0)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+Acquired <color=#FF0000>Trade Bot</color>
+        Chernabog5 - -1 Trade (Trade:0)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+Acquired <color=#FFFF00>Frontier Hawk</color>
+        Chernabog5 - -1 Trade (Trade:0)
+Chernabog5 ends turn 5
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Travincal's turn 6
+Played <color=#4CC417>Blob Miner</color>
+        Travincal  >  <color=#4CC417>Blob Miner</color> +3 Trade (Trade:3)
+        Scrapped <color=#FF0000>Battle Station</color>
+Play all
+        Travincal  >  <color=#800080>Scout</color> +1 Trade (Trade:4)
+        Travincal  >  <color=#800080>Scout</color> +1 Trade (Trade:5)
+        Travincal  >  <color=#FFFF00>Imperial Fighter</color> +2 Combat (Combat:2)
+        Chernabog5  <  <color=#FFFF00>Imperial Fighter</color> +1 Discard (Discarding: 1)
+        Travincal  >  <color=#800080>Scout</color> +1 Trade (Trade:6)
+Acquired <color=#FFFF00>Light Cruiser</color>
+        Travincal - -3 Trade (Trade:3)
+Acquired <color=#FFFF00>Captured Outpost</color>
+        Travincal - -3 Trade (Trade:0)
+Attacked Chernabog5 for 2 (New Authority:46)
+        Travincal - -2 Combat (Combat:0)
+        Chernabog5 - -2 Authority (Authority:46)
+Travincal ends turn 6
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Chernabog5's turn 7
+Resolving Discard 1 cards
+Chernabog5 is discarding Viper
+        no more cards to discard
+        Discarded <color=#800080>Viper</color>
+Played <color=#FF0000>Missile Bot</color>
+Chernabog5 is scrapping: Viper
+        Chernabog5  >  <color=#FF0000>Missile Bot</color> +2 Combat (Combat:2)
+        Scrapped <color=#800080>Viper</color>
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+Attacked Travincal for 2 (New Authority:46)
+        Chernabog5 - -2 Combat (Combat:0)
+        Travincal - -2 Authority (Authority:46)
+Acquired <color=#FF0000>Battle Station</color>
+        Chernabog5 - -3 Trade (Trade:0)
+Chernabog5 ends turn 7
+        Drew 2 cards.
+        Shuffled discard pile to form new deck
+        Drew 3 cards.
+        Refresh ally indicators
+        It is now Travincal's turn 8
+Play all
+        Travincal  >  <color=#800080>Explorer</color> +2 Trade (Trade:2)
+        Travincal  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+        Travincal  >  <color=#800080>Scout</color> +1 Trade (Trade:4)
+        Travincal  >  <color=#800080>Scout</color> +1 Trade (Trade:5)
+        Travincal  >  <color=#4CC417>Cargo Pod</color> +3 Trade (Trade:8)
+Acquired <color=#FF0000>Destroyer Bot</color>
+        Travincal - -3 Trade (Trade:5)
+Acquired <color=#FF0000>Convoy Bot</color>
+        Travincal - -3 Trade (Trade:2)
+Acquired <color=#800080>Explorer</color>
+        Travincal - -2 Trade (Trade:0)
+Scrapping Explorer
+        Scrapped <color=#800080>Explorer</color>
+        Travincal  >  <color=#800080>Explorer</color> +2 Combat (Combat:2)
+Attacked Chernabog5 for 2 (New Authority:44)
+        Travincal - -2 Combat (Combat:0)
+        Chernabog5 - -2 Authority (Authority:44)
+Travincal ends turn 8
+        Drew 4 cards.
+        Shuffled discard pile to form new deck
+        Drew 1 cards.
+        Refresh ally indicators
+        It is now Chernabog5's turn 9
+Played <color=#FF0000>Repair Mech</color>
+        Chernabog5  >  <color=#FF0000>Repair Mech</color> ability available
+        Chernabog5  >  <color=#FF0000>Repair Mech</color> +3 Trade (Trade:3)
+Played <color=#FF0000>Battle Station</color>
+Activating Repair Mech
+Chernabog5 is scrapping: Viper
+        Scrapped <color=#800080>Viper</color>
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:4)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:5)
+Acquired <color=#FFFF00>Aging Battleship</color>
+        Chernabog5 - -5 Trade (Trade:0)
+Chernabog5 ends turn 9
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Travincal's turn 10
+Play all
+        Travincal  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+        Travincal  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+        Travincal  >  <color=#800080>Viper</color> +1 Combat (Combat:1)
+        Travincal  >  <color=#800080>Viper</color> +1 Combat (Combat:2)
+        Travincal  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+Acquired <color=#1589FF>Patrol Boat</color>
+        Travincal - -3 Trade (Trade:0)
+Travincal ends turn 10
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Chernabog5's turn 11
+Played <color=#FF0000>Mech Cruiser</color>
+Chernabog5 is scrapping: Scout
+        Chernabog5  >  <color=#FF0000>Mech Cruiser</color> ability available
+        Chernabog5  >  <color=#FF0000>Mech Cruiser</color> +6 Combat (Combat:6)
+        Scrapped <color=#800080>Scout</color>
+Played <color=#FF0000>Trade Bot</color>
+Chernabog5 is scrapping: Scout
+        Chernabog5  >  <color=#FF0000>Trade Bot</color> +1 Trade (Trade:1)
+        Scrapped <color=#800080>Scout</color>
+        Chernabog5  >  <color=#FF0000>Trade Bot</color> +2 Combat (Combat:8)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:4)
+Acquired <color=#1589FF>Patrol Cutter</color>
+        Chernabog5 - -3 Trade (Trade:1)
+Attacked Travincal for 8 (New Authority:38)
+        Chernabog5 - -8 Combat (Combat:0)
+        Travincal - -8 Authority (Authority:38)
+Acquired <color=#FF0000>Trade Bot</color>
+        Chernabog5 - -1 Trade (Trade:0)
+Chernabog5 ends turn 11
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Travincal's turn 12
+Played <color=#FF0000>Convoy Bot</color>
+Travincal is scrapping: Scout
+        Travincal  >  <color=#FF0000>Convoy Bot</color> +4 Combat (Combat:4)
+        Scrapped <color=#800080>Scout</color>
+Play all
+        Travincal  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+        Travincal  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+        Travincal  >  <color=#800080>Explorer</color> +2 Trade (Trade:4)
+        Travincal  >  <color=#FFFF00>Imperial Fighter</color> +2 Combat (Combat:6)
+        Chernabog5  <  <color=#FFFF00>Imperial Fighter</color> +1 Discard (Discarding: 1)
+Attacked Battle Station
+        Travincal - -5 Combat (Combat:1)
+        Destroyed <color=#FF0000>Battle Station</color>
+Acquired <color=#FFFF00>Orbital Platform</color>
+        Travincal - -3 Trade (Trade:1)
+Scrapping Explorer
+        Scrapped <color=#800080>Explorer</color>
+        Travincal  >  <color=#800080>Explorer</color> +2 Combat (Combat:3)
+Attacked Chernabog5 for 3 (New Authority:41)
+        Travincal - -3 Combat (Combat:0)
+        Chernabog5 - -3 Authority (Authority:41)
+Travincal ends turn 12
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Chernabog5's turn 13
+Resolving Discard 1 cards
+Chernabog5 is discarding Scout
+        no more cards to discard
+        Discarded <color=#800080>Scout</color>
+Played <color=#FF0000>Missile Bot</color>
+Chernabog5 is scrapping: Scout
+        Chernabog5  >  <color=#FF0000>Missile Bot</color> +2 Combat (Combat:2)
+        Scrapped <color=#800080>Scout</color>
+Played <color=#FFFF00>Frontier Hawk</color>
+        Chernabog5  >  <color=#FFFF00>Frontier Hawk</color> ability available
+        Chernabog5  >  <color=#FFFF00>Frontier Hawk</color> +3 Combat (Combat:5)
+        Shuffled discard pile to form new deck
+        Drew 1 cards.
+Resolving Discard 1 cards
+Chernabog5 is discarding Scout
+        no more cards to discard
+        Discarded <color=#800080>Scout</color>
+Played <color=#FFFF00>Aging Battleship</color>
+        Chernabog5  >  <color=#FFFF00>Aging Battleship</color> +5 Combat (Combat:10)
+        Drew 1 cards.
+Played <color=#FF0000>Trade Bot</color>
+Chernabog5 is scrapping: Scout
+        Chernabog5  >  <color=#FF0000>Trade Bot</color> +1 Trade (Trade:1)
+        Scrapped <color=#800080>Scout</color>
+        Chernabog5  >  <color=#FF0000>Missile Bot</color> +2 Combat (Combat:12)
+        Chernabog5  >  <color=#FF0000>Trade Bot</color> +2 Combat (Combat:14)
+Attacked Travincal for 14 (New Authority:24)
+        Chernabog5 - -14 Combat (Combat:0)
+        Travincal - -14 Authority (Authority:24)
+Played <color=#800080>Scout</color>
+        Chernabog5  >  <color=#800080>Scout</color> +1 Trade (Trade:2)
+Acquired <color=#1589FF>Trade Hauler</color>
+        Chernabog5 - -2 Trade (Trade:0)
+Chernabog5 ends turn 13
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Travincal's turn 14
+Played <color=#FF0000>Destroyer Bot</color>
+Travincal is scrapping: Scout
+        Travincal  >  <color=#FF0000>Destroyer Bot</color> ability available
+        Travincal  >  <color=#FF0000>Destroyer Bot</color> +5 Combat (Combat:5)
+        Scrapped <color=#800080>Scout</color>
+Played <color=#FFFF00>Captured Outpost</color>
+        Travincal  >  <color=#FFFF00>Captured Outpost</color> ability available
+Activating Captured Outpost
+        Drew 1 cards.
+Resolving Discard 1 cards
+Travincal is discarding Scout
+        no more cards to discard
+        Discarded <color=#800080>Scout</color>
+Played <color=#FFFF00>Light Cruiser</color>
+        Travincal  >  <color=#FFFF00>Light Cruiser</color> +4 Combat (Combat:9)
+        Chernabog5  <  <color=#FFFF00>Light Cruiser</color> +1 Discard (Discarding: 1)
+        Travincal  >  <color=#FFFF00>Light Cruiser</color> +2 Combat (Combat:11)
+Played <color=#4CC417>Blob Miner</color>
+        Travincal  >  <color=#4CC417>Blob Miner</color> +3 Trade (Trade:3)
+        Scrapped <color=#FFFF00>Fleet HQ</color>
+Acquired <color=#4CC417>Burrower</color>
+        Travincal - -3 Trade (Trade:0)
+Played <color=#800080>Scout</color>
+        Travincal  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+Attacked Chernabog5 for 11 (New Authority:30)
+        Travincal - -11 Combat (Combat:0)
+        Chernabog5 - -11 Authority (Authority:30)
+Travincal ends turn 14
+        Drew 2 cards.
+        Shuffled discard pile to form new deck
+        Drew 3 cards.
+        Refresh ally indicators
+        It is now Chernabog5's turn 15
+Resolving Discard 1 cards
+Chernabog5 is discarding Scout
+        no more cards to discard
+        Discarded <color=#800080>Scout</color>
+Played <color=#FF0000>Trade Bot</color>
+Chernabog5 is scrapping: Scout
+        Chernabog5  >  <color=#FF0000>Trade Bot</color> +1 Trade (Trade:1)
+        Scrapped <color=#800080>Scout</color>
+Played <color=#FF0000>Repair Mech</color>
+        Chernabog5  >  <color=#FF0000>Repair Mech</color> ability available
+        Chernabog5  >  <color=#FF0000>Repair Mech</color> +3 Trade (Trade:4)
+        Chernabog5  >  <color=#FF0000>Trade Bot</color> +2 Combat (Combat:2)
+Activating Repair Mech
+Chernabog5 is scrapping: Scout
+        Scrapped <color=#800080>Scout</color>
+Played <color=#FF0000>Battle Station</color>
+Played <color=#1589FF>Patrol Cutter</color>
+        Chernabog5  >  <color=#1589FF>Patrol Cutter</color> +2 Trade (Trade:6)
+        Chernabog5  >  <color=#1589FF>Patrol Cutter</color> +3 Combat (Combat:5)
+Attacked Captured Outpost
+        Chernabog5 - -3 Combat (Combat:2)
+        Destroyed <color=#FFFF00>Captured Outpost</color>
+Acquired <color=#1589FF>Ion Station</color>
+        Chernabog5 - -5 Trade (Trade:1)
+Attacked Travincal for 2 (New Authority:22)
+        Chernabog5 - -2 Combat (Combat:0)
+        Travincal - -2 Authority (Authority:22)
+Chernabog5 ends turn 15
+        Drew 3 cards.
+        Shuffled discard pile to form new deck
+        Drew 2 cards.
+        Refresh ally indicators
+        It is now Travincal's turn 16
+Played <color=#4CC417>Blob Miner</color>
+        Travincal  >  <color=#4CC417>Blob Miner</color> +3 Trade (Trade:3)
+        Scrapped <color=#1589FF>Freighter</color>
+Acquired <color=#FFFF00>Imperial Fighter</color>
+        Travincal - -1 Trade (Trade:2)
+Play all
+        Travincal  >  <color=#800080>Scout</color> +1 Trade (Trade:3)
+        Travincal  >  <color=#4CC417>Cargo Pod</color> +3 Combat (Combat:3)
+        Travincal  >  <color=#4CC417>Cargo Pod</color> +3 Trade (Trade:6)
+        Travincal  >  <color=#800080>Scout</color> +1 Trade (Trade:7)
+        Travincal  >  <color=#800080>Scout</color> +1 Trade (Trade:8)
+Acquired <color=#4CC417>Ravager</color>
+        Travincal - -3 Trade (Trade:5)
+Acquired <color=#FF0000>Enforcer Mech</color>
+        Travincal - -5 Trade (Trade:0)
+Scrapping Cargo Pod
+        Scrapped <color=#4CC417>Cargo Pod</color>
+        Travincal  >  <color=#4CC417>Cargo Pod</color> +3 Combat (Combat:6)
+Attacked Battle Station
+        Travincal - -5 Combat (Combat:1)
+        Destroyed <color=#FF0000>Battle Station</color>
+Attacked Chernabog5 for 1 (New Authority:29)
+        Travincal - -1 Combat (Combat:0)
+        Chernabog5 - -1 Authority (Authority:29)
+Travincal ends turn 16
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Chernabog5's turn 17
+Played <color=#FFFF00>Frontier Hawk</color>
+        Chernabog5  >  <color=#FFFF00>Frontier Hawk</color> ability available
+        Chernabog5  >  <color=#FFFF00>Frontier Hawk</color> +3 Combat (Combat:3)
+        Drew 1 cards.
+Resolving Discard 1 cards
+Chernabog5 is discarding Scout
+        no more cards to discard
+        Discarded <color=#800080>Scout</color>
+Played <color=#FF0000>Trade Bot</color>
+Chernabog5 is scrapping: Scout
+        Chernabog5  >  <color=#FF0000>Trade Bot</color> +1 Trade (Trade:1)
+        Scrapped <color=#800080>Scout</color>
+Played <color=#1589FF>Ion Station</color>
+        Chernabog5  >  <color=#1589FF>Ion Station</color> +2 Trade (Trade:3)
+Played <color=#FF0000>Mech Cruiser</color>
+Chernabog5 is scrapping: Scout
+        Chernabog5  >  <color=#FF0000>Mech Cruiser</color> ability available
+        Chernabog5  >  <color=#FF0000>Mech Cruiser</color> +6 Combat (Combat:9)
+        Scrapped <color=#800080>Scout</color>
+        Chernabog5  >  <color=#FF0000>Trade Bot</color> +2 Combat (Combat:11)
+Acquired <color=#4CC417>Stinger</color>
+        Chernabog5 - -1 Trade (Trade:2)
+Acquired <color=#1589FF>Orbital Shuttle</color>
+        Chernabog5 - -2 Trade (Trade:0)
+Attacked Travincal for 11 (New Authority:11)
+        Chernabog5 - -11 Combat (Combat:0)
+        Travincal - -11 Authority (Authority:11)
+Chernabog5 ends turn 17
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Travincal's turn 18
+Played <color=#FF0000>Convoy Bot</color>
+Travincal is scrapping: Scout
+        Travincal  >  <color=#FF0000>Convoy Bot</color> +4 Combat (Combat:4)
+        Scrapped <color=#800080>Scout</color>
+Played <color=#FFFF00>Orbital Platform</color>
+Activating Orbital Platform
+Travincal is selecting Viper
+        Discarded <color=#800080>Viper</color>
+        Drew 1 cards.
+Played <color=#FFFF00>Light Cruiser</color>
+        Travincal  >  <color=#FFFF00>Light Cruiser</color> +4 Combat (Combat:8)
+        Chernabog5  <  <color=#FFFF00>Light Cruiser</color> +1 Discard (Discarding: 1)
+        Travincal  >  <color=#FFFF00>Light Cruiser</color> +2 Combat (Combat:10)
+        Travincal  >  <color=#FFFF00>Orbital Platform</color> +3 Combat (Combat:13)
+Played <color=#FFFF00>Imperial Fighter</color>
+        Travincal  >  <color=#FFFF00>Imperial Fighter</color> +2 Combat (Combat:15)
+        Chernabog5  <  <color=#FFFF00>Imperial Fighter</color> +1 Discard (Discarding: 2)
+        Drew 1 cards.
+        Travincal  >  <color=#FFFF00>Imperial Fighter</color> +2 Combat (Combat:17)
+Attacked Ion Station
+        Travincal - -5 Combat (Combat:12)
+        Destroyed <color=#1589FF>Ion Station</color>
+Play all
+        Travincal  >  <color=#800080>Viper</color> +1 Combat (Combat:13)
+        Travincal  >  <color=#800080>Scout</color> +1 Trade (Trade:1)
+Acquired <color=#4CC417>Stinger</color>
+        Travincal - -1 Trade (Trade:0)
+Attacked Chernabog5 for 13 (New Authority:16)
+        Travincal - -13 Combat (Combat:0)
+        Chernabog5 - -13 Authority (Authority:16)
+Travincal ends turn 18
+        Drew 5 cards.
+        Refresh ally indicators
+        It is now Chernabog5's turn 19
+Resolving Discard 2 cards
+Chernabog5 is discarding Missile Bot
+Chernabog5 is discarding Repair Mech
+        no more cards to discard
+        Discarded <color=#FF0000>Missile Bot</color>
+        Discarded <color=#FF0000>Repair Mech</color>
+Played <color=#1589FF>Patrol Cutter</color>
+        Chernabog5  >  <color=#1589FF>Patrol Cutter</color> +2 Trade (Trade:2)
+        Chernabog5  >  <color=#1589FF>Patrol Cutter</color> +3 Combat (Combat:3)
+Played <color=#1589FF>Trade Hauler</color>
+        Chernabog5  >  <color=#1589FF>Trade Hauler</color> +3 Trade (Trade:5)
+        Chernabog5  >  <color=#1589FF>Patrol Cutter</color> +4 Authority (Authority:20)
+        Chernabog5  >  <color=#1589FF>Trade Hauler</color> +3 Authority (Authority:23)
+Played <color=#FFFF00>Aging Battleship</color>
+        Chernabog5  >  <color=#FFFF00>Aging Battleship</color> +5 Combat (Combat:8)
+Scrapping Aging Battleship
+        Scrapped <color=#FFFF00>Aging Battleship</color>
+        Chernabog5  >  <color=#FFFF00>Aging Battleship</color> +2 Combat (Combat:10)
+        Drew 1 cards.
+        Shuffled discard pile to form new deck
+        Drew 1 cards.
+Played <color=#FF0000>Trade Bot</color>
+        Chernabog5  >  <color=#FF0000>Trade Bot</color> +1 Trade (Trade:6)
+Played <color=#FF0000>Mech Cruiser</color>
+        Chernabog5  >  <color=#FF0000>Mech Cruiser</color> ability available
+        Chernabog5  >  <color=#FF0000>Mech Cruiser</color> +6 Combat (Combat:16)
+        Chernabog5  >  <color=#FF0000>Trade Bot</color> +2 Combat (Combat:18)
+Activating Mech Cruiser
+        Destroyed <color=#FFFF00>Orbital Platform</color>
+Attacked Travincal for 18 (New Authority:-7)
+        Chernabog5 - -18 Combat (Combat:0)
+        Travincal - -18 Authority (Authority:-7)
+        === Chernabog5 has won the game. ===
