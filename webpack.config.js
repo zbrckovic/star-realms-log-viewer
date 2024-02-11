@@ -4,6 +4,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const webpack = require('webpack')
 const package = require('./package.json')
 
+const cardImagesUrl = 'https://www.starrealms.com/wp-content/uploads/2021/12'
+
 module.exports = (env, argv) => {
   const mode = argv.mode || 'production'
   const isDevelopment = mode === 'development'
@@ -29,6 +31,10 @@ module.exports = (env, argv) => {
     },
     module: {
       rules: [
+        {
+          test: /\.txt$/i,
+          use: 'raw-loader',
+        },
         {
           test: /\.(js|jsx|ts|tsx)$/,
           exclude: /node_modules/,
@@ -83,13 +89,14 @@ module.exports = (env, argv) => {
         'process.env.VERSION': JSON.stringify(package.version),
         'process.env.MODE': JSON.stringify(mode),
         'process.env.GIT_COMMIT_HASH': JSON.stringify(gitHash),
-        'process.env.GIT_COMMIT_DATE': JSON.stringify(gitDate)
+        'process.env.GIT_COMMIT_DATE': JSON.stringify(gitDate),
+        'process.env.CART_IMAGES_URL': JSON.stringify(cardImagesUrl)
       })
     ]
   })
 }
 
-const extractGitHashAndDate = () => 
+const extractGitHashAndDate = () =>
     require('child_process')
         .execSync('git log -1 --format="%h|%aI"')
         .toString()

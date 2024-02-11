@@ -16,8 +16,6 @@ interface Props {
 export const InputPage: FC<Props> = ({ className, state, setState, onView }) => {
     const [isProcessing, setIsProcessing] = useState(false)
 
-    console.log(isProcessing)
-
     useEffect(() => {
         if (!isProcessing) return
 
