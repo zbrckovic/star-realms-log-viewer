@@ -53,7 +53,7 @@ import {
     WordContext
 } from 'log-language/antlr-generated/LogParser'
 import LogVisitor from 'log-language/antlr-generated/LogVisitor'
-import { CardName } from 'log-language/domain/card-name'
+import { CardName } from 'domain/card-name'
 import { Log } from 'log-language/log'
 import {
     AcquireCardAction,

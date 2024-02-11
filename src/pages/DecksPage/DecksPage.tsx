@@ -1,5 +1,5 @@
-import { Game } from 'log-language/domain/game'
-import { GameSummary, summarizeGame } from 'log-language/domain/summary'
+import { Game } from 'domain/game'
+import { GameSummary, summarizeGame } from 'domain/summary'
 import { TurnOverview } from 'pages/DecksPage/TurnOverview'
 import React, { FC, useMemo } from 'react'
 import styles from './DecksPage.module.sass'

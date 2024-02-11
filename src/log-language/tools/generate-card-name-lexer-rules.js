@@ -10,7 +10,7 @@ const cardsText = header + `export const cards = ${JSON.stringify(cards, undefin
 saveToCardsTs(cardsText)
 
 const cardNames = Object.keys(cards)
-const cardNamesText = `export type CardName =\n${cardNames.map(name => `    | "${name}"`).join('\n')}`
+const cardNamesText = `export type RawCardName =\n${cardNames.map(name => `    | "${name}"`).join('\n')}`
 saveToCardNamesTs(cardNamesText)
 
 
@@ -39,7 +39,7 @@ function parseCardsCsv() {
 }
 
 function saveToCardNamesTs(text) {
-    const cardNamesFile = path.resolve(__dirname, '../domain/card-name.ts')
+    const cardNamesFile = path.resolve(__dirname, '../../domain/raw-card-name.ts')
     fs.writeFile(cardNamesFile, header + text, err => {
         if (err) {
             return console.log(err);
@@ -48,7 +48,7 @@ function saveToCardNamesTs(text) {
 }
 
 function saveToCardsTs(text) {
-    const cardsFile = path.resolve(__dirname, '../domain/cards.ts')
+    const cardsFile = path.resolve(__dirname, '../../domain/raw-cards.ts')
     fs.writeFile(cardsFile, text, err => {
         if (err) {
             return console.log(err);

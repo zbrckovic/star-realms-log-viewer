@@ -1,5 +1,5 @@
-import { CardName } from 'log-language/domain/card-name'
-import { Deck } from 'log-language/domain/deck'
+import { CardName } from 'domain/card-name'
+import { Deck } from 'domain/deck'
 import { CardStack } from 'pages/DecksPage/CardStack'
 import React, { FC } from 'react'
 import styles from './DeckOverview.module.sass'

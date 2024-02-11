@@ -1,4 +1,4 @@
-import { Game } from 'log-language/domain/game'
+import { Game } from 'domain/game'
 
 export type RootState =
     | { type: 'edit', log: string }

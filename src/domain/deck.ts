@@ -1,4 +1,4 @@
-import { CardName } from './card-name'
+import { CardName } from 'domain/card-name'
 
 export type Deck = Partial<Record<CardName, number>>
 

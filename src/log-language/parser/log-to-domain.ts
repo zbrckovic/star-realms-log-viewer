@@ -1,5 +1,5 @@
-import { cards } from 'log-language/domain/cards'
-import * as Domain from 'log-language/domain/game'
+import { cards } from 'domain/cards'
+import * as Domain from 'domain/game'
 import { Log } from 'log-language/log'
 
 const deckCardType = new Set(['Ship', 'Base'])

@@ -1,4 +1,4 @@
-import { CardName } from 'log-language/domain/card-name'
+import { CardName } from 'domain/card-name'
 
 export type Action =
     | PlayAllCardsAction

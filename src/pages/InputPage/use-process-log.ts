@@ -1,4 +1,4 @@
-import { Game } from 'log-language/domain/game'
+import { Game } from 'domain/game'
 import { astToLog } from 'log-language/parser/ast-to-log'
 import { logToDomain } from 'log-language/parser/log-to-domain'
 import { parseToAst } from 'log-language/parser/parse-to-ast'

@@ -1,5 +1,5 @@
 import _ from 'lodash'
-import { CardName } from 'log-language/domain/card-name'
+import { CardName } from 'domain/card-name'
 import { Card } from 'pages/DecksPage/Card'
 import React, { FC, useMemo } from 'react'
 import { cardHeight, cardStackOffset } from 'styles/definitions'

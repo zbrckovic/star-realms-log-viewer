@@ -1,7 +1,7 @@
 import classNames from 'classnames'
 import { config } from 'config'
 import _ from 'lodash'
-import { CardName } from 'log-language/domain/card-name'
+import { CardName } from 'domain/card-name'
 import React, { CSSProperties, FC, useMemo } from 'react'
 
 import styles from './Card.module.sass'

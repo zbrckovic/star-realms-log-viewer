@@ -1,4 +1,4 @@
-import { TurnSummary } from 'log-language/domain/summary'
+import { TurnSummary } from 'domain/summary'
 import { DeckOverview } from 'pages/DecksPage/DeckOverview'
 import React, { FC } from 'react'
 import styles from './TurnOverview.module.sass'

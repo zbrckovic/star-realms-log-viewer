@@ -1,5 +1,5 @@
-import { addCardToDeck, Deck, defaultDeck, removeCardFromDeck } from 'log-language/domain/deck'
-import { Game } from 'log-language/domain/game'
+import { addCardToDeck, Deck, defaultDeck, removeCardFromDeck } from 'domain/deck'
+import { Game } from 'domain/game'
 
 export interface GameSummary {
     turnSummaries: TurnSummary[]

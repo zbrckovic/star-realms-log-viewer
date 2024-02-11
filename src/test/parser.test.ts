@@ -1,7 +1,7 @@
 import { astToLog } from 'log-language/parser/ast-to-log'
 import { logToDomain } from 'log-language/parser/log-to-domain'
 import { parseToAst } from 'log-language/parser/parse-to-ast'
-import { summarizeGame } from 'log-language/domain/summary'
+import { summarizeGame } from 'domain/summary'
 import { loadSampleLogs } from 'test/load-sample-logs'
 
 describe('parser', () => {
