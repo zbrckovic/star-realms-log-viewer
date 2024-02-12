@@ -3,6 +3,9 @@ import { config } from 'config'
 import _ from 'lodash'
 import { CardName } from 'domain/card-name'
 import React, { CSSProperties, FC, useMemo } from 'react'
+import { cardImages } from 'domain/card-images'
+
+console.log(cardImages)
 
 import styles from './Card.module.sass'
 
@@ -19,7 +22,7 @@ export const Card: FC<Props> = ({ className, style, cardName }) => {
     }, [])
 
     return <div style={style} className={classNames(styles.root, className)}>
-        {cardImageUrl !== undefined && <img src={cardImageUrl} alt={cardName}/>}
+        {cardImageUrl !== undefined && <img src={cardImageUrl} alt={cardName} />}
     </div>
 }
 

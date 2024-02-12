@@ -8,13 +8,18 @@ interface Props {
     game: Game
 }
 
-
 export const DecksPage: FC<Props> = ({ game }) => {
     const summary: GameSummary = useMemo(() => summarizeGame(game), [game])
 
-    console.log(summary)
-
     return <div className={styles.root}>
-        {summary.turnSummaries.map((turnSummary) => <TurnOverview turnSummary={turnSummary}/>)}
+        {
+            summary.turnSummaries.map(
+                (turnSummary) =>
+                    <TurnOverview
+                        key={turnSummary.number}
+                        turnSummary={turnSummary}
+                    />
+            )
+        }
     </div>
 }

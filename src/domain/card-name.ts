@@ -1,10 +1,5 @@
 import { RawCardName } from 'domain/raw-card-name'
 
-
-type ExcludedCardName =
-    | 'Ad (Thank You Backers) | Rules (Kickstarter Promo Pack)'
-    | 'Alignment Ingenuity | Rules (Part 2 of 3)'
-
 export type CardName = Exclude<
     RawCardName,
     | 'Ad (Thank You Backers) | Rules (Kickstarter Promo Pack)'
@@ -41,4 +36,7 @@ export type CardName = Exclude<
     | 'The Cost of Freedom | Rules (The Cost of Freedom)'
     | 'Union Blitz | Rules (Part 2 of 3)'
     | 'Walsh\'s Stratagem | Rules (Part 1 of 3)'
+    | 'Administrator Tung'
+    | 'Alpha Max'
+    | 'Battle Star'
 >

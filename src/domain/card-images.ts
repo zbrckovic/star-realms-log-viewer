@@ -1,33 +1,44 @@
 import { CardName } from 'domain/card-name'
-import allianceFrigate from '../../resources/cards/cards/Alliance Frigate.png'
 import acceptableLosses from '../../resources/cards/gambits/Acceptable Losses.png'
-import adimarRasmusson from '../../resources/cards/heroes/Admiral Rasmussen.png'
+import allianceFrigate from '../../resources/cards/cards/Alliance Frigate.png'
+import admiralRasmussen from '../../resources/cards/heroes/Admiral Rasmussen.png'
 import agingBattleship from '../../resources/cards/cards/Aging Battleship.png'
 import alignmentBot from '../../resources/cards/cards/Alignment Bot.png'
+import allianceLanding from '../../resources/cards/cards/Alliance Landing.png'
+import allianceTransport from '../../resources/cards/cards/Alliance Transport.png'
+import assaultPod from '../../resources/cards/cards/Assault Pod.png'
+import assaultShard from '../../resources/cards/command-deck/Assault Shard.png'
+import assur4 from '../../resources/cards/cards/Assur 4.png'
+import asteroidMining from '../../resources/cards/gambits/Asteroid Mining.png'
+import barterWorld from '../../resources/cards/cards/Barter World.png'
+import battleBarge from '../../resources/cards/cards/Battle Barge.png'
+import battleBlob from '../../resources/cards/cards/Battle Blob.png'
+import battleBot from '../../resources/cards/cards/Battle Bot.png'
+import battleMech from '../../resources/cards/cards/Battle Mech.png'
+import battlePod from '../../resources/cards/cards/Battle Pod.png'
+import battleScreecher from '../../resources/cards/cards/Battle Screecher.png'
+import battleStation from '../../resources/cards/cards/Battle Station.png'
 
 export const cardImages: Record<CardName, string> = {
     'Acceptable Losses': acceptableLosses,
-    'Administrator Tung': '',
-    'Admiral Rasmusson': adimarRasmusson,
+    'Admiral Rasmusson': admiralRasmussen,
     'Aging Battleship': agingBattleship,
     'Alignment Bot': alignmentBot,
     'Alliance Frigate': allianceFrigate,
-    'Alliance Landing': '',
-    'Alliance Transport': '',
-    'Alpha Max': '',
-    'Assault Pod': '',
-    'Assault Shard': '',
-    'Assur 4': '',
-    'Asteroid Mining': '',
-    'Barter World': '',
-    'Battle Barge': '',
-    'Battle Blob': '',
-    'Battle Bot': '',
-    'Battle Mech': '',
-    'Battle Pod': '',
-    'Battle Screecher': '',
-    'Battle Star': '',
-    'Battle Station': '',
+    'Alliance Landing': allianceLanding,
+    'Alliance Transport': allianceTransport,
+    'Assault Pod': assaultPod,
+    'Assault Shard': assaultShard,
+    'Assur 4': assur4,
+    'Asteroid Mining': asteroidMining,
+    'Barter World': barterWorld,
+    'Battle Barge': battleBarge,
+    'Battle Blob': battleBlob,
+    'Battle Bot': battleBot,
+    'Battle Mech': battleMech,
+    'Battle Pod': battlePod,
+    'Battle Screecher': battleScreecher,
+    'Battle Station': battleStation,
     'Bio-Captain Kalle': '',
     'Bio-Warrior Storm': '',
     'Biodroid Otto': '',
@@ -405,4 +416,5 @@ export const cardImages: Record<CardName, string> = {
     Voyager: '',
     Warp: '',
     Wormhole: ''
+
 }
