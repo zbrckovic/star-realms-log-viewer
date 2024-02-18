@@ -10,7 +10,7 @@ interface Props {
     scrapped: Deck
 }
 
-export const DeckOverview: FC<Props> = ({ deck }) =>
+export const DeckOverview: FC<Props> = ({ deck, acquired, scrapped }) =>
     <div className={styles.root}>
         {
             Object
@@ -20,6 +20,8 @@ export const DeckOverview: FC<Props> = ({ deck }) =>
                         key={cardName}
                         cardName={cardName as CardName}
                         quantity={quantity}
+                        acquired={acquired[cardName as CardName] ?? 0}
+                        scrapped={scrapped[cardName as CardName] ?? 0}
                     />
                 ))
         }
