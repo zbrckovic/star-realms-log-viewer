@@ -2,10 +2,6 @@ const fs = require('fs')
 const path = require('path')
 const sharp = require('sharp')
 
-// standard card size in millimeters
-const standardCardWidth = 63
-const standardCardHeight = 88
-
 // screenshot size in 4K
 const screenWidth = 3840
 const screenHeight = 2160
@@ -13,8 +9,6 @@ const screenHeight = 2160
 // card size in screenshot (px)
 const cardWidth = 1098
 const cardHeight = 1568
-
-console.log((cardWidth / standardCardWidth) * standardCardHeight)
 
 const screenCenterX = screenWidth / 2
 const screenCenterY = screenHeight / 2
