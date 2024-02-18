@@ -12,7 +12,7 @@ interface RawLog {
 export const loadSampleLogs = () => {
     const result: RawLog[] = []
 
-    fs.readdirSync(sampleLogsDirPath).forEach((filename) => {
+    fs.readdirSync(sampleLogsDirPath).forEach((filename: string) => {
         const filePath = path.resolve(sampleLogsDirPath, filename)
         const content = fs.readFileSync(filePath, 'utf8')
         const rawLog: RawLog = { filename, content }
