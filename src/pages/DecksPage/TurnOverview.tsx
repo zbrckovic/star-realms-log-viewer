@@ -12,6 +12,10 @@ export const TurnOverview: FC<Props> = ({ turnSummary }) => {
         <label className={styles.label}>
             Turn {turnSummary.number}
         </label>
-        <DeckOverview deck={turnSummary.endingDeck}/>
+        <DeckOverview
+            acquired={turnSummary.acquiredCards}
+            scrapped={turnSummary.scrappedCards}
+            deck={turnSummary.endingDeck}
+        />
     </div>
 }

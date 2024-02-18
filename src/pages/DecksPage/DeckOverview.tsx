@@ -6,6 +6,8 @@ import styles from './DeckOverview.module.sass'
 
 interface Props {
     deck: Deck
+    acquired: Deck
+    scrapped: Deck
 }
 
 export const DeckOverview: FC<Props> = ({ deck }) =>

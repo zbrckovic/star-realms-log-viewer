@@ -2,7 +2,7 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const webpack = require('webpack')
-const package = require('./package.json')
+const pkg = require('./package.json')
 
 const cardImagesUrl = 'https://www.starrealms.com/wp-content/uploads/2021/12'
 
@@ -86,7 +86,7 @@ module.exports = (env, argv) => {
       new HtmlWebpackPlugin({ template: './src/index.html' }),
       new MiniCssExtractPlugin(),
       new webpack.DefinePlugin({
-        'process.env.VERSION': JSON.stringify(package.version),
+        'process.env.VERSION': JSON.stringify(pkg.version),
         'process.env.MODE': JSON.stringify(mode),
         'process.env.GIT_COMMIT_HASH': JSON.stringify(gitHash),
         'process.env.GIT_COMMIT_DATE': JSON.stringify(gitDate),
